@@ -1,0 +1,1698 @@
+[
+ {
+  "case_id": "pilot-001",
+  "company_number": "08942699",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08942699/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 March 2025"
+   }
+  ],
+  "note": "Dormant company with active strike-off proposal; no trading found despite manufacturing SIC 27900."
+ },
+ {
+  "case_id": "pilot-005",
+  "company_number": "16428455",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16428455",
+    "quote": "96090 - Other service activities n.e.c. ... Active proposal to strike off"
+   }
+  ],
+  "note": "No web presence or accounts found; label from generic SIC only."
+ },
+ {
+  "case_id": "pilot-009",
+  "company_number": "08682052",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08682052/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 September 2025"
+   }
+  ],
+  "note": "Dormant company with strike-off proposal; no evidence of IT/repair trading."
+ },
+ {
+  "case_id": "pilot-013",
+  "company_number": "15704301",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15704301/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 May 2025"
+   }
+  ],
+  "note": "Dormant despite financial SICs (64991/66120/66300); no evidence it carries on investment business."
+ },
+ {
+  "case_id": "pilot-017",
+  "company_number": "14277742",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14277742/filing-history",
+    "quote": "Micro company accounts made up to 31 August 2025"
+   }
+  ],
+  "note": "Trading per micro accounts but no web presence found; name suggests painting (vehicle or decorating), unconfirmed."
+ },
+ {
+  "case_id": "pilot-021",
+  "company_number": "15193735",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15193735/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 October 2025"
+   }
+  ],
+  "note": "Dormant company; no evidence of the software publishing indicated by SIC."
+ },
+ {
+  "case_id": "pilot-025",
+  "company_number": "08914272",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08914272",
+    "quote": "46460 - Wholesale of pharmaceutical goods"
+   }
+  ],
+  "note": "No web presence; last accounts to Feb 2023 and strike-off proposed; label from SIC only."
+ },
+ {
+  "case_id": "pilot-029",
+  "company_number": "07369363",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07369363/filing-history",
+    "quote": "Micro company accounts made up to 30 September 2025"
+   }
+  ],
+  "note": "No web presence found; label from name (business solutions); SICs are art-gallery retail and information services."
+ },
+ {
+  "case_id": "pilot-033",
+  "company_number": "15028095",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15028095/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 July 2025"
+   },
+   {
+    "url": "https://funnyfuzzy.co.uk/policies/terms-of-service",
+    "quote": "Entity: FUNNYFUZZY HK TECH LIMITED Address: ... WAN CHAI, HONG KONG"
+   }
+  ],
+  "note": "Dormant UK affiliate of FunnyFuzzy pet-products brand; the UK online store is operated by a Hong Kong entity; now in liquidation."
+ },
+ {
+  "case_id": "pilot-037",
+  "company_number": "15954684",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.rivermusicschoollondon.com/about-us",
+    "quote": "private music tuition service, delivering music lessons to all ages and all levels"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15954684/filing-history",
+    "quote": "Micro company accounts made up to 30 September 2025"
+   }
+  ],
+  "note": "Music tuition; website names River Music School London Ltd, a separate sister entity, so link to this UK Ltd is inferred."
+ },
+ {
+  "case_id": "pilot-041",
+  "company_number": "14697325",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://camra.org.uk/pubs/bull-burrough-green-131441",
+    "quote": "Traditional village pub at the heart of the community and adjacent to the village green."
+   },
+   {
+    "url": "https://camra.org.uk/pubs/bull-burrough-green-131441",
+    "quote": "The Bull reopened with new licensees in spring 2023."
+   }
+  ],
+  "note": "Operates The Bull village pub in Burrough Green; reopening date matches 2023 incorporation."
+ },
+ {
+  "case_id": "pilot-045",
+  "company_number": "14349662",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14349662/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 September 2025"
+   }
+  ],
+  "note": "Dormant company; no evidence of plastering/finishing trade despite SIC 43330/43390."
+ },
+ {
+  "case_id": "pilot-049",
+  "company_number": "13925239",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13925239",
+    "quote": "41202 - Construction of domestic buildings"
+   }
+  ],
+  "note": "No web presence found; trading per full accounts; name and SIC suggest residential property development."
+ },
+ {
+  "case_id": "pilot-053",
+  "company_number": "16086681",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.cbinsights.com/company/karali-group",
+    "quote": "Avon House Arden Road Ealing London, England, W13 8RP"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16086681",
+    "quote": "64921 - Credit granting by non-deposit taking finance houses"
+   }
+  ],
+  "note": "Appears to be a family investment company of the Karali Group (shared Avon House address); no evidence of lending to third parties."
+ },
+ {
+  "case_id": "pilot-057",
+  "company_number": "15409464",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15409464",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "No web presence found; label from letting SIC only."
+ },
+ {
+  "case_id": "pilot-061",
+  "company_number": "14822821",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14822821",
+    "quote": "Dissolved"
+   }
+  ],
+  "note": "Dissolved; no web presence; name 'News' on a Grimsby high street suggests a newsagent, unconfirmed."
+ },
+ {
+  "case_id": "pilot-065",
+  "company_number": "15569627",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://homecare.co.uk/homecare/agency.cfm/id/65432186767",
+    "quote": "Choices Homecare (Barnsley) ... Maple House, Maple Estate, Stocks Lane, Barnsley"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15569627/filing-history",
+    "quote": "Full accounts made up to 31 July 2025"
+   }
+  ],
+  "note": "Holding company of the Choices Homecare group (CQC-registered home care run by subsidiaries); holding itself does not deliver care."
+ },
+ {
+  "case_id": "pilot-069",
+  "company_number": "15801977",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15801977/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 March 2026"
+   },
+   {
+    "url": "https://truviewgps.com/",
+    "quote": "Hassle FREE professional tracking solutions"
+   }
+  ],
+  "note": "Truview GPS brand sells vehicle tracking/telematics, but this company filed dormant accounts; would be L_SOFTWARE if it trades."
+ },
+ {
+  "case_id": "pilot-073",
+  "company_number": "15783661",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.gov.uk/government/news/scam-whisky-investment-firm-shut-down-after-customers-left-thousands-of-pounds-out-of-pocket",
+    "quote": "high-pressure sales tactics ... promising customers substantial returns"
+   },
+   {
+    "url": "https://brodies.com/insights/commercial-contracts-and-outsourcing/a-watershed-moment-for-the-whisky-cask-investment-sector-lessons-from-the-cask-spirits-global-winding-up/",
+    "quote": "marketed itself as a whisky cask investment business targeting private buyers"
+   }
+  ],
+  "note": "Whisky cask investment seller, wound up in public interest 25 Aug 2026; FCA status unverified (cask market unregulated); policy s.2 may map to P_UNLICENSED_FINANCIAL."
+ },
+ {
+  "case_id": "pilot-077",
+  "company_number": "15694537",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15694537",
+    "quote": "56102 - Unlicensed restaurants and cafes"
+   }
+  ],
+  "note": "Dissolved; no web presence found; label from SIC only."
+ },
+ {
+  "case_id": "pilot-081",
+  "company_number": "16079066",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16079066",
+    "quote": "43290 - Other construction installation"
+   }
+  ],
+  "note": "No web presence found; label from name and SIC; a similarly named Braintree firm (07939985) dissolved 2025."
+ },
+ {
+  "case_id": "pilot-085",
+  "company_number": "11477266",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://www.thegazette.co.uk/notice/5218001",
+    "quote": "Winding-Up Order ... Wiseman Press Ltd"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11477266",
+    "quote": "46190 - Agents involved in the sale of a variety of goods"
+   }
+  ],
+  "note": "No web presence; wound up Sept 2026 (Official Receiver); label from SIC only."
+ },
+ {
+  "case_id": "pilot-089",
+  "company_number": "11476734",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11476734",
+    "quote": "46190 - Agents involved in the sale of a variety of goods"
+   }
+  ],
+  "note": "No web presence; in liquidation; label from name and SIC only."
+ },
+ {
+  "case_id": "pilot-093",
+  "company_number": "14464633",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14464633",
+    "quote": "43210 - Electrical installation"
+   }
+  ],
+  "note": "No web presence found; electrical installation per name and SIC."
+ },
+ {
+  "case_id": "pilot-097",
+  "company_number": "11255367",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://www.thegazette.co.uk/notice/5217078",
+    "quote": "Registered office: New Spitalfields Market, Sherrin Road, London, E10 5SQ"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11255367",
+    "quote": "46760 - Wholesale of other intermediate products"
+   }
+  ],
+  "note": "Based at New Spitalfields wholesale produce market; wound up Sept 2026; trade unconfirmed."
+ },
+ {
+  "case_id": "pilot-002",
+  "company_number": "06041544",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06041544/filing-history",
+    "quote": "The principal activity of the group ... was that of the provision of aircraft on short, medium and long term contracts"
+   },
+   {
+    "url": "https://www.rvl-group.com/",
+    "quote": "A specialist aviation services provider with more than 30 years of experience"
+   }
+  ],
+  "note": "Parent of RVL Group (aviation charter, aerial surveillance) at East Midlands Airport; directors include RVL CEO David Connor; SIC 70100 is head office."
+ },
+ {
+  "case_id": "pilot-006",
+  "company_number": "13117092",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13117092",
+    "quote": "Previous company names: GREEN GRASS BROKERS LIMITED, 06 Jan 2021 - 16 May 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13117092/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "No trading footprint found; label from SIC 46190 only; formerly Green Grass Brokers, now in compulsory liquidation."
+ },
+ {
+  "case_id": "pilot-010",
+  "company_number": "14372420",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14372420",
+    "quote": "Previous company names: PREMIUM GETAWAYS LTD, 23 Sep 2022 - 11 May 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14372420/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "No evidence of actual trading; label from clothing-retail SIC only; former name suggests travel; compulsory liquidation."
+ },
+ {
+  "case_id": "pilot-014",
+  "company_number": "14200720",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14200720/filing-history",
+    "quote": "Final Gazette dissolved via compulsory strike-off"
+   },
+   {
+    "url": "https://www.salonspy.com/en-gb/in/gwent/ebbw-vale-glyn-ebwy/hair-by-darren/",
+    "quote": "Hair by Darren salon listing, 48 Bethcar Street, Ebbw Vale"
+   }
+  ],
+  "note": "Hairdressing per SIC 96020; a 'Hair by Darren' salon exists but no link to this company number confirmed; dissolved Jan 2024 with no filings."
+ },
+ {
+  "case_id": "pilot-018",
+  "company_number": "11265254",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11265254",
+    "quote": "Previous company names: SIMPLE PRODUCE LIMITED, 20 Mar 2018 - 09 Aug 2024"
+   }
+  ],
+  "note": "Name and SIC 46900 suggest produce wholesale; no trading evidence found; formerly Simple Produce Limited; in compulsory liquidation."
+ },
+ {
+  "case_id": "pilot-022",
+  "company_number": "15162204",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15162204/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 September 2025"
+   }
+  ],
+  "note": "Files dormant accounts every year so does not trade; SIC codes (sports goods/software) not borne out; no web presence found."
+ },
+ {
+  "case_id": "pilot-026",
+  "company_number": "02767772",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/02767772",
+    "quote": "41100 - Development of building projects"
+   }
+  ],
+  "note": "No web evidence; label from SIC 41100 (could equally be M_PROPERTY); Helayel family directors; active proposal to strike off."
+ },
+ {
+  "case_id": "pilot-030",
+  "company_number": "14085784",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14085784/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 May 2025"
+   }
+  ],
+  "note": "Dormant since incorporation; SIC 64305 property unit trust not borne out; no financial activity, so none regulated."
+ },
+ {
+  "case_id": "pilot-034",
+  "company_number": "03038352",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Medical_Aid_for_Palestinians",
+    "quote": "Medical Aid for Palestinians"
+   },
+   {
+    "url": "https://www.map.org.uk/landing-pages/maps-emergency-response",
+    "quote": "What is MAP doing to help Palestinians in Gaza and the West Bank?"
+   }
+  ],
+  "note": "UK humanitarian health charity delivering medical aid via partners abroad; not a UK-regulated care provider, so L_OTHER (L_HEALTH arguable)."
+ },
+ {
+  "case_id": "pilot-038",
+  "company_number": "14105992",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14105992/filing-history",
+    "quote": "FIXED ASSETS Investment property 4 1,253,500 1,185,429"
+   }
+  ],
+  "note": "Filed accounts show a property investment company (investment property at fair value, bank loans, no employees), consistent with SIC 68100/68209."
+ },
+ {
+  "case_id": "pilot-042",
+  "company_number": "15477144",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15477144",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   }
+  ],
+  "note": "Micro accounts filed (2 employees) but no web evidence of what consultancy; label from name/SIC only."
+ },
+ {
+  "case_id": "pilot-046",
+  "company_number": "08680837",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08680837",
+    "quote": "09100 - Support activities for petroleum and natural gas extraction"
+   }
+  ],
+  "note": "Oil and gas drilling support per name/SIC; no web evidence; accounts overdue since 2020 and strike-off pending."
+ },
+ {
+  "case_id": "pilot-050",
+  "company_number": "11347284",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11347284",
+    "quote": "Previous company names: LEICON LIMITED, 04 May 2018 - 24 Nov 2022"
+   }
+  ],
+  "note": "No evidence of trading activity; label from SIC 46900 only; formerly Leicon Limited; compulsory winding-up order Oct 2026."
+ },
+ {
+  "case_id": "pilot-054",
+  "company_number": "15247558",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15247558",
+    "quote": "Previous company names: DOGGIES GROOMING LTD, 30 Oct 2023 - 30 Aug 2024"
+   }
+  ],
+  "note": "Dog grooming per name and former name; no listing found for this Chislehurst business."
+ },
+ {
+  "case_id": "pilot-058",
+  "company_number": "11094666",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11094666",
+    "quote": "87900 - Other residential care activities not elsewhere classified"
+   }
+  ],
+  "note": "Care services per name/SIC 87900; no CIW/CQC listing or website found; accounts overdue and strike-off pending."
+ },
+ {
+  "case_id": "pilot-062",
+  "company_number": "01308583",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://ipt.org.uk/Fellowships/About-IPT-Fellowships",
+    "quote": "About IPT Fellowships"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Industry_and_Parliament_Trust",
+    "quote": "Industry and Parliament Trust"
+   }
+  ],
+  "note": "Registered charity running fellowship and education programmes between Parliament and business, matching SIC 85590."
+ },
+ {
+  "case_id": "pilot-066",
+  "company_number": "13878544",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13878544/filing-history",
+    "quote": "Final Gazette dissolved via compulsory strike-off"
+   }
+  ],
+  "note": "Paralegal services per name/SIC 69102/69109; no web evidence; dissolved July 2023 with no filings."
+ },
+ {
+  "case_id": "pilot-070",
+  "company_number": "14175304",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://treatwell.co.uk/place/nancy-hair-beauty",
+    "quote": "Nancy Hair & Beauty, 984 Uxbridge Road, Hayes"
+   },
+   {
+    "url": "https://www.fresha.com/fi/lvp/nancy-salon-uxbridge-road-loxDkq",
+    "quote": "Nancy Salon, Uxbridge Road"
+   }
+  ],
+  "note": "Hair, beauty and nail salon in Hayes matches name/SIC 96020; listing address differs from registered office, so link is indirect."
+ },
+ {
+  "case_id": "pilot-074",
+  "company_number": "15483986",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Neil%20Buckley&type=Individuals",
+    "quote": "Neil Graham Buckley ... Certified / assessed by firm ... Suitable Choices Limited"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15483986/officers",
+    "quote": "BUCKLEY, Neil Graham; Director"
+   }
+  ],
+  "note": "Likely mortgage-adviser vehicle; company itself not found on FCA register, but its director appears certified at authorised firm Suitable Choices Ltd (FRN 911717)."
+ },
+ {
+  "case_id": "pilot-078",
+  "company_number": "15146733",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15146733/persons-with-significant-control",
+    "quote": "Bsr Group Holdings Limited"
+   },
+   {
+    "url": "https://www.solarpowerportal.co.uk/solar-investment/british-solar-renewables-acquired-by-icg-infra",
+    "quote": "British Solar Renewables acquired by ICG Infra"
+   }
+  ],
+  "note": "Subsidiary of BSR (British Solar Renewables) group; 'asset management' means managing solar farms, not investment; not on FCA register and not needed."
+ },
+ {
+  "case_id": "pilot-082",
+  "company_number": "16014463",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16014463",
+    "quote": "49410 - Freight transport by road"
+   }
+  ],
+  "note": "Road transport per name/SIC only; no web evidence; first accounts overdue and strike-off pending."
+ },
+ {
+  "case_id": "pilot-086",
+  "company_number": "14554270",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14554270",
+    "quote": "Previous company names: THE HOLIDAY TRAVEL GROUP LTD, 22 Dec 2022 - 23 Aug 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14554270/filing-history",
+    "quote": "Final Gazette dissolved following liquidation"
+   }
+  ],
+  "note": "No trading evidence; pet retail per name/SIC 47760/47990 only; formerly a travel-named company; dissolved after compulsory liquidation."
+ },
+ {
+  "case_id": "pilot-090",
+  "company_number": "05001174",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05001174/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2024"
+   }
+  ],
+  "note": "Dormant company; SIC 70100/73110 not borne out; no web presence found."
+ },
+ {
+  "case_id": "pilot-094",
+  "company_number": "14639386",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14639386",
+    "quote": "96040 - Physical well-being activities"
+   }
+  ],
+  "note": "Wellness/physical well-being per SIC 96040; no web presence found for 'Nau Club' in Cheltenham."
+ },
+ {
+  "case_id": "pilot-098",
+  "company_number": "SC819074",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC819074",
+    "quote": "58110 - Book publishing"
+   }
+  ],
+  "note": "Small book publisher per name/SIC; micro accounts filed; no web presence found."
+ },
+ {
+  "case_id": "pilot-003",
+  "company_number": "14768597",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14768597/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 March 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14768597",
+    "quote": "62090 - Other information technology service activities 92000 - Gambling and betting activities"
+   }
+  ],
+  "note": "Files dormant accounts; no trading or gambling operation found (goldengoals.co.uk prediction game exists but no link to this company)."
+ },
+ {
+  "case_id": "pilot-007",
+  "company_number": "16428041",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16428041",
+    "quote": "58110 - Book publishing"
+   },
+   {
+    "url": "https://www.worldsofflavor.com/melek-erdal",
+    "quote": "Food Writer, Cook, and Storyteller; London, UK"
+   }
+  ],
+  "note": "Sole director shares name with a London food writer working on a first book; consistent with book publishing SIC but link unconfirmed."
+ },
+ {
+  "case_id": "pilot-011",
+  "company_number": "14038840",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.cqc.org.uk/location/1-13923502799/reports",
+    "quote": "Honest Senior Care Limited ... Homecare service ... Overall rating: Good"
+   },
+   {
+    "url": "https://caredb.co.uk/location/1-13923502799",
+    "quote": "Honest Senior Care"
+   }
+  ],
+  "note": "CQC-registered domiciliary (home) care provider in Kenilworth rated Good."
+ },
+ {
+  "case_id": "pilot-015",
+  "company_number": "07886784",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07886784",
+    "quote": "51102 - Non-scheduled passenger air transport"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07886784/officers",
+    "quote": "Officers: 3 officers / 3 resignations"
+   }
+  ],
+  "note": "No trading evidence found; all officers resigned 2022 and strike-off proposed; air charter SIC only."
+ },
+ {
+  "case_id": "pilot-019",
+  "company_number": "05084417",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05084417",
+    "quote": "98000 - Residents property management"
+   }
+  ],
+  "note": "Right-to-manage company managing a residential building for leaseholders; low-activity property management vehicle."
+ },
+ {
+  "case_id": "pilot-023",
+  "company_number": "15147258",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15147258/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 September 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15147258/persons-with-significant-control",
+    "quote": "Tab Intermediate Holdco Limited ... Ownership of shares \u2013 75% or more"
+   }
+  ],
+  "note": "Dormant subsidiary within the TAB bridging-lender group (director Duncan Kreeger); no own trading found."
+ },
+ {
+  "case_id": "pilot-027",
+  "company_number": "14028657",
+  "industry": "H_TRAVEL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14028657",
+    "quote": "79110 - Travel agency activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14028657/filing-history",
+    "quote": "Final Gazette dissolved via compulsory strike-off"
+   }
+  ],
+  "note": "Travel agency per SIC and name only; no website found and company now dissolved."
+ },
+ {
+  "case_id": "pilot-031",
+  "company_number": "13831748",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13831748",
+    "quote": "86900 - Other human health activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13831748/filing-history",
+    "quote": "Micro company accounts made up to 31 January 2026"
+   }
+  ],
+  "note": "Files micro accounts under a health SIC; no CQC listing or website found for this company."
+ },
+ {
+  "case_id": "pilot-035",
+  "company_number": "16127976",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16127976/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16127976",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   }
+  ],
+  "note": "Dormant; consultancy SIC but no trading or web presence found."
+ },
+ {
+  "case_id": "pilot-039",
+  "company_number": "16560968",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16560968",
+    "quote": "90030 - Artistic creation"
+   }
+  ],
+  "note": "Pet portrait artist business per name and SIC; no website or listing found."
+ },
+ {
+  "case_id": "pilot-043",
+  "company_number": "14998433",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14998433/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 July 2025"
+   },
+   {
+    "url": "https://roemerbarnes.com/",
+    "quote": "We help training providers and employers discover opportunities to grow sustainably."
+   }
+  ],
+  "note": "Dormant holding company of the Roemer Barnes further-education consultancy group; holding entity itself does not trade."
+ },
+ {
+  "case_id": "pilot-047",
+  "company_number": "01627610",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.saintcatherines.org.uk/",
+    "quote": "We're here to care for you in the hospice or at home."
+   },
+   {
+    "url": "https://www.hospiceuk.org/hospice-care-finder/saint-catherines-hospice",
+    "quote": "saint catherines hospice"
+   }
+  ],
+  "note": "Charitable hospice providing CQC-regulated palliative care in Scarborough."
+ },
+ {
+  "case_id": "pilot-051",
+  "company_number": "15828172",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15828172/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 July 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15828172",
+    "quote": "62012 - Business and domestic software development"
+   }
+  ],
+  "note": "Filed dormant accounts; software/biotech SICs but no product or website found."
+ },
+ {
+  "case_id": "pilot-055",
+  "company_number": "15923389",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15923389",
+    "quote": "43220 - Plumbing, heat and air-conditioning installation"
+   }
+  ],
+  "note": "Renewables/heating installation trade per name and SIC; only a bare directory mention found."
+ },
+ {
+  "case_id": "pilot-059",
+  "company_number": "11768473",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11768473",
+    "quote": "ATRIUM HOME IMPROVEMENTS LTD 18 Oct 2022 - 12 Jan 2023"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11768473",
+    "quote": "Company status Liquidation"
+   }
+  ],
+  "note": "Briefly named Atrium Home Improvements suggesting home-improvement trade; now in liquidation; little evidence."
+ },
+ {
+  "case_id": "pilot-063",
+  "company_number": "SC761064",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.ingridcairnsmortgages.co.uk/",
+    "quote": "Ingrid Cairns & Associates Ltd is an Appointed Representative of BrokerSync Ltd,"
+   },
+   {
+    "url": "https://www.ingridcairnsmortgages.co.uk/",
+    "quote": "which is authorised and regulated by the Financial Conduct Authority (1031981)."
+   }
+  ],
+  "note": "Mortgage and protection insurance broker; appointed representative (FRN 981225) of FCA-authorised BrokerSync Ltd."
+ },
+ {
+  "case_id": "pilot-067",
+  "company_number": "16852386",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16852386",
+    "quote": "49410 - Freight transport by road 52290 - Other transportation support activities 53202 - Unlicensed carrier"
+   }
+  ],
+  "note": "Courier/road freight per SIC only; recently incorporated, no web presence found."
+ },
+ {
+  "case_id": "pilot-071",
+  "company_number": "14505339",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://seperi.com",
+    "quote": "Carefully designed and developed apps to simplify business processes and help you work smarter."
+   },
+   {
+    "url": "https://seperi.com",
+    "quote": "\u00a9 2026 Seperi Ltd. All rights reserved."
+   }
+  ],
+  "note": "Develops marketplace apps for monday.com and Todoist."
+ },
+ {
+  "case_id": "pilot-075",
+  "company_number": "04738240",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04738240",
+    "quote": "MORDEN&HOBBS LTD 30 Aug 2005 - 05 May 2026"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04738240",
+    "quote": "96020 - Hairdressing and other beauty treatment"
+   }
+  ],
+  "note": "Formerly Morden&Hobbs hair salon company (since 2003); renamed to a number in May 2026 with a US corporate director, current trading unclear."
+ },
+ {
+  "case_id": "pilot-079",
+  "company_number": "11256401",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11256401",
+    "quote": "SIMPLE FOOD LIMITED 15 Mar 2018 - 18 Jul 2023"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11256401",
+    "quote": "46190 - Agents involved in the sale of a variety of goods"
+   }
+  ],
+  "note": "Formerly Simple Food Limited, trade agency SIC; in liquidation; no web evidence of actual trade."
+ },
+ {
+  "case_id": "pilot-083",
+  "company_number": "09364485",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09364485",
+    "quote": "87900 - Other residential care activities not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09364485/officers",
+    "quote": "Officers: 2 officers / 2 resignations"
+   }
+  ],
+  "note": "Care SIC only; no CQC listing found, sole director resigned 2023 and strike-off proposed."
+ },
+ {
+  "case_id": "pilot-087",
+  "company_number": "16071485",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16071485/persons-with-significant-control",
+    "quote": "Lendlord Limited ... Ownership of shares \u2013 75% or more"
+   },
+   {
+    "url": "https://www.property118.com/unlock-financing-potential-obtaining-finance-with-lendlord/",
+    "quote": "bridging lender built into its platform"
+   },
+   {
+    "url": "https://www.lendlord.io/",
+    "quote": "Lendlord Limited is registered by the Financial Conduct Authority (Firm Reference Number: 1058269)"
+   }
+  ],
+  "note": "Credit-granting subsidiary of Lendlord (bridging lender to landlords); parent's FCA entry is only as payments agent; no FCA authorisation for this entity found (register API not reachable)."
+ },
+ {
+  "case_id": "pilot-091",
+  "company_number": "14682011",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14682011",
+    "quote": "64303 - Activities of venture and development capital companies 66120 - Security and commodity contracts dealing activities"
+   }
+  ],
+  "note": "Investment/commodity-dealing SICs only; no website or activity found, so regulated activity not established."
+ },
+ {
+  "case_id": "pilot-095",
+  "company_number": "15013779",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15013779",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   }
+  ],
+  "note": "Online retail per name and SIC; no shop or website found."
+ },
+ {
+  "case_id": "pilot-099",
+  "company_number": "04736682",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04736682",
+    "quote": "62090 - Other information technology service activities"
+   }
+  ],
+  "note": "Long-standing small IT services company per SIC; no website found; strike-off proposed then suspended."
+ },
+ {
+  "case_id": "pilot-004",
+  "company_number": "15665346",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15665346/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 April 2026"
+   }
+  ],
+  "note": "No trading footprint found; latest accounts dormant; SIC (water transport support/IT) only hint."
+ },
+ {
+  "case_id": "pilot-008",
+  "company_number": "14639741",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://reports.ofsted.gov.uk/provider/49/2798135",
+    "quote": "Be Our Guest Yorkshire Ltd ... Responsible for: Little Boggers Day Care"
+   },
+   {
+    "url": "https://reports.ofsted.gov.uk/provider/16/2798134",
+    "quote": "Little Boggers Day Care"
+   }
+  ],
+  "note": "Ofsted-registered provider running Little Boggers Day Care (childcare/pre-school) in Darfield."
+ },
+ {
+  "case_id": "pilot-012",
+  "company_number": "14902839",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14902839",
+    "quote": "77390 - Renting and leasing of other machinery, equipment and tangible goods not elsewhere classified"
+   }
+  ],
+  "note": "No web presence found; label from SIC (equipment rental) only."
+ },
+ {
+  "case_id": "pilot-016",
+  "company_number": "00464224",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/00464224",
+    "quote": "70100 - Activities of head offices ... Registered office address 1-2 Castle Lane, London"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Conservative_Campaign_Headquarters",
+    "quote": "On 10 February 2014, CCHQ moved to its current location at 4 Matthew Parker Street"
+   }
+  ],
+  "note": "Conservative and Unionist Central Office property/head-office vehicle tracking CCHQ addresses; not a trading property business."
+ },
+ {
+  "case_id": "pilot-020",
+  "company_number": "13959540",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13959540",
+    "quote": "38110 - Collection of non-hazardous waste 38320 - Recovery of sorted materials"
+   }
+  ],
+  "note": "No website or listing found; waste collection inferred from name/SIC only."
+ },
+ {
+  "case_id": "pilot-024",
+  "company_number": "SC795430",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC795430",
+    "quote": "56103 - Take-away food shops and mobile food stands"
+   }
+  ],
+  "note": "No trading listing found for Bunea at Sauchiehall St; takeaway inferred from SIC only."
+ },
+ {
+  "case_id": "pilot-028",
+  "company_number": "10528398",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10528398",
+    "quote": "Company status Liquidation ... 46310 - Wholesale of fruit and vegetables"
+   }
+  ],
+  "note": "In liquidation; no trading evidence found; wholesale inferred from SIC only."
+ },
+ {
+  "case_id": "pilot-032",
+  "company_number": "15491569",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15491569/officers",
+    "quote": "HARDMAN, John Edward ... Exeter, Devon ... Date of birth July 1983"
+   },
+   {
+    "url": "https://www.ramsayhealth.co.uk/specialists/mr-john-hardman",
+    "quote": "Mr John Hardman is a Consultant Orthopaedic Surgeon in Torquay specialising in hand and wrist surgery"
+   }
+  ],
+  "note": "Likely private-practice vehicle of a Devon consultant hand surgeon; identity match by name/area not confirmed."
+ },
+ {
+  "case_id": "pilot-036",
+  "company_number": "15138043",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15138043",
+    "quote": "81221 - Window cleaning services"
+   }
+  ],
+  "note": "No web presence found; window cleaning inferred from name/SIC only."
+ },
+ {
+  "case_id": "pilot-040",
+  "company_number": "14619536",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14619536",
+    "quote": "71122 - Engineering related scientific and technical consulting activities"
+   }
+  ],
+  "note": "No web presence found; engineering consultancy inferred from SIC only."
+ },
+ {
+  "case_id": "pilot-044",
+  "company_number": "14166800",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.getfittoday.co.uk",
+    "quote": "We offer outdoor group fitness classes all year round."
+   },
+   {
+    "url": "https://abingtonpark.org/partners/get-fit-today/",
+    "quote": "Get Fit Today ... delivers an average of 10 sessions a week"
+   }
+  ],
+  "note": "Northampton group-fitness business matching name, town and SIC 93130; website does not show company number."
+ },
+ {
+  "case_id": "pilot-048",
+  "company_number": "14096226",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14096226",
+    "quote": "47190 - Other retail sale in non-specialised stores 56102 - Unlicensed restaurants and cafes"
+   }
+  ],
+  "note": "No trading presence found; cafe/retail inferred from SIC only; proposal to strike off."
+ },
+ {
+  "case_id": "pilot-052",
+  "company_number": "15815954",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.freehouselondon.com/",
+    "quote": "Freehouse London | Creative Direction | Production Design"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15815954",
+    "quote": "90020 - Support activities to performing arts"
+   }
+  ],
+  "note": "Website for Freehouse London offers creative direction/production design, consistent with SIC; no company number shown."
+ },
+ {
+  "case_id": "pilot-056",
+  "company_number": "14441518",
+  "industry": "H_TRAVEL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.ttgmedia.com/news/agency-run-by-disqualified-director-wound-up-as-potential-victims-urged-to-come-forward-47579",
+    "quote": "claimed to sell flights, hotels and holidays through its website"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14441518",
+    "quote": "79110 - Travel agency activities"
+   }
+  ],
+  "note": "Online travel agency, wound up by High Court June 2024; ATOL logo used without evidence of licence (not a policy-listed licence)."
+ },
+ {
+  "case_id": "pilot-060",
+  "company_number": "16558401",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16558401",
+    "quote": "47710 - Retail sale of clothing in specialised stores"
+   }
+  ],
+  "note": "No web presence found; clothing retail inferred from SIC only; proposal to strike off."
+ },
+ {
+  "case_id": "pilot-064",
+  "company_number": "07089231",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07089231/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 November 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07089231",
+    "quote": "COMMERCIAL VANRENTALS LIMITED 27 Nov 2009 - 12 Sep 2014"
+   }
+  ],
+  "note": "Formerly a van rental/sales company; latest accounts dormant and strike-off proposed; no current trading evidence."
+ },
+ {
+  "case_id": "pilot-068",
+  "company_number": "11621809",
+  "industry": "P_PYRAMID",
+  "regulated_activity": "crypto",
+  "licence": "not_held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://en.coin-turk.com/uk-court-shuts-down-key-coin-assets-after-300000-investor-loss/",
+    "quote": "guaranteed annual returns between 40% and 100%"
+   },
+   {
+    "url": "https://rhlaw.co.uk/investment-loss-claims/key-coin-assets/",
+    "quote": "In September 2024, the FCA formally added Key Coin Assets Ltd to its Warning List."
+   }
+  ],
+  "note": "Unauthorised crypto 'investment' firm wound up Aug 2026 as Ponzi-style scheme; could alternatively be coded P_UNLICENSED_FINANCIAL."
+ },
+ {
+  "case_id": "pilot-072",
+  "company_number": "15259208",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://watmoreandco.com/",
+    "quote": "We're a neurodivergent led Bookkeeping and Accounting firm"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15259208",
+    "quote": "69201 - Accounting and auditing activities 69202 - Bookkeeping activities"
+   }
+  ],
+  "note": "Own website confirms accountancy and bookkeeping practice."
+ },
+ {
+  "case_id": "pilot-076",
+  "company_number": "16000822",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16000822/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 October 2025"
+   }
+  ],
+  "note": "Dormant company; SIC 64929 (credit granting) but no evidence of lending activity."
+ },
+ {
+  "case_id": "pilot-080",
+  "company_number": "14107413",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14107413",
+    "quote": "43342 - Glazing ... DENCLADD LTD 14 May 2022 - 16 Jan 2023"
+   }
+  ],
+  "note": "No web presence found; cladding/glazing trade inferred from name/SIC only."
+ },
+ {
+  "case_id": "pilot-084",
+  "company_number": "07521161",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07521161",
+    "quote": "82990 - Other business support service activities not elsewhere classified"
+   }
+  ],
+  "note": "No web presence found; generic SIC; default address and strike-off proposed."
+ },
+ {
+  "case_id": "pilot-088",
+  "company_number": "16060458",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://partnership.sjp.co.uk/partner/oaklandwealthconsultants",
+    "quote": "The Partner Practice is an Appointed Representative of and represents only St. James's Place Wealth Management plc"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16060458",
+    "quote": "66190 - Activities auxiliary to financial intermediation ... CAPITAL ASSET CONSULTANTS LIMITED"
+   }
+  ],
+  "note": "SJP partner practice giving wealth/investment advice as an Appointed Representative (FCA ref reported 1032421; FCA register page not directly readable)."
+ },
+ {
+  "case_id": "pilot-092",
+  "company_number": "14016945",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14016945/officers",
+    "quote": "RICHARDS, Lerrone ... Active"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Lerrone_Richards",
+    "quote": "Lerrone Richards (born 25 August 1992) is a British professional boxer"
+   }
+  ],
+  "note": "Appears to be the professional boxing vehicle of New Malden boxer Lerrone 'Sniper The Boss' Richards."
+ },
+ {
+  "case_id": "pilot-096",
+  "company_number": "13931785",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13931785",
+    "quote": "Dissolved on 29 October 2024 ... 68310 - Real estate agencies"
+   }
+  ],
+  "note": "Dissolved without filing accounts; no web presence; property agency inferred from SIC only."
+ },
+ {
+  "case_id": "pilot-100",
+  "company_number": "16473293",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16473293",
+    "quote": "45310 - Wholesale trade of motor vehicle parts ... 47910 - Retail sale via mail order houses or via Internet"
+   }
+  ],
+  "note": "No site linked to this company found (bikergears.com/.co.uk predate it); online motorbike gear retail inferred from name/SIC."
+ }
+]

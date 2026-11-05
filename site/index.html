@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KYB-Bench</title>
+<meta name="description" content="A benchmark for business onboarding decisions. Decision models, LLMs and agents scored on the same UK know-your-business cases, on how well they rank risk and the decisions they make.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231d4ed8'/><path d='M9 22V10h3v5l5-5h4l-6 6 6 6h-4l-5-5v5z' fill='white'/></svg>">
+<style>
+:root {
+  --bg: #f6f5f1; --panel: #eeede8; --surface: #ffffff; --ink: #18181a; --body: #34343a; --muted: #75757d;
+  --faint: #a3a3aa; --line: #dedcd5; --accent: #1d4ed8; --accent-soft: #e3e9fb;
+  --good: #1a7f4b; --good-soft: #def2e6; --warn: #9a6400; --warn-soft: #f7ecd5; --bad: #b42318; --bad-soft: #f9e1dd;
+  --bar: #9d9a90; --bar-top: #1d4ed8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111113; --panel: #19191c; --surface: #1d1d21; --ink: #ededf0; --body: #c9c9cf; --muted: #8e8e96;
+    --faint: #5e5e66; --line: #2c2c31; --accent: #7aa2ff; --accent-soft: #1e2840;
+    --good: #5fc58f; --good-soft: #17301f; --warn: #e3ad4a; --warn-soft: #33270f; --bad: #f07f74; --bad-soft: #3a1b18;
+    --bar: #77777f; --bar-top: #7aa2ff;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111113; --panel: #19191c; --surface: #1d1d21; --ink: #ededf0; --body: #c9c9cf; --muted: #8e8e96;
+  --faint: #5e5e66; --line: #2c2c31; --accent: #7aa2ff; --accent-soft: #1e2840;
+  --good: #5fc58f; --good-soft: #17301f; --warn: #e3ad4a; --warn-soft: #33270f; --bad: #f07f74; --bad-soft: #3a1b18;
+  --bar: #77777f; --bar-top: #7aa2ff;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { margin: 0; background: var(--bg); color: var(--body); font: 16px/1.65 Inter, system-ui, sans-serif; }
+a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--ink); }
+code, pre, .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+code { font-size: 0.86em; background: var(--panel); padding: 1px 5px; border-radius: 4px; }
+h1, h2, h3, h4 { color: var(--ink); font-weight: 500; letter-spacing: -0.02em; }
+.label { font: 500 11px/1.4 "JetBrains Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+/* top bar */
+header.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+header.top .in { max-width: 1180px; margin: 0 auto; padding: 0 20px; height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { font-weight: 600; color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: 8px; letter-spacing: -0.01em; }
+.brand .by { font: 400 11px "JetBrains Mono", monospace; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+header.top nav { display: flex; align-items: center; gap: 22px; }
+header.top nav a { font: 500 11px "JetBrains Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); text-decoration: none; }
+header.top nav a:hover { color: var(--ink); }
+.theme { background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 6px; width: 30px; height: 30px; cursor: pointer; display: grid; place-items: center; }
+@media (max-width: 720px) { header.top nav a.hide-sm { display: none; } }
+
+/* page layout: sticky contents + reading column */
+.page { max-width: 1180px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 56px; }
+.toc { position: sticky; top: 88px; align-self: start; padding-top: 56px; }
+.toc a { display: block; font-size: 13px; color: var(--muted); text-decoration: none; padding: 4px 0 4px 12px; border-left: 1px solid var(--line); }
+.toc a.sub { padding-left: 24px; font-size: 12.5px; }
+.toc a:hover { color: var(--ink); }
+.toc a.on { color: var(--ink); border-left-color: var(--ink); }
+main { min-width: 0; max-width: 900px; padding: 56px 0 80px; }
+@media (max-width: 960px) { .page { grid-template-columns: minmax(0, 1fr); gap: 0; } .toc { display: none; } }
+
+.hero h1 { font-size: clamp(34px, 5vw, 46px); line-height: 1.08; margin: 10px 0 6px; }
+.hero .byline { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+.btn { display: inline-flex; align-items: center; gap: 7px; font: 500 12px "JetBrains Mono", monospace; letter-spacing: 0.02em; padding: 7px 12px;
+  border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--surface); text-decoration: none; }
+.btn code { background: none; padding: 0; font-size: 12px; }
+.btn:hover { border-color: var(--ink); }
+.btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+p { margin: 0 0 16px; }
+main > section { padding-top: 48px; margin-top: 48px; border-top: 1px solid var(--line); }
+main > section#leaderboard { border-top: 0; margin-top: 8px; padding-top: 8px; }
+h2 { font-size: 28px; margin: 0 0 14px; }
+h3 { font-size: 19px; margin: 32px 0 10px; }
+.lead strong { color: var(--ink); font-weight: 600; }
+ul.points { padding-left: 20px; margin: 0 0 16px; } ul.points li { margin-bottom: 6px; }
+
+/* figures */
+figure { margin: 24px 0; background: var(--panel); border-radius: 14px; padding: 18px 20px; }
+figcaption { font-size: 13px; color: var(--muted); margin-top: 14px; line-height: 1.55; }
+.fig-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.seg { display: inline-flex; flex-wrap: wrap; max-width: 100%; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button { font: 500 11px "JetBrains Mono", monospace; letter-spacing: 0.06em; text-transform: uppercase; padding: 7px 12px; border: 0;
+  background: none; color: var(--muted); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+
+/* leaderboard */
+.lb-wrap { overflow-x: auto; margin: 0 -4px; padding: 0 4px; }
+table.lb { width: 100%; border-collapse: collapse; min-width: 640px; font-size: 14px; }
+table.lb th { text-align: left; font: 500 10.5px "JetBrains Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+  padding: 6px 8px 10px; line-height: 1.35; vertical-align: bottom; }
+table.lb th.num { white-space: normal; width: 74px; }
+table.lb td { padding: 9px 8px; border-top: 1px solid var(--line); vertical-align: middle; }
+table.lb td.num { text-align: right; font-family: "JetBrains Mono", monospace; font-size: 12.5px; white-space: nowrap; }
+table.lb th.num { text-align: right; }
+table.lb td.rank { color: var(--faint); font-family: "JetBrains Mono", monospace; font-size: 12px; width: 26px; }
+.sys { color: var(--ink); font-weight: 500; white-space: nowrap; }
+.sys-meta { display: block; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.score { display: flex; align-items: center; gap: 10px; min-width: 180px; }
+.score b { font: 600 13px "JetBrains Mono", monospace; color: var(--ink); width: 40px; }
+.track { position: relative; flex: 1; height: 8px; border-radius: 4px; background: color-mix(in srgb, var(--bar) 22%, transparent); }
+.track .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--bar); }
+tr.top .track .fill { background: var(--bar-top); }
+.track .ci { position: absolute; top: 3px; height: 2px; background: var(--ink); opacity: 0.55; }
+.track .ci::before, .track .ci::after { content: ""; position: absolute; top: -3px; width: 1.5px; height: 8px; background: var(--ink); }
+.track .ci::before { left: 0; } .track .ci::after { right: 0; }
+.axis { display: flex; justify-content: space-between; font: 10.5px "JetBrains Mono", monospace; color: var(--faint); }
+@media (max-width: 600px) {
+  table.lb { min-width: 0; }
+  table.lb th:nth-child(n+6), table.lb td:nth-child(n+6) { display: none; }
+  table.lb td, table.lb th { padding-left: 5px; padding-right: 5px; }
+  .score { min-width: 104px; gap: 6px; } .score b { width: 34px; }
+  .sys { font-size: 13.5px; white-space: normal; }
+  figure { padding: 14px 12px; margin-left: -4px; margin-right: -4px; }
+  .brand .by { display: none; }
+  table.lb .axis { display: none; }
+}
+.empty { text-align: center; color: var(--muted); padding: 32px 8px !important; }
+
+/* case files */
+.case-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 14px; }
+.case-head h4 { margin: 0; font-size: 17px; }
+.case-head .mono { font-size: 12px; color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-top: 12px; }
+.card > .label { display: block; margin-bottom: 8px; }
+table.cmp { width: 100%; border-collapse: collapse; font-size: 13.5px; table-layout: fixed; }
+table.cmp th { text-align: left; font: 500 10.5px "JetBrains Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding: 0 8px 6px; }
+table.cmp td { padding: 7px 8px; border-top: 1px solid var(--line); vertical-align: top; overflow-wrap: break-word; }
+table.cmp col.k { width: 24%; } table.cmp col.ok { width: 92px; }
+table.cmp td.k { color: var(--muted); }
+table.cmp td.ok { text-align: right; font: 12px "JetBrains Mono", monospace; color: var(--good); white-space: nowrap; }
+table.cmp tr.miss td { background: var(--bad-soft); }
+table.cmp tr.miss td.ok { color: var(--bad); font-weight: 500; }
+.kv { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 5px 14px; font-size: 13.5px; margin: 0; }
+.kv dt { color: var(--muted); } .kv dd { margin: 0; overflow-wrap: anywhere; }
+.filings { margin: 8px 0 0; padding: 0; list-style: none; font-size: 13px; }
+.filings li { display: grid; grid-template-columns: 92px 64px minmax(0, 1fr); gap: 8px; padding: 5px 0; border-top: 1px solid var(--line); }
+.filings .mono { font-size: 12px; color: var(--muted); }
+.quote { font-size: 13.5px; border-left: 2px solid var(--line); padding: 2px 0 2px 12px; margin: 8px 0; overflow-wrap: anywhere; }
+.quote .src { display: block; font: 11.5px "JetBrains Mono", monospace; color: var(--muted); margin-top: 3px; overflow-wrap: anywhere; }
+.two-col { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.two-col .card { margin-top: 12px; }
+@media (max-width: 640px) {
+  .two-col { grid-template-columns: minmax(0, 1fr); } .kv { grid-template-columns: 110px minmax(0, 1fr); }
+  table.cmp { font-size: 12.5px; } table.cmp col.k { width: 28%; } table.cmp col.ok { width: 26px; }
+  table.cmp td, table.cmp th { padding-left: 4px; padding-right: 4px; } .okt { display: none; }
+  .card { padding: 12px; }
+}
+.answer { border-left: 3px solid var(--ink); }
+.answer p { margin: 8px 0 0; font-size: 14.5px; color: var(--ink); }
+.answer .src { font-size: 13px; color: var(--muted); }
+.dec { display: inline-block; font: 600 11px "JetBrains Mono", monospace; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 8px; border-radius: 5px; }
+.dec.approve { color: var(--good); background: var(--good-soft); }
+.dec.review { color: var(--warn); background: var(--warn-soft); }
+.dec.decline { color: var(--bad); background: var(--bad-soft); }
+.chip { display: inline-block; font: 11px "JetBrains Mono", monospace; color: var(--body); background: var(--panel); border: 1px solid var(--line);
+  border-radius: 4px; padding: 1px 6px; margin: 3px 4px 0 0; overflow-wrap: anywhere; }
+.verdicts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 10px; }
+@media (max-width: 560px) { .verdicts { grid-template-columns: minmax(0, 1fr); } }
+.verdict { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.verdict .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.verdict .name { color: var(--ink); font-weight: 500; font-size: 14px; }
+.verdict .meta { font: 11.5px "JetBrains Mono", monospace; color: var(--muted); }
+.verdict.wrong { border-color: color-mix(in srgb, var(--warn) 55%, var(--line)); }
+
+/* misc */
+pre { background: var(--panel); border-radius: 12px; padding: 16px 18px; overflow-x: auto; margin: 16px 0; font-size: 12.5px; line-height: 1.6; color: var(--ink); }
+pre .c { color: var(--muted); }
+ol.steps { padding-left: 20px; } ol.steps li { margin-bottom: 8px; }
+.defs { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 8px 16px; font-size: 15px; margin: 16px 0; }
+.defs dt { font: 600 11px/2 "JetBrains Mono", monospace; letter-spacing: 0.06em; text-transform: uppercase; }
+.defs dd { margin: 0; }
+.grid4 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+@media (max-width: 560px) { .grid4 { grid-template-columns: minmax(0, 1fr); } }
+.grid4 .card { margin: 0; } .grid4 .card p { margin: 4px 0 0; font-size: 14px; }
+.grid4 .card b { color: var(--ink); font-weight: 600; }
+footer { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 24px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="in">
+    <a class="brand" href="#">KYB-Bench <span class="by">by Finic</span></a>
+    <nav>
+      <a href="#leaderboard">Leaderboard</a>
+      <a href="#task" class="hide-sm">Task</a>
+      <a href="#examples" class="hide-sm">Examples</a>
+      <a href="#submit" class="hide-sm">Submit</a>
+      <a href="https://github.com/finic-ai/kyb-bench">GitHub</a>
+      <button class="theme" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <aside class="toc" id="toc">
+    <a href="#leaderboard">Leaderboard</a>
+    <a href="#about">About</a>
+    <a href="#task">The task</a>
+    <a href="#examples" class="sub">Three real cases</a>
+    <a href="#grading">Grading</a>
+    <a href="#submit">Submit</a>
+    <a href="#limits">Limitations</a>
+  </aside>
+
+  <main>
+    <div class="hero" id="intro">
+      <span class="label">v1 · November 2026</span>
+      <h1>KYB-Bench</h1>
+      <p class="byline">A benchmark for business onboarding decisions · maintained by <a href="https://finic.ai">Finic</a></p>
+      <div class="links">
+        <a class="btn primary" href="https://github.com/finic-ai/kyb-bench"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+        <a class="btn" href="https://pypi.org/project/kybbench/"><code>pip install kybbench</code></a>
+        <a class="btn" href="#submit">Download the data</a>
+      </div>
+    </div>
+
+    <section id="leaderboard">
+      <h2>Leaderboard</h2>
+      <p>Ranked by <strong>PR-AUC</strong> of the risk score (higher is better), out of the box. Bars show PR-AUC, whiskers the 95%
+        bootstrap interval; where intervals overlap, the systems are not reliably different.</p>
+      <figure>
+        <div class="fig-head">
+          <span class="label">Test set · 2,164 cases</span>
+          <span class="label" id="lb-count"></span>
+        </div>
+        <div class="lb-wrap">
+          <table class="lb">
+            <thead><tr>
+              <th></th><th>System</th><th>PR-AUC</th><th class="num">Good stopped</th><th class="num">Bad declined</th>
+            </tr></thead>
+            <tbody id="rows"><tr><td colspan="5" class="empty">Loading results…</td></tr></tbody>
+          </table>
+        </div>
+        <figcaption id="lb-note"></figcaption>
+      </figure>
+      <p style="font-size:14px;color:var(--muted)">Good stopped is the share of good businesses sent to review or declined (lower is better). Bad declined
+        is the share of cases the answer key declines that the system declined (higher is better). All runs by Finic in November 2026; LLMs through OpenRouter, using each maker's
+        own service where available. Labels were made by research agents and checked against official registers, not
+        audited by people.</p>
+    </section>
+
+
+    <section id="about">
+      <h2>About</h2>
+      <p class="lead">Can a model decide which businesses to onboard? Every KYB-Bench case is a real UK company applying for an
+        account, frozen at a date: the application, its Companies House record as it stood then, archived web evidence,
+        and sanctions and PEP screening. The system decides <strong>approve</strong>, <strong>review</strong> or
+        <strong>decline</strong> under a published policy, and gives a risk score.</p>
+      <p>Decision models, LLMs and LLM agents are scored on the same hidden test cases: how well the risk score ranks the
+        businesses that should be stopped, the decisions themselves, and what each case costs to run.</p>
+      <ul class="points">
+        <li><strong>2,164 test cases</strong>, including 333 with outcomes from after 3 August 2026, past every listed
+          model's training cutoff.</li>
+        <li>Labels from <strong>real outcomes</strong> (companies later wound up in the public interest), <strong>planted
+          issues</strong>, and the policy's industry and licence rules.</li>
+        <li>Test labels stay hidden; submissions are scored by our server.</li>
+      </ul>
+    </section>
+
+    <section id="task">
+      <h2>The task</h2>
+      <p>One kind of case, one output, one grader, so the only thing that changes between rows is the system. Each case is a UK
+        business applying to open an account, frozen at a date. The system sees:</p>
+      <dl class="defs">
+        <dt>Application</dt><dd>Claimed name, number, addresses, directors, owners, website, industry and expected volume.</dd>
+        <dt>Registry</dt><dd>The Companies House record as it stood on the case date: status, officers, people with significant control and filings, rebuilt from filing history.</dd>
+        <dt>Web</dt><dd>Google results and website text, taken only from archived captures made on or before the case date.</dd>
+        <dt>Screening</dt><dd>UK and US sanctions, politically exposed persons, disqualified directors, and the FCA, Gambling Commission and HMRC registers.</dd>
+        <dt>Policy</dt><dd>Industry risk tiers and licence rules, the same for every system.</dd>
+      </dl>
+      <p>It returns a decision, a risk score and the probability of each issue in a fixed catalogue. Systems run in one of
+        three modes: <strong>prompt</strong> (one call), <strong>workflow</strong> (fixed typed questions, with fixed policy code
+        turning the answers into a decision) or <strong>agent</strong> (any harness, in a locked-down container).</p>
+<pre><span class="c">// a prediction</span>
+{"case_id": "tf-0042", "decision": "review", "score": 0.71, "industry": "H_INVESTMENT",
+ "issues": {"OWNER_MISMATCH": 0.92, "SANCTIONS_HIT": 0.02, ...}}</pre>
+      <h3>What the cases contain</h3>
+      <div class="grid4">
+        <div class="card"><b>Real shutdowns</b><p>Companies the Insolvency Service later wound up in the public interest, frozen 90 days before the first public sign.</p></div>
+        <div class="card"><b>Planted issues</b><p>Ordinary companies with a problem planted in the application, such as an owner missing from the register or a sanctioned director.</p></div>
+        <div class="card"><b>Policy cases</b><p>High-risk and prohibited industries, missing licences and politically exposed people.</p></div>
+        <div class="card"><b>Future risk</b><p>Companies whose registered address the registrar later rejected. Scored as a ranking only.</p></div>
+      </div>
+
+      <h3 id="examples">Three real cases</h3>
+      <p>From the public validation split, shown the way a system receives them, with the answer key and what four systems
+        decided. People appear as initials; the planted case's company is withheld because its application was altered for the benchmark.</p>
+      <figure>
+        <div class="fig-head"><div class="seg" role="tablist" id="ex-tabs"></div></div>
+        <div id="ex-panel"><p class="label">Loading examples…</p></div>
+      </figure>
+    </section>
+
+    <section id="grading">
+      <h2>Grading</h2>
+      <ol class="steps">
+        <li><strong>Ranking:</strong> PR-AUC of the risk score, with the cases the answer key declines (real shutdowns, planted
+          issues that warrant a decline, prohibited or unlicensed activity) as positives. It needs no cost assumptions and no thresholds.</li>
+        <li><strong>Decisions:</strong> the share of bad cases declined and the share of good businesses stopped.</li>
+        <li><strong>Efficiency:</strong> every case records a trace, priced from a published monthly price table, so model cost per case is comparable across systems.</li>
+        <li>Test submissions return aggregate metrics only; groups under 10 cases are not reported.</li>
+      </ol>
+      <dl class="defs">
+        <dt><span class="dec approve">Approve</span></dt><dd>A good business with nothing that needs a closer look.</dd>
+        <dt><span class="dec review">Review</span></dt><dd>Something an analyst should check: a high-risk industry, a politically exposed person, a licence that may be needed.</dd>
+        <dt><span class="dec decline">Decline</span></dt><dd>A business the policy says to stop: a real shutdown, a planted mismatch or screening hit, a prohibited or unlicensed activity.</dd>
+      </dl>
+    </section>
+
+    <section id="submit">
+      <h2>Submit</h2>
+      <p>Any system that maps a case to a decision can enter: a decision model, a classical model, an LLM with a prompt, or an agent.</p>
+<pre>pip install kybbench
+kybbench download                <span class="c"># pilot and validation with labels, test splits without</span>
+
+<span class="c"># run your system: predict(case) -> prediction</span>
+kybbench run --cases data/validation/cases.jsonl --system my_system:predict \
+  --name my-system --type llm --mode prompt --out runs/my-system
+kybbench eval --labels data/validation/labels.json --preds runs/my-system/predictions.jsonl
+
+KYB_SUBMIT_KEY=... kybbench submit --split test_fresh \
+  --preds runs/my-system/predictions.jsonl --name my-system</pre>
+      <ol class="steps">
+        <li>Implement <code>predict(case)</code>, recording model calls with the harness so the trace is complete.</li>
+        <li>Tune on validation only. It is the only labelled data any system may use.</li>
+        <li>Request a submitter key by opening an issue on <a href="https://github.com/finic-ai/kyb-bench">GitHub</a>.</li>
+        <li>Submit test predictions; open a pull request with predictions, traces and metadata to appear here.</li>
+      </ol>
+    </section>
+
+    <section id="limits">
+      <h2>Limitations</h2>
+      <ul class="points">
+        <li>Labels were made by research agents and checked against registers, not audited by people. Industry labels with
+          low confidence are left unscored.</li>
+        <li>Web evidence is thin: few small UK companies have archived websites from before their case date.</li>
+        <li>Real shutdowns are few (59 of 2,164 test cases), so results on them alone are noisy.</li>
+        <li>Finic builds Grayson, one of the evaluated systems. Every system is scored by the same grader on the same hidden labels.</li>
+      </ul>
+      <footer>Cases are built from public records of real UK companies (Companies House data under the Open Government Licence).
+        Every application is constructed for the benchmark, some contain deliberately altered details, and nothing here implies
+        wrongdoing by any named company or person beyond existing public records. Code under the MIT License.</footer>
+    </section>
+  </main>
+</div>
+
+<script>
+const fmt = {
+  pct: v => v == null ? "—" : Math.round(v * 100) + "%",
+  num: v => v == null ? "—" : v.toFixed(2),
+};
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+// theme
+(() => {
+  const root = document.documentElement;
+  try { const t = localStorage.getItem("theme"); if (t) root.dataset.theme = t; } catch (e) {}
+  document.getElementById("theme").addEventListener("click", () => {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    root.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+  });
+})();
+
+// leaderboard
+let data = { test: [] };
+const LO = 0.4, HI = 1.0, pos = v => Math.max(0, Math.min(100, (v - LO) / (HI - LO) * 100));
+function render() {
+  const rows = [...(data.test || [])].sort((a, b) => b.pr_auc - a.pr_auc);
+  const body = document.getElementById("rows");
+  document.getElementById("lb-count").textContent = rows.length ? `${rows.length} systems · ${rows[0].n_scored} scored cases` : "";
+  if (!rows.length) { body.innerHTML = '<tr><td colspan="5" class="empty">No results yet.</td></tr>'; return; }
+  body.innerHTML = rows.map((r, i) => {
+    const ci = r.pr_auc_ci ? `<span class="ci" style="left:${pos(r.pr_auc_ci[0])}%;width:${pos(r.pr_auc_ci[1]) - pos(r.pr_auc_ci[0])}%"></span>` : "";
+    return `<tr class="${i === 0 ? "top" : ""}">
+      <td class="rank">${i + 1}</td>
+      <td><span class="sys">${esc(r.system)}</span>
+        <span class="sys-meta">${esc(r.org)} · ${esc(r.mode.toLowerCase())}</span></td>
+      <td><div class="score"><b>${fmt.num(r.pr_auc)}</b><div class="track" title="95% interval ${r.pr_auc_ci ? r.pr_auc_ci.map(fmt.num).join("–") : ""}">
+        <span class="fill" style="width:${pos(r.pr_auc)}%"></span>${ci}</div></div></td>
+      <td class="num">${fmt.pct(r.good_wrongly_stopped)}</td><td class="num">${fmt.pct(r.bad_declined)}</td></tr>`;
+  }).join("") + `<tr><td></td><td></td><td><div class="axis" style="padding-left:50px"><span>0.4</span><span>0.6</span><span>0.8</span><span>1.0</span></div></td><td colspan="2"></td></tr>`;
+  document.getElementById("lb-note").innerHTML = data.partial && data.partial.length
+    ? `Not ranked because they were run on only part of the test set: ${data.partial.map(esc).join(", ")}.` : "";
+}
+fetch("leaderboard.json", { cache: "no-cache" }).then(r => r.json()).then(d => { data = d; render(); }).catch(() => {
+  document.getElementById("rows").innerHTML = '<tr><td colspan="5" class="empty">Results could not be loaded.</td></tr>';
+});
+
+// examples
+let examples = [];
+function exRender(i) {
+  const e = examples[i];
+  document.querySelectorAll("#ex-tabs button").forEach((b, j) => b.setAttribute("aria-selected", j === i));
+  const cmp = e.comparison.filter(([k]) => k !== "Website").map(([k, a, r, ok]) =>
+    `<tr class="${ok ? "" : "miss"}"><td class="k">${esc(k)}</td><td>${esc(a)}</td><td>${esc(r)}</td><td class="ok">${ok ? "✓" : "✗"}<span class="okt"> ${ok ? "match" : "mismatch"}</span></td></tr>`).join("");
+  const site = e.comparison.find(([k]) => k === "Website");
+  const reg = e.registry;
+  const officers = reg.officers.map(o => `${esc(o.name)} · ${esc(o.role)}, ${esc(o.nationality || "nationality unknown")}, lives in ${esc(o.residence || "unknown")}`).join("<br>");
+  const filings = reg.filings.map(f => `<li><span class="mono">${esc(f.date)}</span><span class="mono">${esc(f.type)}</span><span>${esc(f.what)}</span></li>`).join("");
+  const web = e.web ? `<div class="quote">${esc(e.web.text)}…<span class="src">${esc(e.web.url)} · domain registered ${esc(e.web.domain_created || "unknown")} · archived before the case date</span></div>` : "";
+  const search = e.search.map(r => `<div class="quote"><strong>${esc(r.title)}</strong><br>${esc(r.snippet)}<span class="src">${esc(r.url)}${r.date ? " · " + esc(r.date) : ""}</span></div>`).join("");
+  const evidence = web + search || '<p style="margin:0;font-size:13.5px;color:var(--muted)">No website, and no search results archived before the case date.</p>';
+  const screening = Object.entries(e.screening).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("");
+  const a = e.answer;
+  const issues = a.issues.map(x => `<span class="chip">${esc(x)}</span>`).join("");
+  const outcome = a.source ? `<p class="src">Outcome made public ${esc(a.outcome_date)}: <a href="${esc(a.source)}" rel="noopener">Insolvency Service announcement</a>.</p>` : "";
+  const verdicts = e.answers.map(x => `<div class="verdict ${x.decision === a.decision ? "" : "wrong"}">
+      <div class="row"><span class="name">${esc(x.system)}</span><span class="dec ${esc(x.decision)}">${esc(x.decision)}</span></div>
+      <div class="row"><span class="meta">${esc(x.mode)} · risk ${x.score.toFixed(2)}</span></div>
+      <div>${x.issues.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div></div>`).join("");
+  document.getElementById("ex-panel").innerHTML = `
+    <div class="case-head"><h4>${esc(e.title)}</h4><span class="mono">${esc(e.company)} · ${esc(e.case_id)} · frozen ${esc(e.as_of)}</span></div>
+    <div class="card"><span class="label">Application vs Companies House</span>
+      <table class="cmp"><colgroup><col class="k"><col><col><col class="ok"></colgroup>
+        <thead><tr><th></th><th>Application</th><th>Companies House</th><th></th></tr></thead><tbody>${cmp}</tbody></table>
+      <p style="margin:8px 0 0;font-size:13px;color:var(--muted)">Website given: ${esc(site ? site[1] : "none")}</p></div>
+    <div class="two-col">
+      <div class="card"><span class="label">Registry at the case date</span>
+        <dl class="kv"><dt>Status</dt><dd>${esc(reg.status)}</dd><dt>Incorporated</dt><dd>${esc(reg.incorporated)}</dd><dt>Officers</dt><dd>${officers}</dd></dl>
+        <ul class="filings">${filings}</ul>
+        <p style="margin:6px 0 0;font-size:12px;color:var(--muted)">${reg.n_filings} filings on record, latest first.</p></div>
+      <div>
+        <div class="card"><span class="label">Web evidence</span>${evidence}</div>
+        <div class="card"><span class="label">Screening</span><dl class="kv">${screening}</dl></div>
+      </div>
+    </div>
+    <div class="card answer"><span class="label">Answer key</span><span class="dec ${esc(a.decision)}">${esc(a.decision)}</span> ${issues}
+      <p>${esc(a.why)}</p>${outcome}</div>
+    <span class="label" style="display:block;margin-top:18px">What systems decided</span>
+    <div class="verdicts">${verdicts}</div>`;
+}
+fetch("examples.json", { cache: "no-cache" }).then(r => r.json()).then(d => {
+  examples = d;
+  document.getElementById("ex-tabs").innerHTML = d.map((e, i) => `<button role="tab" aria-selected="${i === 0}" data-i="${i}">${esc(e.title)}</button>`).join("");
+  document.querySelectorAll("#ex-tabs button").forEach(b => b.addEventListener("click", () => exRender(+b.dataset.i)));
+  exRender(0);
+}).catch(() => { document.getElementById("ex-panel").innerHTML = '<p class="label">Examples could not be loaded.</p>'; });
+
+// contents: highlight the section in view
+(() => {
+  const links = [...document.querySelectorAll("#toc a")];
+  const targets = links.map(a => document.querySelector(a.getAttribute("href")));
+  const onScroll = () => {
+    let cur = 0;
+    targets.forEach((t, i) => { if (t && t.getBoundingClientRect().top < 140) cur = i; });
+    links.forEach((a, i) => a.classList.toggle("on", i === cur));
+  };
+  addEventListener("scroll", onScroll, { passive: true }); onScroll();
+})();
+</script>
+</body>
+</html>

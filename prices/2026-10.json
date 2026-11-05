@@ -1,0 +1,56 @@
+{
+  "note": "List prices on 2026-10-01. Claude prices from Anthropic's pricing (Haiku 5.5 at the up-to-100K-token rate). Decision-model prices are what the vendor declares; 0 until declared. OpenRouter models priced at OpenRouter's listed per-token rates on 2026-10-29.",
+  "per_tool_call_usd": 0.0,
+  "models": {
+    "claude-opus-5-5": {
+      "input_per_mtok_usd": 4.0,
+      "output_per_mtok_usd": 20.0
+    },
+    "claude-sonnet-5-5": {
+      "input_per_mtok_usd": 2.0,
+      "output_per_mtok_usd": 10.0
+    },
+    "claude-haiku-5-5": {
+      "input_per_mtok_usd": 0.1,
+      "output_per_mtok_usd": 0.5
+    },
+    "grayson-1": {
+      "per_call_usd": 0.0
+    },
+    "scorecard": {
+      "per_call_usd": 0.0
+    },
+    "anthropic/claude-haiku-5.5": {
+      "input_per_mtok_usd": 0.1,
+      "output_per_mtok_usd": 0.5
+    },
+    "openai/gpt-6-luna": {
+      "input_per_mtok_usd": 0.1,
+      "output_per_mtok_usd": 0.5
+    },
+    "google/gemini-3.8-flash": {
+      "input_per_mtok_usd": 0.825,
+      "output_per_mtok_usd": 4.125
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "input_per_mtok_usd": 0.045,
+      "output_per_mtok_usd": 0.5
+    },
+    "z-ai/glm-5.3": {
+      "input_per_mtok_usd": 0.0699,
+      "output_per_mtok_usd": 1.4
+    },
+    "qwen/qwen3.8-flash": {
+      "input_per_mtok_usd": 0.15,
+      "output_per_mtok_usd": 0.47
+    },
+    "anthropic/claude-sonnet-5.5": {
+      "input_per_mtok_usd": 2.0,
+      "output_per_mtok_usd": 10.0
+    },
+    "openai/gpt-6.1-sol": {
+      "input_per_mtok_usd": 2.0,
+      "output_per_mtok_usd": 10.0
+    }
+  }
+}

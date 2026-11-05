@@ -1,0 +1,47 @@
+{
+ "splits": {
+  "pilot": {
+   "n_cases": 100,
+   "cases": {
+    "file": "pilot.cases.jsonl.gz",
+    "sha256": "bf429e053206af32f4bff1d10b86f399a57028b97d904654345240e243dc9e2c",
+    "bytes": 65871
+   },
+   "labels": {
+    "file": "pilot.labels.json.gz",
+    "sha256": "6b244b4587f98482f4511c5872a2d4d230bf0b3f2088b6c37db19a3edd449717",
+    "bytes": 7519
+   }
+  },
+  "validation": {
+   "n_cases": 276,
+   "cases": {
+    "file": "validation.cases.jsonl.gz",
+    "sha256": "693f0ce28a2df5163427e2e8e2706a75495247f5983dbe175fd3f6583090ed1b",
+    "bytes": 157355
+   },
+   "labels": {
+    "file": "validation.labels.json.gz",
+    "sha256": "342eca98494dc7a19d05ef5c74edaba36e50dab47be26061d2c3944141a9b98d",
+    "bytes": 18457
+   }
+  },
+  "test_fresh": {
+   "n_cases": 333,
+   "cases": {
+    "file": "test_fresh.cases.jsonl.gz",
+    "sha256": "945ae4c88aca475576f9d6122e5c19019f2454200db1bcb03a267568b031910f",
+    "bytes": 151647
+   }
+  },
+  "test_historical": {
+   "n_cases": 1831,
+   "cases": {
+    "file": "test_historical.cases.jsonl.gz",
+    "sha256": "f2f87e96023c5c1a703a53eca6a12eb45e11fff00be1c569cff10a35fddc9117",
+    "bytes": 874472
+   }
+  }
+ },
+ "notice": "Cases are built from public registry records of real UK companies, but every application is constructed for this benchmark. Some applications contain deliberately altered details. Nothing in this data implies wrongdoing by any named company or person beyond existing public records."
+}

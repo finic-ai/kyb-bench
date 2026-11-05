@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "note": "Frozen before any test run. One yes/no question per catalogue issue, then general risk questions. Never tuned on test labels.",
+  "issues": {
+    "OWNER_MISMATCH": "Is any owner stated in the application missing from the company's beneficial-ownership (PSC) register?",
+    "DIRECTOR_MISMATCH": "Is any director stated in the application missing from the company's registered officers?",
+    "DISQUALIFIED_DIRECTOR": "Is any stated director or registered officer a disqualified director?",
+    "STATUS_MISMATCH": "Is the company dissolved, struck off or in liquidation as of the case date?",
+    "SANCTIONS_HIT": "Does any stated director or owner match a sanctions list entry?",
+    "CLONED_WEBSITE": "Does the website text look copied from another company's website rather than written for this business?",
+    "ADDRESS_MASS_REG": "Is the registered office a mass-registration address shared by more than 500 companies?",
+    "NEW_DOMAIN": "Was the website's domain created less than 30 days before the case date?",
+    "ACTIVITY_MISMATCH": "Does the stated industry disagree with the registered industry codes or with what the website describes?",
+    "VOLUME_IMPLAUSIBLE": "Is the expected monthly volume implausible for a company of this age and size?"
+  },
+  "general": {
+    "real_operating_business": "Does this look like a real, operating business rather than a shell or front?",
+    "control_concealed": "Does the ownership or control of this company look deliberately obscured?",
+    "story_consistent": "Is everything in the application consistent with the registry record and the website?",
+    "analyst_concern": "Would an experienced KYB analyst have concerns about onboarding this business?",
+    "should_decline": "Should this business be declined for onboarding?"
+  }
+}

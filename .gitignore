@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.env
+data/cache/
+runs/
+.vercel/
+.vercel
+.env*
+data/labels/raw/
+data/test_*/labels.json
+data/test_*/industry_evidence.json
+data/shutdowns/labels.json
+kybbench/_bundled/
+dist/
+
+# kept private: they would reveal test labels, or are internal write-ups
+data/labels/
+data/shutdowns/
+analysis/
+data/test_*/

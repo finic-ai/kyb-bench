@@ -1,0 +1,245 @@
+{
+ "updated": "2026-11-09",
+ "note": "Labels are model-made and have not been audited by people.",
+ "n_cases": 2164,
+ "test": [
+  {
+   "system": "Grayson",
+   "org": "Finic",
+   "type": "Decision model",
+   "mode": "Workflow",
+   "pr_auc": 0.948,
+   "pr_auc_ci": [
+    0.933,
+    0.962
+   ],
+   "good_wrongly_stopped": 0.13,
+   "bad_declined": 0.901,
+   "accuracy": 0.874,
+   "future_risk_roc_auc": 0.711,
+   "cost_per_decision_usd": null,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "Jev",
+   "org": "TypeSafe",
+   "type": "Decision model",
+   "mode": "Workflow",
+   "pr_auc": 0.934,
+   "pr_auc_ci": [
+    0.916,
+    0.95
+   ],
+   "good_wrongly_stopped": 0.317,
+   "bad_declined": 0.935,
+   "accuracy": 0.725,
+   "future_risk_roc_auc": 0.686,
+   "cost_per_decision_usd": null,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "GPT-6 Luna",
+   "org": "OpenAI",
+   "type": "LLM",
+   "mode": "Workflow",
+   "pr_auc": 0.885,
+   "pr_auc_ci": [
+    0.856,
+    0.916
+   ],
+   "good_wrongly_stopped": 0.078,
+   "bad_declined": 0.888,
+   "accuracy": 0.899,
+   "future_risk_roc_auc": 0.739,
+   "cost_per_decision_usd": 0.00054,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "Claude Haiku 5.5",
+   "org": "Anthropic",
+   "type": "LLM",
+   "mode": "Prompt",
+   "pr_auc": 0.834,
+   "pr_auc_ci": [
+    0.805,
+    0.867
+   ],
+   "good_wrongly_stopped": 0.115,
+   "bad_declined": 0.176,
+   "accuracy": 0.73,
+   "future_risk_roc_auc": 0.712,
+   "cost_per_decision_usd": 0.0011,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "Claude Haiku 5.5",
+   "org": "Anthropic",
+   "type": "LLM",
+   "mode": "Workflow",
+   "pr_auc": 0.822,
+   "pr_auc_ci": [
+    0.781,
+    0.867
+   ],
+   "good_wrongly_stopped": 0.048,
+   "bad_declined": 0.897,
+   "accuracy": 0.911,
+   "future_risk_roc_auc": 0.722,
+   "cost_per_decision_usd": 0.0011,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "Claude Code + Claude Haiku 5.5",
+   "org": "Anthropic",
+   "type": "LLM agent",
+   "mode": "Agent",
+   "pr_auc": 0.813,
+   "pr_auc_ci": [
+    0.776,
+    0.849
+   ],
+   "good_wrongly_stopped": 0.165,
+   "bad_declined": 0.131,
+   "accuracy": 0.686,
+   "future_risk_roc_auc": 0.679,
+   "cost_per_decision_usd": 0.00495,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "GPT-6 Luna",
+   "org": "OpenAI",
+   "type": "LLM",
+   "mode": "Prompt",
+   "pr_auc": 0.784,
+   "pr_auc_ci": [
+    0.743,
+    0.818
+   ],
+   "good_wrongly_stopped": 0.063,
+   "bad_declined": 0.28,
+   "accuracy": 0.788,
+   "future_risk_roc_auc": 0.69,
+   "cost_per_decision_usd": 0.00059,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "Rules scorecard",
+   "org": "Baseline",
+   "type": "Rules",
+   "mode": "Workflow",
+   "pr_auc": 0.719,
+   "pr_auc_ci": [
+    0.654,
+    0.75
+   ],
+   "good_wrongly_stopped": 0.077,
+   "bad_declined": 0.886,
+   "accuracy": 0.879,
+   "future_risk_roc_auc": 0.487,
+   "cost_per_decision_usd": 0.0,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "DeepSeek V4.1 Flash",
+   "org": "DeepSeek",
+   "type": "LLM",
+   "mode": "Workflow",
+   "pr_auc": 0.681,
+   "pr_auc_ci": [
+    0.626,
+    0.727
+   ],
+   "good_wrongly_stopped": 0.247,
+   "bad_declined": 0.813,
+   "accuracy": 0.742,
+   "future_risk_roc_auc": 0.54,
+   "cost_per_decision_usd": 0.00157,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "GLM-5.3",
+   "org": "Z.ai",
+   "type": "LLM",
+   "mode": "Workflow",
+   "pr_auc": 0.649,
+   "pr_auc_ci": [
+    0.601,
+    0.705
+   ],
+   "good_wrongly_stopped": 0.452,
+   "bad_declined": 0.88,
+   "accuracy": 0.621,
+   "future_risk_roc_auc": 0.662,
+   "cost_per_decision_usd": 0.00261,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "DeepSeek V4.1 Flash",
+   "org": "DeepSeek",
+   "type": "LLM",
+   "mode": "Prompt",
+   "pr_auc": 0.638,
+   "pr_auc_ci": [
+    0.602,
+    0.694
+   ],
+   "good_wrongly_stopped": 0.075,
+   "bad_declined": 0.535,
+   "accuracy": 0.833,
+   "future_risk_roc_auc": 0.641,
+   "cost_per_decision_usd": 0.00212,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  },
+  {
+   "system": "GLM-5.3",
+   "org": "Z.ai",
+   "type": "LLM",
+   "mode": "Prompt",
+   "pr_auc": 0.416,
+   "pr_auc_ci": [
+    0.379,
+    0.456
+   ],
+   "good_wrongly_stopped": 0.08,
+   "bad_declined": 0.484,
+   "accuracy": 0.808,
+   "future_risk_roc_auc": 0.553,
+   "cost_per_decision_usd": 0.004,
+   "n_scored": 2066,
+   "verified": "reproduced",
+   "date": "2026-11"
+  }
+ ],
+ "partial": [
+  "Claude Sonnet 5.5 (prompt)",
+  "GPT-6.1 Sol (prompt)",
+  "Gemini 3.8 Flash (prompt)",
+  "Qwen3.8 Flash (prompt)",
+  "Claude Sonnet 5.5 (workflow)",
+  "GPT-6.1 Sol (workflow)",
+  "Gemini 3.8 Flash (workflow)",
+  "Qwen3.8 Flash (workflow)"
+ ]
+}

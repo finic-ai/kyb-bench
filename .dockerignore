@@ -1,0 +1,10 @@
+# Nothing secret or label-bearing may enter a harness image
+.env
+.env.*
+.venv/
+.git/
+runs/
+data/pilot/
+data/labels/
+data/cache/
+**/__pycache__/

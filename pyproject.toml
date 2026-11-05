@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kybbench"
+version = "0.1.0"
+description = "KYB-Bench: decide whether to onboard a business, scored on decision quality and cost"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+    "requests>=2.31",
+    "scikit-learn>=1.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+llm = ["anthropic>=2.3", "openai>=3.40"]
+
+[project.scripts]
+kybbench = "kybbench.cli:main"
+
+[project.urls]
+Homepage = "https://www.kyb-bench.com"
+Repository = "https://github.com/finic-ai/kyb-bench"
+
+[tool.setuptools.packages.find]
+include = ["kybbench*"]
+
+[tool.setuptools.package-data]
+# copies of the repository's resource files, made by scripts/bundle_resources.py before a build
+kybbench = ["_bundled/**/*"]

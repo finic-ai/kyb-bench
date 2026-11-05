@@ -1,0 +1,4786 @@
+[
+ {
+  "case_id": "val-002",
+  "company_number": "12453759",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12453759/filing-history",
+    "quote": "Accounts for a dormant company made up to 29 February 2024"
+   }
+  ],
+  "note": "Dormant every year since incorporation; no trading despite construction name."
+ },
+ {
+  "case_id": "val-008",
+  "company_number": "14761332",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14761332",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   }
+  ],
+  "note": "Files micro accounts; no web presence found, classified from SIC only."
+ },
+ {
+  "case_id": "val-014",
+  "company_number": "16773650",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16773650",
+    "quote": "62012 - Business and domestic software development"
+   }
+  ],
+  "note": "Newly incorporated, no accounts or web presence found; SIC and name only."
+ },
+ {
+  "case_id": "val-021",
+  "company_number": "14057320",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14057320",
+    "quote": "41100 - Development of building projects"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14057320/filing-history",
+    "quote": "Micro company accounts made up to 30 April 2024"
+   }
+  ],
+  "note": "Trading micro-entity with design-and-build name; no website found."
+ },
+ {
+  "case_id": "val-028",
+  "company_number": "16495248",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16495248",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   }
+  ],
+  "note": "New consultancy, no accounts or web presence found; name and SIC only."
+ },
+ {
+  "case_id": "val-034",
+  "company_number": "17045474",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/17045474",
+    "quote": "41100 - Development of building projects"
+   }
+  ],
+  "note": "Incorporated Feb 2026, no filings beyond incorporation; name and SIC suggest property development."
+ },
+ {
+  "case_id": "val-041",
+  "company_number": "16386115",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16386115",
+    "quote": "47610 - Retail sale of books in specialised stores"
+   }
+  ],
+  "note": "Mixed SICs (books retail, business support, personal services); no web presence found."
+ },
+ {
+  "case_id": "val-047",
+  "company_number": "14682277",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14682277/filing-history",
+    "quote": "Total exemption full accounts made up to 28 February 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14682277/filing-history",
+    "quote": "Fixed assets Tangible assets 3 345,000 245,000"
+   }
+  ],
+  "note": "Holds GBP 345k of tangible assets consistent with a property-letting SIC 68209; no website."
+ },
+ {
+  "case_id": "val-053",
+  "company_number": "11828708",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11828708/filing-history",
+    "quote": "Accounts for a dormant company made up to 28 February 2025"
+   }
+  ],
+  "note": "Dormant since FY2022 (dormant accounts 2022-2025), so classified by own inactivity."
+ },
+ {
+  "case_id": "val-060",
+  "company_number": "15041001",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15041001",
+    "quote": "70221 - Financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15041001/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "No accounts ever filed, compulsorily wound up 2025; SIC only, actual activity unknown."
+ },
+ {
+  "case_id": "val-066",
+  "company_number": "14727710",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://register.fca.org.uk/s/search?q=arbra&type=Companies",
+    "quote": "ARBRA WEALTH MANAGEMENT LTD Reference number: 996592 ... Appointed representative Since 18/05/2023"
+   },
+   {
+    "url": "https://www.citywealthmag.com/news/launch-of-arbra-partners-in-switzerland/",
+    "quote": "asset manager and wealth advisory firm covering alternative assets"
+   }
+  ],
+  "note": "Arbra Partners UK wealth/alternative asset manager; FCA appointed representative (FRN 996592, CH 14727710) since May 2023."
+ },
+ {
+  "case_id": "val-073",
+  "company_number": "10241311",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10241311",
+    "quote": "71111 - Architectural activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10241311/filing-history",
+    "quote": "Total exemption full accounts made up to 30 June 2024"
+   }
+  ],
+  "note": "Trading company with architecture SIC and design-studio name; no website found."
+ },
+ {
+  "case_id": "val-079",
+  "company_number": "11134665",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11134665/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 March 2025"
+   }
+  ],
+  "note": "Dormant every year since 2021 despite financial-services SIC 66190."
+ },
+ {
+  "case_id": "val-085",
+  "company_number": "15785817",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.burleyinwharfedale.org.uk/olicana-gymnastics/",
+    "quote": "affiliated with the Independent Gymnastics Association (IGA)"
+   },
+   {
+    "url": "https://ghyllroydschool.co.uk/?p=1575",
+    "quote": "Ilkley Olicana Gymnastics Club"
+   }
+  ],
+  "note": "Children's gymnastics club at Ghyll Royd School, Burley-in-Wharfedale; sports club (could arguably be L_EDUCATION)."
+ },
+ {
+  "case_id": "val-091",
+  "company_number": "07603703",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07603703",
+    "quote": "66190 - Other activities auxiliary to financial services, except insurance and pension funding"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07603703/filing-history",
+    "quote": "Micro company accounts made up to 31 March 2025"
+   }
+  ],
+  "note": "Trading micro-entity since 2022 (dormant before); no web or FCA match for the company found, activity unknown."
+ },
+ {
+  "case_id": "val-099",
+  "company_number": "12293966",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12293966",
+    "quote": "72110 - Research and experimental development on biotechnology"
+   },
+   {
+    "url": "https://pitchbook.com/profiles/company/528495-31",
+    "quote": "University Spin-Out deal with Tecrea"
+   }
+  ],
+  "note": "Biotech R&D vehicle at the LBIC, the same site as RVC spin-out Tecrea; animal-health research."
+ },
+ {
+  "case_id": "val-105",
+  "company_number": "14775314",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14775314/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 May 2025"
+   }
+  ],
+  "note": "Dormant since incorporation; filed dormant accounts for 2024 and 2025."
+ },
+ {
+  "case_id": "val-113",
+  "company_number": "15025173",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15025173",
+    "quote": "41202 - Construction of domestic buildings"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15025173/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "No accounts ever filed, compulsory winding-up 2026; SIC only."
+ },
+ {
+  "case_id": "val-119",
+  "company_number": "16491100",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16491100",
+    "quote": "33200 - Installation of industrial machinery and equipment"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16491100",
+    "quote": "HIGHPOINT LIFTS LTD 02 Jun 2025 - 26 Aug 2025"
+   }
+  ],
+  "note": "Lift installation/repair company (formerly Highpoint Lifts); no website found."
+ },
+ {
+  "case_id": "val-126",
+  "company_number": "SC645914",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC645914",
+    "quote": "96020 - Hairdressing and other beauty treatment"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC645914/filing-history",
+    "quote": "Micro company accounts made up to 30 November 2020"
+   }
+  ],
+  "note": "Name suggests hair/beauty training, SIC says hairdressing; no web presence, ambiguous."
+ },
+ {
+  "case_id": "val-132",
+  "company_number": "13724117",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13724117",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13724117/filing-history",
+    "quote": "Micro company accounts made up to 30 November 2025"
+   }
+  ],
+  "note": "Online-retail SIC with trading micro accounts; no web presence found."
+ },
+ {
+  "case_id": "val-139",
+  "company_number": "14833579",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14833579",
+    "quote": "47990 - Other retail sale not in stores, stalls or markets"
+   }
+  ],
+  "note": "Non-store retail SIC, toy-like name; no web presence found."
+ },
+ {
+  "case_id": "val-146",
+  "company_number": "05737251",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05737251",
+    "quote": "41100 - Development of building projects"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05737251/filing-history",
+    "quote": "Micro company accounts made up to 31 March 2024"
+   }
+  ],
+  "note": "Trading micro-entity with building SIC; no web presence found."
+ },
+ {
+  "case_id": "val-154",
+  "company_number": "SC585860",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC585860",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://bringo.co.uk/company/300721",
+    "quote": "management consultancy other than financial management"
+   }
+  ],
+  "note": "Trading consultancy micro-entity; only registry-derived directory data found."
+ },
+ {
+  "case_id": "val-160",
+  "company_number": "14430853",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14430853/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2024"
+   }
+  ],
+  "note": "Dormant every year since incorporation despite financial-consultancy name."
+ },
+ {
+  "case_id": "val-166",
+  "company_number": "11440021",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11440021",
+    "quote": "62020 - Information technology consultancy activities"
+   }
+  ],
+  "note": "IT consultancy SIC, accounts overdue since 2022, proposal to strike off; no website found."
+ },
+ {
+  "case_id": "val-172",
+  "company_number": "15560096",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15560096",
+    "quote": "64209 - Activities of other holding companies not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15560096/filing-history",
+    "quote": "Group of companies' accounts made up to 31 August 2025"
+   }
+  ],
+  "note": "Holding company (files group accounts) registered at Bohunt Manor, formerly Melos Capital; classified by its own holding activity."
+ },
+ {
+  "case_id": "val-178",
+  "company_number": "14018524",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14018524",
+    "quote": "47640 - Retail sale of sports goods, fishing gear, camping goods, boats and bicycles"
+   }
+  ],
+  "note": "Sports-goods retail SIC with triathlon name; no shop or website found, channel unknown."
+ },
+ {
+  "case_id": "val-184",
+  "company_number": "04593807",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04593807",
+    "quote": "41100 - Development of building projects"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04593807/filing-history",
+    "quote": "Micro company accounts made up to 31 May 2026"
+   }
+  ],
+  "note": "Long-trading interiors/building micro-entity; no website found."
+ },
+ {
+  "case_id": "val-191",
+  "company_number": "07589782",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://lat.camra.org.uk/viewnode.php?id=40817",
+    "quote": "Millstone Inn, 52 Harvey Lane, Golborne"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07589782",
+    "quote": "56302 - Public houses and bars"
+   }
+  ],
+  "note": "Registered at the Millstone Inn pub with pub SIC; accounts last filed 2014."
+ },
+ {
+  "case_id": "val-197",
+  "company_number": "14733559",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14733559",
+    "quote": "95110 - Repair of computers and peripheral equipment"
+   }
+  ],
+  "note": "Computer/device repair SIC; no web presence found."
+ },
+ {
+  "case_id": "val-203",
+  "company_number": "SC357590",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.find-tender.service.gov.uk/Notice/012891-2022",
+    "quote": "specialist accommodation and housing support service to women"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC357590",
+    "quote": "87900 - Other residential care activities"
+   }
+  ],
+  "note": "Women's Aid charity providing refuge accommodation and housing support under council contract; Care Inspectorate registration not verified."
+ },
+ {
+  "case_id": "val-210",
+  "company_number": "11765653",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11765653",
+    "quote": "81210 - General cleaning of buildings"
+   }
+  ],
+  "note": "Cleaning SIC with trading micro accounts; no web presence found."
+ },
+ {
+  "case_id": "val-216",
+  "company_number": "14552470",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14552470",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14552470/filing-history",
+    "quote": "Final Gazette dissolved via compulsory strike-off"
+   }
+  ],
+  "note": "Never filed accounts, struck off May 2024; SIC only."
+ },
+ {
+  "case_id": "val-222",
+  "company_number": "04597784",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04597784/filing-history",
+    "quote": "Associated company KAM Plastics Ltd ... Nature of business: Plastic recycling and pallet sales"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04597784",
+    "quote": "46900 - Non-specialised wholesale trade"
+   }
+  ],
+  "note": "Long-established pallet trading company per accounts and SIC; no own website found."
+ },
+ {
+  "case_id": "val-228",
+  "company_number": "SC866224",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC866224",
+    "quote": "85590 - Other education not elsewhere classified"
+   }
+  ],
+  "note": "New CIC with education/employment SICs, likely Web3 skills for veterans; no exchange or custody activity evidenced."
+ },
+ {
+  "case_id": "val-234",
+  "company_number": "SC850230",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC850230",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC850230/filing-history",
+    "quote": "First Gazette notice for compulsory strike-off"
+   }
+  ],
+  "note": "No accounts or web presence; SICs include fund management but no evidence of it and no FCA match found."
+ },
+ {
+  "case_id": "val-240",
+  "company_number": "15657785",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://dbrs.morningstar.com/research/458029/morningstar-dbrs-confirms-credit-ratings-on-hermitage-2024-plc",
+    "quote": "backed by a portfolio of equipment hire purchase (HP) and finance lease receivables"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15657785/filing-history",
+    "quote": "Full accounts made up to 31 December 2024"
+   }
+  ],
+  "note": "Securitisation SPV for Haydock Finance business equipment-finance receivables; SPV likely exempt, needs analyst review."
+ },
+ {
+  "case_id": "val-247",
+  "company_number": "16545464",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16545464",
+    "quote": "41202 - Construction of domestic buildings"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16545464/filing-history",
+    "quote": "First Gazette notice for compulsory strike-off"
+   }
+  ],
+  "note": "No accounts filed, strike-off proposed; SIC only."
+ },
+ {
+  "case_id": "val-253",
+  "company_number": "SC710989",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC710989",
+    "quote": "96020 - Hairdressing and other beauty treatment"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC710989/filing-history",
+    "quote": "Micro company accounts made up to 30 September 2025"
+   }
+  ],
+  "note": "Barber shop by name and SIC, trading; no listing found."
+ },
+ {
+  "case_id": "val-260",
+  "company_number": "10498980",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10498980",
+    "quote": "96090 - Other service activities not elsewhere classified"
+   }
+  ],
+  "note": "Trading micro-entity with generic services SIC; no web presence found."
+ },
+ {
+  "case_id": "val-267",
+  "company_number": "NI628743",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/NI628743/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 January 2017"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/NI628743/filing-history",
+    "quote": "Restoration by order of the court"
+   }
+  ],
+  "note": "Dormant-only filings (2016-2018), then restored 2024 with no new accounts; no FCA entry found under this name."
+ },
+ {
+  "case_id": "val-273",
+  "company_number": "12443206",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12443206",
+    "quote": "56103 - Take-away food shops and mobile food stands"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12443206",
+    "quote": "RAJAS DELUXE FOOD LIMITED"
+   }
+  ],
+  "note": "Takeaway SIC, trading accounts; no listing found for the business."
+ },
+ {
+  "case_id": "val-280",
+  "company_number": "05751895",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05751895",
+    "quote": "93290 - Other amusement and recreation activities not elsewhere classified"
+   }
+  ],
+  "note": "Family-run trading company; actual activity (cushion supply/hire?) not confirmed online."
+ },
+ {
+  "case_id": "val-286",
+  "company_number": "11530701",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://gust.com/companies/la-sororite",
+    "quote": "social impact company that empowers women in Nepal"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11530701",
+    "quote": "47710 - Retail sale of clothing in specialised stores"
+   }
+  ],
+  "note": "Luxury cashmere fashion brand founded July 2018 (lasororite.com); sales channel not confirmed."
+ },
+ {
+  "case_id": "val-292",
+  "company_number": "14621029",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14621029",
+    "quote": "96090 - Other service activities not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14621029/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "No accounts filed, compulsorily wound up 2024; name only."
+ },
+ {
+  "case_id": "val-003",
+  "company_number": "15786656",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15786656",
+    "quote": "47990 - Other retail sale not in stores, stalls or markets"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15786656/filing-history",
+    "quote": "Micro company accounts made up to 30 June 2025"
+   },
+   {
+    "url": "https://bizenglish.adaderana.lk/ceylon-hibiscus-becomes-the-first-sri-lankan-company-to-cultivate-export-quality-roselle-hibiscus-tea",
+    "quote": "Ceylon Hibiscus becomes the first Sri Lankan Company to cultivate export-quality Roselle Hibiscus Tea"
+   }
+  ],
+  "note": "Likely UK sales arm for a Sri Lankan hibiscus tea producer (name link only); non-store retail per SIC; no own website found."
+ },
+ {
+  "case_id": "val-009",
+  "company_number": "15023857",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://gov.uk/government/news/firms-which-took-customers-deposits-but-didnt-fit-their-kitchens-are-shut-down-following-phoenix-concerns",
+    "quote": "A phoenix company, Connect Kitchens Limited, was suspected of being set up to continue the same operation."
+   },
+   {
+    "url": "https://thegazette.co.uk/notice/4812385",
+    "quote": "Winding-Up Orders"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15023857",
+    "quote": "31020 - Manufacture of kitchen furniture"
+   }
+  ],
+  "note": "Kitchen supply-and-install retailer (successor to kitchen-fitting firms) wound up by the Insolvency Service in Feb 2025; kitchen fitting treated as building trade."
+ },
+ {
+  "case_id": "val-015",
+  "company_number": "14931550",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14931550/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 June 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14931550",
+    "quote": "99999 - Dormant Company"
+   }
+  ],
+  "note": "Dormant company (formerly Dreams Catcher Limited) filing dormant accounts."
+ },
+ {
+  "case_id": "val-022",
+  "company_number": "SC581603",
+  "industry": "H_TRAVEL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC581603",
+    "quote": "79120 - Tour operator activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC581603/filing-history",
+    "quote": "Micro company accounts made up to 30 November 2019"
+   }
+  ],
+  "note": "Only SIC indicates tour operating; micro accounts show small trading balances to 2019, accounts overdue since; no website found."
+ },
+ {
+  "case_id": "val-029",
+  "company_number": "11919197",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11919197",
+    "quote": "49410 - Freight transport by road"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11919197/filing-history",
+    "quote": "Restoration by order of the court"
+   }
+  ],
+  "note": "Road haulage per SIC only; dissolved 2021, restored 2022, no filings since 2021."
+ },
+ {
+  "case_id": "val-035",
+  "company_number": "14725295",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14725295",
+    "quote": "43390 - Other building completion and finishing"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14725295/filing-history",
+    "quote": "Micro company accounts made up to 31 March 2025"
+   }
+  ],
+  "note": "Name suggests a holding company for a cladding business; micro accounts give no activity; could instead be a construction trader."
+ },
+ {
+  "case_id": "val-042",
+  "company_number": "10611336",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10611336/filing-history",
+    "quote": "Accounts for a dormant company made up to 6 March 2024"
+   }
+  ],
+  "note": "Files dormant accounts despite hospitality SIC codes."
+ },
+ {
+  "case_id": "val-048",
+  "company_number": "07501365",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://register.fca.org.uk/s/search?q=H-J%20Wealth%20Planning&type=Companies",
+    "quote": "H-J Wealth Planning Limited Reference number: 518901"
+   },
+   {
+    "url": "https://register.fca.org.uk/s/search?q=H-J%20Wealth%20Planning&type=Companies",
+    "quote": "Status Appointed representative Since 01/03/2010"
+   }
+  ],
+  "note": "Wealth planning firm; FCA appointed representative (FRN 518901), contact email on sjpp.co.uk indicating St. James's Place partner practice."
+ },
+ {
+  "case_id": "val-055",
+  "company_number": "14525206",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14525206/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2024"
+   }
+  ],
+  "note": "Dormant company despite vehicle-repair SIC."
+ },
+ {
+  "case_id": "val-061",
+  "company_number": "14852534",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14852534/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 May 2025"
+   }
+  ],
+  "note": "Dormant company despite specialist medical SIC."
+ },
+ {
+  "case_id": "val-067",
+  "company_number": "15284259",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15284259",
+    "quote": "68100 - Buying and selling of own real estate"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15284259/filing-history",
+    "quote": "Total exemption full accounts made up to 30 July 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15284259/filing-history",
+    "quote": "Fixed assets Investment property 4 740,000 525,128 (accounts to 30 July 2025)"
+   }
+  ],
+  "note": "Property-owning company holding investment property (\u00a3740k) with seven registered charges."
+ },
+ {
+  "case_id": "val-074",
+  "company_number": "10118847",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10118847",
+    "quote": "46719 - Wholesale of other fuels and related products 64921 - Credit granting by non-deposit taking finance houses"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10118847/filing-history",
+    "quote": "Total exemption full accounts made up to 31 July 2025"
+   }
+  ],
+  "note": "Mixed SICs (fuel wholesale, credit, property); accounts show only debtors/creditors; no website or FCA entry found; activity unconfirmed."
+ },
+ {
+  "case_id": "val-080",
+  "company_number": "06912995",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06912995/filing-history",
+    "quote": "Accounts for a dormant company made up to 24 May 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06912995/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "Files dormant accounts; compulsorily wound up 2025."
+ },
+ {
+  "case_id": "val-086",
+  "company_number": "16415237",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16415237",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16415237/filing-history",
+    "quote": "Registration of charge 164152370001, created on 27 August 2025"
+   }
+  ],
+  "note": "New letting company with a registered charge, consistent with a mortgaged rental property; no accounts yet."
+ },
+ {
+  "case_id": "val-092",
+  "company_number": "14036529",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14036529",
+    "quote": "64921 - Credit granting by non-deposit taking finance houses and other specialist consumer credit grantors"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14036529/filing-history",
+    "quote": "Other debtors 869,723 ... Other creditors 850,771 (accounts to 30 April 2025)"
+   },
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Secured%20Property%20Lending&type=Companies",
+    "quote": "Unfortunately, we didn't find any results matching your search term"
+   }
+  ],
+  "note": "Property-secured lender (name, SIC, funded loan book) not on FCA Register; may be exempt business/property lending, so high-risk review rather than prohibited."
+ },
+ {
+  "case_id": "val-100",
+  "company_number": "16474372",
+  "industry": "L_MANUFACTURING",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16474372",
+    "quote": "10710 - Manufacture of bread; manufacture of fresh pastry goods and cakes 56102 - Unlicensed restaurants and cafes"
+   }
+  ],
+  "note": "Bakery/cafe per SIC only; no accounts or website found."
+ },
+ {
+  "case_id": "val-106",
+  "company_number": "16444754",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16444754",
+    "quote": "68100 - Buying and selling of own real estate"
+   },
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Vision%20Lending%20Services&type=Companies",
+    "quote": "Unfortunately, we didn't find any results matching your search term"
+   }
+  ],
+  "note": "SIC says property dealing though name suggests lending; not on FCA Register; no accounts or website."
+ },
+ {
+  "case_id": "val-114",
+  "company_number": "08857731",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08857731",
+    "quote": "46900 - Non-specialised wholesale trade 70229 - Management consultancy activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08857731/filing-history",
+    "quote": "Micro company accounts made up to 31 January 2018"
+   }
+  ],
+  "note": "Consultancy/wholesale per SIC only; entered CVL in 2019."
+ },
+ {
+  "case_id": "val-120",
+  "company_number": "OC419270",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/OC419270/filing-history",
+    "quote": "Atherton Corporate Partners LLP Filleted Unaudited Financial Statements 30 September 2022"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/OC419270/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "LLP with no SIC; accounts show only member balances; no website; activity unknown, wound up by court 2026."
+ },
+ {
+  "case_id": "val-127",
+  "company_number": "16421219",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16421219",
+    "quote": "56302 - Public houses and bars"
+   }
+  ],
+  "note": "Pub/bar per SIC only; no accounts or venue found."
+ },
+ {
+  "case_id": "val-133",
+  "company_number": "13696964",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13696964/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 October 2025"
+   }
+  ],
+  "note": "Dormant since incorporation despite insulation SIC."
+ },
+ {
+  "case_id": "val-140",
+  "company_number": "16537398",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16537398",
+    "quote": "47820 - Retail sale via stalls and markets of textiles, clothing and footwear"
+   }
+  ],
+  "note": "Market-stall clothing retail per SIC only; no accounts filed, strike-off proposed."
+ },
+ {
+  "case_id": "val-148",
+  "company_number": "16254613",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16254613",
+    "quote": "58110 - Book publishing 58141 - Publishing of learned journals"
+   }
+  ],
+  "note": "Publishing per SIC only; no accounts or website found."
+ },
+ {
+  "case_id": "val-155",
+  "company_number": "10506334",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Easi%20Route&type=Companies",
+    "quote": "Easi Route Ltd Reference number: 825943 Also known as Easi Route Equity Release No longer authorised"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10506334/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2025"
+   }
+  ],
+  "note": "Former FCA-authorised equity release broker; authorisation ended 09/12/2024 and company dormant for 2025, so no current regulated activity at case date."
+ },
+ {
+  "case_id": "val-161",
+  "company_number": "11698915",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11698915",
+    "quote": "43390 - Other building completion and finishing"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11698915/filing-history",
+    "quote": "Restoration by order of the court"
+   }
+  ],
+  "note": "Building finishing per SIC only; dissolved 2021, restored 2023, no filings since."
+ },
+ {
+  "case_id": "val-167",
+  "company_number": "08095445",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Cresta%20Alternatives&type=Companies",
+    "quote": "Cresta Alternatives Ltd Reference number: 594443 No longer registered as an Appointed Representative"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08095445",
+    "quote": "64999 - Financial intermediation not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08095445/filing-history",
+    "quote": "Micro company accounts made up to 30 June 2025"
+   }
+  ],
+  "note": "Alternative-investment intermediary; FCA AR status ended 15/12/2022 but still trading (3 staff); may operate under another firm or exempt basis, so review."
+ },
+ {
+  "case_id": "val-173",
+  "company_number": "07363429",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07363429",
+    "quote": "61900 - Other telecommunications activities Previous company names LINCOM (SOUTH EAST) LTD"
+   }
+  ],
+  "note": "Telecoms SIC from former name Lincom; renamed Essex Angling 2017; actual trade unconfirmed; voluntary strike-off filed 2024."
+ },
+ {
+  "case_id": "val-179",
+  "company_number": "16440681",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16440681",
+    "quote": "64209 - Activities of other holding companies not elsewhere classified"
+   },
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Oxford%20Garden%20Capital&type=Companies",
+    "quote": "Unfortunately, we didn't find any results matching your search term"
+   }
+  ],
+  "note": "Holding company per SIC; no accounts yet; not on FCA Register."
+ },
+ {
+  "case_id": "val-185",
+  "company_number": "SC618290",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC618290",
+    "quote": "35230 - Trade of gas through mains"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC618290/filing-history",
+    "quote": "Total exemption full accounts made up to 31 January 2022"
+   }
+  ],
+  "note": "Plumbing and heating trade inferred from name; accounts overdue since 2023."
+ },
+ {
+  "case_id": "val-192",
+  "company_number": "14782581",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14782581",
+    "quote": "86210 - General medical practice activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14782581/filing-history",
+    "quote": "Micro company accounts made up to 30 April 2025"
+   }
+  ],
+  "note": "Medical practice per SIC only; no CQC or website evidence found; likely a doctor's personal service company."
+ },
+ {
+  "case_id": "val-198",
+  "company_number": "14768142",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14768142",
+    "quote": "74909 - Other professional, scientific and technical activities not elsewhere classified"
+   }
+  ],
+  "note": "Environmental policy consultancy inferred from name and SIC; micro accounts only."
+ },
+ {
+  "case_id": "val-204",
+  "company_number": "16683260",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16683260",
+    "quote": "56102 - Unlicensed restaurants and cafes"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16683260/filing-history",
+    "quote": "Registration of charge 166832600001, created on 29 June 2026"
+   }
+  ],
+  "note": "Cafe/restaurant per SIC; no accounts or venue found."
+ },
+ {
+  "case_id": "val-211",
+  "company_number": "02907116",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/02907116",
+    "quote": "Sadlers Wells, Rosebery Avenue, London ... 90040 - Operation of arts facilities"
+   }
+  ],
+  "note": "Company registered at Sadler's Wells theatre operating arts facilities (likely the venue's trading company)."
+ },
+ {
+  "case_id": "val-217",
+  "company_number": "16467985",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16467985",
+    "quote": "88990 - Other social work activities without accommodation not elsewhere classified"
+   }
+  ],
+  "note": "Personal-name company with social-work SIC only; no accounts or web presence; strike-off notice 2026."
+ },
+ {
+  "case_id": "val-223",
+  "company_number": "05700104",
+  "industry": "M_VEHICLES",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05700104",
+    "quote": "45111 - Sale of new cars and light motor vehicles"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05700104/filing-history",
+    "quote": "Total exemption small company accounts made up to 28 February 2015"
+   }
+  ],
+  "note": "Car sales per SIC; trading accounts filed around case date; no website found."
+ },
+ {
+  "case_id": "val-229",
+  "company_number": "02890762",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/02890762/filing-history",
+    "quote": "Turnover represents rent receivable, net of value added tax."
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/02890762/filing-history",
+    "quote": "Investment property 6 3,532,047"
+   }
+  ],
+  "note": "Property investment and letting company (accounts: rental turnover, \u00a33.5m investment property)."
+ },
+ {
+  "case_id": "val-235",
+  "company_number": "11951779",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11951779",
+    "quote": "46360 - Wholesale of sugar and chocolate and sugar confectionery 46390 - Non-specialised wholesale of food"
+   }
+  ],
+  "note": "Food/confectionery wholesale per SIC; micro accounts only; repeated strike-off notices."
+ },
+ {
+  "case_id": "val-241",
+  "company_number": "07568957",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Tullie_House_Museum_and_Art_Gallery",
+    "quote": "Since May 2011 the museum has been an independent charitable trust"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07568957",
+    "quote": "91020 - Museums activities"
+   }
+  ],
+  "note": "Charitable trust operating Tullie House museum and art gallery in Carlisle."
+ },
+ {
+  "case_id": "val-248",
+  "company_number": "15710786",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15710786",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15710786/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "Consultancy per SIC only; virtual office address, no accounts filed, wound up by court 2026."
+ },
+ {
+  "case_id": "val-255",
+  "company_number": "04655461",
+  "industry": "H_GAMBLING",
+  "regulated_activity": "gambling",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/1938",
+    "quote": "Casino 1968 Act Non-Remote 001938-N-103232-022 Active 1 Jan 2009 Current"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04655461",
+    "quote": "92000 - Gambling and betting activities Previous company names ASPERS (NEWCASTLE) LIMITED"
+   }
+  ],
+  "note": "Operates the Newcastle casino (formerly Aspers); holds active Gambling Commission casino licences."
+ },
+ {
+  "case_id": "val-261",
+  "company_number": "14413060",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14413060/filing-history",
+    "quote": "The principal activity of the Company is to rent and lease environmentally friendly machinery and tangible goods."
+   }
+  ],
+  "note": "Equipment leasing subsidiary of Resonance Limited (renewable assets)."
+ },
+ {
+  "case_id": "val-268",
+  "company_number": "08182589",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08182589/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 August 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08182589",
+    "quote": "74990 - Non-trading company 99999 - Dormant Company"
+   }
+  ],
+  "note": "Dormant non-trading company; now in compulsory liquidation."
+ },
+ {
+  "case_id": "val-275",
+  "company_number": "16415897",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16415897",
+    "quote": "47910 - Retail sale via mail order houses or via Internet 66120 - Security and commodity contracts dealing activities"
+   },
+   {
+    "url": "https://register.fca.org.uk/s/search?q=CP%20Evolve&type=Companies",
+    "quote": "Unfortunately, we didn't find any results matching your search term"
+   }
+  ],
+  "note": "SIC only: online retail plus securities dealing; no accounts, website or FCA entry; trading likely own-account if any."
+ },
+ {
+  "case_id": "val-281",
+  "company_number": "05731428",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05731428",
+    "quote": "64929 - Other credit granting not elsewhere classified Previous company names THE REAL LOAN COMPANY LIMITED"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05731428/filing-history",
+    "quote": "Total exemption small company accounts made up to 31 March 2013"
+   },
+   {
+    "url": "https://register.fca.org.uk/s/search?q=Real%20Bridging&type=Companies",
+    "quote": "Unfortunately, we didn't find any results matching your search term"
+   }
+  ],
+  "note": "Bridging lender by name and SIC; no FCA Register entry; bridging may be exempt property lending, so review."
+ },
+ {
+  "case_id": "val-287",
+  "company_number": "07964746",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://sa.catapult.org.uk/",
+    "quote": "Satellite Applications Catapult"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07964746",
+    "quote": "74909 - Other professional, scientific and technical activities"
+   }
+  ],
+  "note": "Not-for-profit Innovate UK technology and innovation centre providing satellite R&D and business support; R&D/consulting classified as professional services."
+ },
+ {
+  "case_id": "val-293",
+  "company_number": "09486922",
+  "industry": "H_TELEMARKETING",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09486922",
+    "quote": "82200 - Activities of call centres"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09486922/filing-history",
+    "quote": "Micro company accounts made up to 31 March 2020"
+   }
+  ],
+  "note": "Call-centre SIC with energy name suggests outbound energy sales; no website found; dormant filings since 2021."
+ },
+ {
+  "case_id": "val-004",
+  "company_number": "SC585421",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC585421",
+    "quote": "77320 - Renting and leasing of construction and civil engineering machinery and equipment"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC585421/filing-history",
+    "quote": "Micro accounts to 30 April 2022: fixed assets 34,992; average employees 1"
+   }
+  ],
+  "note": "Small plant/equipment hire business per SIC and name; no website found; overdue filings and strike-off proposal."
+ },
+ {
+  "case_id": "val-010",
+  "company_number": "14756698",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://register.fca.org.uk/services/V0.1/Firm/998559",
+    "quote": "Olive Tree Mortgages Limited ... Status: No longer registered as an Appointed Representative; Sub-Status Former from 04/02/2026"
+   },
+   {
+    "url": "https://register.fca.org.uk/services/V0.1/Individuals/JXS00939/CF",
+    "quote": "CF1 Director (AR), RAINSTONE FINANCIAL SERVICES LIMITED, End Date 03/02/2026; current: Advising or arranging regulated mortgage contracts"
+   }
+  ],
+  "note": "Mortgage broker (trading as Faith Financial); was an FCA appointed representative until Feb 2026, before the case date; director now advises under Rainstone's authorisation, so exemption/other-firm route needs review."
+ },
+ {
+  "case_id": "val-016",
+  "company_number": "14705893",
+  "industry": "L_MANUFACTURING",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14705893",
+    "quote": "31020 - Manufacture of kitchen furniture"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14705893/filing-history",
+    "quote": "liquidation-compulsory-winding-up-order (14 Feb 2025)"
+   }
+  ],
+  "note": "Kitchen business by SIC and name only; never filed accounts and was wound up compulsorily; whether it made or only fitted kitchens is unknown."
+ },
+ {
+  "case_id": "val-023",
+  "company_number": "16518389",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16518389",
+    "quote": "43210 - Electrical installation 43220 - Plumbing, heat and air-conditioning installation"
+   }
+  ],
+  "note": "Plumbing and heating trade by name and SIC; incorporated June 2025, no accounts or website found."
+ },
+ {
+  "case_id": "val-030",
+  "company_number": "10744713",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10744713/filing-history",
+    "quote": "FIXED ASSET INVESTMENTS Interest in associate ... 30; Amount due from related party 88,504"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10744713/filing-history",
+    "quote": "Dormant accounts filed for years to April 2018-2021"
+   }
+  ],
+  "note": "Despite fund-management SIC, accounts show only an associate stake and a related-party loan, consistent with a private investment vehicle, not third-party fund management; no FCA record."
+ },
+ {
+  "case_id": "val-037",
+  "company_number": "SC627578",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC627578",
+    "quote": "85530 - Driving school activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC627578/filing-history",
+    "quote": "Average number of employees ... was 0 (2020: 0)"
+   }
+  ],
+  "note": "Forklift training implied by name and SIC only; accounts overdue since 2022 with strike-off action."
+ },
+ {
+  "case_id": "val-043",
+  "company_number": "14055017",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14055017",
+    "quote": "68100 - Buying and selling of own real estate"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14055017/filing-history",
+    "quote": "Cash at bank and in hand 100 ... Net assets 100 ... employees ... 0"
+   }
+  ],
+  "note": "Property-dealing SIC, but accounts show only \u00a3100 cash and no property, so it is effectively inactive."
+ },
+ {
+  "case_id": "val-049",
+  "company_number": "16382477",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16382477",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "Letting company by SIC only; incorporated April 2025 with no accounts or website found."
+ },
+ {
+  "case_id": "val-056",
+  "company_number": "09410818",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09410818",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09410818/filing-history",
+    "quote": "Micro accounts to 31 Jan 2025: current assets 130,135"
+   }
+  ],
+  "note": "Online retail by SIC only; micro accounts give no description of activity."
+ },
+ {
+  "case_id": "val-062",
+  "company_number": "10708317",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10708317",
+    "quote": "46900 - Non-specialised wholesale trade"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10708317/filing-history",
+    "quote": "Plant and machinery etc Motor vehicles Total ... 2,448,081; Average number of persons employed ... 14"
+   }
+  ],
+  "note": "Trading business with stock, plant and 14 staff; wholesale only from SIC, actual line unconfirmed."
+ },
+ {
+  "case_id": "val-068",
+  "company_number": "14733169",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14733169/filing-history",
+    "quote": "Dormant Company Accounts for year to 31 March 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14733169/filing-history",
+    "quote": "Micro accounts to 31 March 2024: CAPITAL AND RESERVES ( 2,468 )"
+   }
+  ],
+  "note": "Exhibition-organiser SIC, but accounts for the year covering the case date are dormant with unchanged balances."
+ },
+ {
+  "case_id": "val-075",
+  "company_number": "12458065",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12458065",
+    "quote": "62012 - Business and domestic software development"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12458065/filing-history",
+    "quote": "liquidation-compulsory-winding-up-order (28 Apr 2025)"
+   }
+  ],
+  "note": "Software/IT by SIC and name only; one set of abridged accounts, then compulsory liquidation."
+ },
+ {
+  "case_id": "val-081",
+  "company_number": "14941616",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14941616",
+    "quote": "90010 - Performing arts"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14941616/filing-history",
+    "quote": "Average number of employees during the period 3"
+   }
+  ],
+  "note": "Performing-arts/stage business by name and SIC; no website found."
+ },
+ {
+  "case_id": "val-087",
+  "company_number": "SC384723",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC384723",
+    "quote": "96090 - Other service activities not elsewhere classified; previous names ARTO RETAIL RENT LIMITED, LOCHCYCLE LIMITED"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC384723/filing-history",
+    "quote": "liquidation-compulsory-notice-winding-up-order-court-scotland (Aug 2024)"
+   }
+  ],
+  "note": "Activity unclear: generic SIC, renamed from Arto Retail Rent to Corporate Rescue in 2023; under court winding-up."
+ },
+ {
+  "case_id": "val-093",
+  "company_number": "05743431",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05743431/filing-history",
+    "quote": "Dormant accounts filed every year 2007-2026 except a 2020 micro-entity set"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05743431/filing-history",
+    "quote": "The principal activity of the company is dormant company"
+   }
+  ],
+  "note": "Dormant nominee-style company (PSC D & A Nominees Limited); dormant accounts either side of the 2015 case date."
+ },
+ {
+  "case_id": "val-101",
+  "company_number": "09585474",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09585474",
+    "quote": "64929 - Other credit granting not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09585474/filing-history",
+    "quote": "Current Assets 84,358 ... Average number of employees during the period 0"
+   },
+   {
+    "url": "https://register.fca.org.uk/services/V0.1/Search?q=DANISH%20VENTURES&type=firm",
+    "quote": "No search result found"
+   }
+  ],
+  "note": "Credit-granting SIC only; static micro accounts and no staff suggest a private vehicle; any lending may be exempt, so needs review."
+ },
+ {
+  "case_id": "val-107",
+  "company_number": "12962600",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12962600",
+    "quote": "46900 - Non-specialised wholesale trade 82301 - Activities of exhibition and fair organisers"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12962600/filing-history",
+    "quote": "Stocks: 34,454 102,544 ... Tangible assets: 287,061"
+   }
+  ],
+  "note": "Accounts show stock and fixed assets, consistent with wholesale trading; in compulsory liquidation since April 2025."
+ },
+ {
+  "case_id": "val-115",
+  "company_number": "SC240018",
+  "industry": "L_MANUFACTURING",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.weldingengineers.co.uk/",
+    "quote": "From industrial doors to steel fabrication, liftgates and shutters, Welding Engineers have offered an extensive range since 1966."
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC240018",
+    "quote": "25110 - Manufacture of metal structures and parts of structures"
+   }
+  ],
+  "note": "Steel fabrication and industrial doors/shutters business at 3 Cardowan Park, Uddingston; the website is the group's (Welding Engineers (Holdings) Limited)."
+ },
+ {
+  "case_id": "val-121",
+  "company_number": "16368729",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16368729",
+    "quote": "56302 - Public houses and bars"
+   }
+  ],
+  "note": "Pub/bar by SIC and name only; no accounts filed, strike-off proposed."
+ },
+ {
+  "case_id": "val-128",
+  "company_number": "16111469",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://liftroller.no/en/liftroller-global-distributors/",
+    "quote": "United Kingdom 4 Cladding Services www.liftrolleruk.com Key contact: Rob Barlow"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16111469",
+    "quote": "47990 - Other retail sale not in stores ... 77390 - Renting and leasing of other machinery"
+   }
+  ],
+  "note": "UK distributor (sale and hire) of Liftroller construction-site logistics equipment, run with 4 Cladding Services; director Robert Barlow."
+ },
+ {
+  "case_id": "val-134",
+  "company_number": "16112844",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16112844/filing-history",
+    "quote": "FIXED ASSETS Investments 4 100 ... Amounts owed to group undertakings 12,150"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16112844",
+    "quote": "64209 - Activities of other holding companies not elsewhere classified"
+   }
+  ],
+  "note": "Pure holding company: accounts show only an investment in a group company and intra-group balances."
+ },
+ {
+  "case_id": "val-141",
+  "company_number": "16113100",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16113100",
+    "quote": "71112 - Urban planning and landscape architectural activities"
+   }
+  ],
+  "note": "Planning/landscape consultancy by SIC only; no accounts filed and strike-off proposed."
+ },
+ {
+  "case_id": "val-149",
+  "company_number": "17068723",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/17068723",
+    "quote": "62090 - Other information technology service activities"
+   }
+  ],
+  "note": "Newly incorporated (March 2026) 'Group Holdings' company with no accounts; holding role implied by name, IT SIC unconfirmed."
+ },
+ {
+  "case_id": "val-156",
+  "company_number": "04606846",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.uk-cpa.org/",
+    "quote": "Strengthen parliaments and democracy."
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04606846",
+    "quote": "94920 - Activities of political organisations; registered office Westminster Hall, Houses Of Parliament"
+   }
+  ],
+  "note": "CPA UK, the UK branch of the Commonwealth Parliamentary Association: a charity (no. 1095118) supporting parliamentary democracy."
+ },
+ {
+  "case_id": "val-162",
+  "company_number": "04626711",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04626711",
+    "quote": "Private Limited Company by guarantee without share capital ... 85600 - Educational support services"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04626711/officers",
+    "quote": "HANDS, Greg William, Right Honourable; LIDINGTON, David Roy, Sir; GOWING, Nicholas Keith"
+   }
+  ],
+  "note": "Non-profit guarantee company behind the British-German K\u00f6nigswinter dialogue forum, judging by its name and board; no website reached."
+ },
+ {
+  "case_id": "val-168",
+  "company_number": "14465268",
+  "industry": "L_MANUFACTURING",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14465268",
+    "quote": "31020 - Manufacture of kitchen furniture 74100 - specialised design activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14465268/filing-history",
+    "quote": "liquidation-compulsory-winding-up-order (18 Apr 2025)"
+   }
+  ],
+  "note": "Kitchen/bathroom business by SIC and name only; same controller as Smart Choice Kitchens; no accounts, wound up compulsorily."
+ },
+ {
+  "case_id": "val-174",
+  "company_number": "14757864",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14757864",
+    "quote": "62020 - Information technology consultancy activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14757864/filing-history",
+    "quote": "Average number of employees ... was 1 (2024: 1)"
+   }
+  ],
+  "note": "One-person IT services company by SIC and name only."
+ },
+ {
+  "case_id": "val-180",
+  "company_number": "03620235",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/03620235/filing-history",
+    "quote": "Turnover represents rent receivable from property."
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/03620235",
+    "quote": "74990 - Non-trading company... previous names COLLEGE FARM VISION LIMITED, COLLEGE FARM TRUST"
+   }
+  ],
+  "note": "Accounts show its income is rent from property it owns (College Farm); PSC includes the Jeremy Coller Foundation."
+ },
+ {
+  "case_id": "val-186",
+  "company_number": "14418855",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14418855/filing-history",
+    "quote": "Dormant Company Accounts - BUSY SECRETARY SERVICE LIMITED ... 31 October 2023"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14418855",
+    "quote": "99999 - Dormant Company"
+   }
+  ],
+  "note": "Only accounts filed are dormant; registered office is the Companies House default address and it is in compulsory liquidation."
+ },
+ {
+  "case_id": "val-193",
+  "company_number": "15673100",
+  "industry": "P_UNLICENSED_FINANCIAL",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15673100",
+    "quote": "64191 - Banking 64921 - Credit granting by non-deposit-taking institutions 64929 - Other credit granting"
+   },
+   {
+    "url": "https://register.fca.org.uk/services/V0.1/Search?q=STERLING%20CASH%20BROKERS&type=firm",
+    "quote": "No search result found"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15673100/filing-history",
+    "quote": "Micro accounts: Total net assets 4,000 ... average number of employees 0"
+   }
+  ],
+  "note": "Banking/credit SICs and 'cash brokers' name, nominee corporate directors, no FCA record (HMRC MSB register not checked); actual activity unconfirmed."
+ },
+ {
+  "case_id": "val-199",
+  "company_number": "13042527",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13042527/charges",
+    "quote": "A registered charge - The Mortgage Works (UK) PLC"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13042527",
+    "quote": "68100 Buying and selling of own real estate 68209 letting 68320 Management of real estate"
+   }
+  ],
+  "note": "Buy-to-let mortgage charge plus letting SICs suggest it owns and lets residential property."
+ },
+ {
+  "case_id": "val-205",
+  "company_number": "07540705",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07540705/filing-history",
+    "quote": "Dormant Company Accounts - MONTANA & MONTANA LIMITED ... 29 February 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07540705/filing-history",
+    "quote": "Dormant accounts for periods to Feb 2023 and Feb 2024"
+   }
+  ],
+  "note": "Dormant at the case date (dormant accounts for 2023 and 2024); later compulsorily wound up."
+ },
+ {
+  "case_id": "val-212",
+  "company_number": "16510610",
+  "industry": "P_UNLICENSED_FINANCIAL",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://saggiocapital.com",
+    "quote": "Gest\u00e3o de Ativos Administra\u00e7\u00e3o profissional de portf\u00f3lios de investimento com foco em resultados consistentes."
+   },
+   {
+    "url": "https://saggiocapital.com",
+    "quote": "Endere\u00e7o 128, City Road, London, EC1V 2NX, UNITED KINGDOM"
+   },
+   {
+    "url": "https://register.fca.org.uk/services/V0.1/Search?q=SAGGIO%20CAPITAL&type=firm",
+    "quote": "No search result found"
+   }
+  ],
+  "note": "London-registered firm advertising portfolio management, private equity and fund-raising with no FCA record; services may be provided abroad, but no exemption shown."
+ },
+ {
+  "case_id": "val-218",
+  "company_number": "08044175",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08044175/filing-history",
+    "quote": "Dormant Company Accounts - SUPERMARKET PLUS LTD ... 30 April 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08044175/filing-history",
+    "quote": "Dormant accounts for most years 2014-2024"
+   }
+  ],
+  "note": "Dormant at the case date despite food wholesale/retail SICs; later compulsorily wound up."
+ },
+ {
+  "case_id": "val-224",
+  "company_number": "14750574",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14750574",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14750574/filing-history",
+    "quote": "Fixed Assets 180,730 ... Average number of employees during the period 0"
+   }
+  ],
+  "note": "Consultancy by name and SIC only; jump in fixed assets in the latest year is unexplained."
+ },
+ {
+  "case_id": "val-230",
+  "company_number": "15785547",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15785547",
+    "quote": "64209 - Activities of other holding companies not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15785547/filing-history",
+    "quote": "Average number of employees during the period 24"
+   }
+  ],
+  "note": "Holding SIC with parent Kendall Investment And Holdings Ltd, but accounts report 24 staff; its actual trade is unknown."
+ },
+ {
+  "case_id": "val-236",
+  "company_number": "14352648",
+  "industry": "M_CASH_INTENSIVE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14352648",
+    "quote": "47110 - Retail sale in non-specialised stores with food, beverages or tobacco predominating; 44 Spring Bank, Grimsby"
+   }
+  ],
+  "note": "Convenience/general food store at a street address, by SIC only."
+ },
+ {
+  "case_id": "val-242",
+  "company_number": "07506342",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07506342",
+    "quote": "43390 - Other building completion and finishing"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07506342/filing-history",
+    "quote": "gazette-dissolved-voluntary (18 Aug 2015)"
+   }
+  ],
+  "note": "Roofing contractor by name and SIC; voluntarily dissolved in 2015, long before the case date."
+ },
+ {
+  "case_id": "val-249",
+  "company_number": "16342324",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16342324",
+    "quote": "71111 - Architectural activities"
+   }
+  ],
+  "note": "Leisure design/architecture by SIC; 'design and build' name may mean construction; no accounts or website found."
+ },
+ {
+  "case_id": "val-256",
+  "company_number": "07339395",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://goldcliffeprofessional.co.uk",
+    "quote": "Goldcliffe Professional Ltd is an Appointed Representative of AFS Compliance Limited ... FRN: 625035"
+   },
+   {
+    "url": "https://register.fca.org.uk/services/V0.1/Firm/672850",
+    "quote": "Goldcliffe Professional Ltd ... Status: Appointed representative ... Companies House Number 07339395"
+   }
+  ],
+  "note": "Business asset-finance broker (trading as Asset Finance Solutions) for trucks, plant and equipment; current FCA appointed representative of AFS Compliance Ltd."
+ },
+ {
+  "case_id": "val-262",
+  "company_number": "SC817921",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC817921",
+    "quote": "70229 - Management consultancy activities other than financial management 82990"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC817921/filing-history",
+    "quote": "liquidation-compulsory-notice-winding-up-order-court-scotland (Jan 2026)"
+   }
+  ],
+  "note": "Consultancy by SIC only; no accounts, sole director resigned and company being wound up."
+ },
+ {
+  "case_id": "val-269",
+  "company_number": "16671804",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16671804",
+    "quote": "64209 - Activities of other holding companies not elsewhere classified"
+   }
+  ],
+  "note": "Holding company by name and SIC; incorporated August 2025, no accounts yet."
+ },
+ {
+  "case_id": "val-276",
+  "company_number": "13398271",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13398271",
+    "quote": "81300 - Landscape service activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13398271/filing-history",
+    "quote": "Micro accounts to 30 Nov 2025: fixed assets 18,818"
+   }
+  ],
+  "note": "Horticulture/landscaping by name and SIC only."
+ },
+ {
+  "case_id": "val-282",
+  "company_number": "15047245",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15047245",
+    "quote": "43220 - Plumbing, heat and air-conditioning installation 81210 - General cleaning of buildings"
+   }
+  ],
+  "note": "Plumbing/heating and cleaning by SIC only; small family company."
+ },
+ {
+  "case_id": "val-288",
+  "company_number": "12339080",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12339080",
+    "quote": "77110 - Renting and leasing of cars and light motor vehicles"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12339080/filing-history",
+    "quote": "Fixed Assets 47,438 ... employees during the period 0"
+   }
+  ],
+  "note": "Car rental/hire by SIC only (not sales or repair); filings stopped after 2022 and a strike-off was applied for."
+ },
+ {
+  "case_id": "val-294",
+  "company_number": "SC851217",
+  "industry": "L_EDUCATION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC851217",
+    "quote": "85510 - Sports and recreation education; previous name EMPOWER STRENGTH LIMITED"
+   }
+  ],
+  "note": "Coaching/fitness instruction by name and SIC only; no accounts yet."
+ },
+ {
+  "case_id": "val-005",
+  "company_number": "16226956",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16226956/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "Investment SICs (open-ended funds, REIT, securities dealing) at a mass virtual-office address; no accounts or FCA record found."
+ },
+ {
+  "case_id": "val-011",
+  "company_number": "16070874",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16070874/",
+    "quote": "Last accounts made up to 30 November 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Only SIC 47990 (non-store retail) and micro-entity accounts; no website found."
+ },
+ {
+  "case_id": "val-017",
+  "company_number": "15402964",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15402964/",
+    "quote": "Last accounts made up to 31 October 2025 (DORMANT)"
+   }
+  ],
+  "note": "Filed dormant accounts to Oct 2025 covering the case date; gambling-sounding name but no trading."
+ },
+ {
+  "case_id": "val-024",
+  "company_number": "11918890",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/11918890/",
+    "quote": "Last accounts made up to 30 April 2022 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Only SIC 86101 (hospital activities); last accounts 2022, strike-off pending; no web presence found."
+ },
+ {
+  "case_id": "val-031",
+  "company_number": "12920367",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/12920367/",
+    "quote": "Last accounts made up to 31 October 2025 (DORMANT)"
+   }
+  ],
+  "note": "Filed dormant accounts (latest to Oct 2025); no trading activity."
+ },
+ {
+  "case_id": "val-038",
+  "company_number": "16506277",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16506277/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "Only SIC 41100 (development of building projects); no accounts filed yet; no web presence found."
+ },
+ {
+  "case_id": "val-044",
+  "company_number": "08989413",
+  "industry": "H_INVESTMENT",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/08989413/",
+    "quote": "Last accounts made up to 31 March 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 66300 fund management in St James's; trading accounts filed, but FCA status not confirmed (no register entry found in search)."
+ },
+ {
+  "case_id": "val-050",
+  "company_number": "14917809",
+  "industry": "L_MANUFACTURING",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14917809/",
+    "quote": "Last accounts made up to 30 June 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "Mixed SICs (made-up textiles, other manufacturing, agents, beauty); no website found; activity unclear."
+ },
+ {
+  "case_id": "val-057",
+  "company_number": "11871965",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/11871965/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   },
+   {
+    "url": "https://www.franchisedirect.co.uk/franchisefocus/franchisor-q-a-32-maplebrook-wills",
+    "quote": "helps people distribute their assets according to their wishes by writing the perfect Will"
+   }
+  ],
+  "note": "Maplebrook Wills franchise (will writing) at the Abbots Leigh, Bristol address; has never filed accounts."
+ },
+ {
+  "case_id": "val-063",
+  "company_number": "11906763",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/11906763/",
+    "quote": "Last accounts made up to 31 March 2023 (UNAUDITED ABRIDGED)"
+   }
+  ],
+  "note": "SIC 46900 non-specialised wholesale from a trading-estate unit; formerly SAK Global Contracters; now in liquidation."
+ },
+ {
+  "case_id": "val-069",
+  "company_number": "14054328",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14054328/",
+    "quote": "Last accounts made up to 30 April 2025 (DORMANT)"
+   }
+  ],
+  "note": "Filed dormant accounts (to Apr 2025); no trading despite wholesale/retail SICs."
+ },
+ {
+  "case_id": "val-076",
+  "company_number": "14486624",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14486624/",
+    "quote": "Last accounts made up to 31 July 2025 (MICRO ENTITY)"
+   },
+   {
+    "url": "https://opencorporates.com/companies/gb/14486624",
+    "quote": "PLATFORM MANCO LTD (United Kingdom) controls SOUTHWARK STREET LIMITED"
+   }
+  ],
+  "note": "SIC 68320 property management; appears to be a management/holding vehicle controlling Southwark Street Limited."
+ },
+ {
+  "case_id": "val-082",
+  "company_number": "10952302",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/10952302/",
+    "quote": "Last accounts made up to 31 August 2024 (TOTAL EXEMPTION FULL)"
+   },
+   {
+    "url": "https://opencorporates.com/companies/gb/10952302",
+    "quote": "ZAAH CAPITAL LTD (United Kingdom) controls LEAFY LTD"
+   }
+  ],
+  "note": "SIC 68209 letting of own property; owned by ZAAH Capital Ltd; no website found."
+ },
+ {
+  "case_id": "val-088",
+  "company_number": "16508931",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16508931/",
+    "quote": "Last accounts made up to 30 June 2026 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Only SIC 47910 (online retail) and micro-entity accounts; no website found."
+ },
+ {
+  "case_id": "val-094",
+  "company_number": "OC456825",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/OC456825/",
+    "quote": "Last accounts made up to 31 March 2026 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "LLP with no SIC codes and no web presence found; activity unknown."
+ },
+ {
+  "case_id": "val-102",
+  "company_number": "13606977",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/13606977/",
+    "quote": "Last accounts made up to 30 September 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Name and SIC 43210 indicate electrical installation; no website or listing found."
+ },
+ {
+  "case_id": "val-108",
+  "company_number": "16383691",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16383691/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "SIC 64922 mortgage finance at a virtual office; no accounts filed and no FCA authorisation found."
+ },
+ {
+  "case_id": "val-116",
+  "company_number": "15666562",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15666562/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "SIC 56101 licensed restaurant at a Green Lanes shopfront address; never filed accounts, strike-off pending."
+ },
+ {
+  "case_id": "val-122",
+  "company_number": "15720228",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15720228/",
+    "quote": "Last accounts made up to 31 May 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "Only SIC 62020 IT consultancy from a residential address; no website found."
+ },
+ {
+  "case_id": "val-129",
+  "company_number": "15296492",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15296492/",
+    "quote": "Last accounts made up to 30 November 2024 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "Property SICs (68100/68209) and name; no other evidence."
+ },
+ {
+  "case_id": "val-135",
+  "company_number": "12303271",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/12303271/",
+    "quote": "Last accounts made up to 30 November 2023 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 47190 general retail in stores; in liquidation; no evidence of the actual shop type."
+ },
+ {
+  "case_id": "val-142",
+  "company_number": "13638111",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/13638111/",
+    "quote": "Last accounts made up to 30 September 2025 (MICRO ENTITY)"
+   },
+   {
+    "url": "https://opencorporates.com/companies/gb/13638111",
+    "quote": "Mr Stephen Benjamin Howard controls COMMUNICATIONS CHAMBERS SH LIMITED"
+   }
+  ],
+  "note": "SIC 70229 management consultancy, personal company of Stephen and Caroline Howard; link to Communications Chambers consultancy unconfirmed."
+ },
+ {
+  "case_id": "val-150",
+  "company_number": "14839546",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14839546/",
+    "quote": "Last accounts made up to 31 December 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 68209 letting of own property; 'Portfolios' appears to mean property portfolio; no website found."
+ },
+ {
+  "case_id": "val-157",
+  "company_number": "SC731323",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/SC731323/",
+    "quote": "Last accounts made up to 31 March 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "SIC 55900 other accommodation at Riverside Lodge, Faillie Bridge; likely a rural lodge let, unconfirmed."
+ },
+ {
+  "case_id": "val-163",
+  "company_number": "14772516",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14772516/",
+    "quote": "Last accounts made up to 31 March 2025 (DORMANT)"
+   }
+  ],
+  "note": "Filed dormant accounts to Mar 2025; no Nova Casino found in Luton; later activity unknown."
+ },
+ {
+  "case_id": "val-169",
+  "company_number": "15424960",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15424960/",
+    "quote": "Last accounts made up to 31 January 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "Property SICs (68100/68209) and name; residential registered address."
+ },
+ {
+  "case_id": "val-175",
+  "company_number": "14797972",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14797972/",
+    "quote": "Last accounts made up to 31 December 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "SIC 70229 consultancy at a formation-agent address in Kington; no website found."
+ },
+ {
+  "case_id": "val-181",
+  "company_number": "16758721",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16758721/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "SIC 47910 online retail with a cosmetics name; virtual office; strike-off pending."
+ },
+ {
+  "case_id": "val-187",
+  "company_number": "14372328",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14372328/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "SICs 63120 web portals and 90030 artistic creation; never filed accounts; no web presence found."
+ },
+ {
+  "case_id": "val-194",
+  "company_number": "16533005",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16533005/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   },
+   {
+    "url": "https://mortgagebazaar.co.uk",
+    "quote": "Mortgage Bazaar Limited is an Appointed Representative of Sesame Limited"
+   },
+   {
+    "url": "https://mortgagebazaar.co.uk",
+    "quote": "which is authorised and regulated by the Financial Conduct Authority."
+   },
+   {
+    "url": "https://www.trustpilot.com/review/mortgagebazaar.co.uk",
+    "quote": "Independent, FCA-Authorised Unbiased Mortgage Advisory firm"
+   }
+  ],
+  "note": "Own website: mortgage and protection broker, an appointed representative of FCA-authorised Sesame Limited."
+ },
+ {
+  "case_id": "val-200",
+  "company_number": "08427362",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/08427362/",
+    "quote": "Last accounts made up to 31 March 2018 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Music recording/publishing and performing arts SICs; last accounts 2018; strike-off pending."
+ },
+ {
+  "case_id": "val-206",
+  "company_number": "12429234",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/12429234/",
+    "quote": "Last accounts made up to 30 June 2022 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 43220 plumbing/heating installation; last accounts 2022; strike-off pending."
+ },
+ {
+  "case_id": "val-213",
+  "company_number": "SC653134",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/SC653134/",
+    "quote": "Last accounts made up to 31 January 2023 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Only SIC 63990 information services; last accounts Jan 2023; no web presence found."
+ },
+ {
+  "case_id": "val-219",
+  "company_number": "14016770",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14016770/",
+    "quote": "Last accounts made up to 30 April 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 64209 holding company; classified as holding by its own activity."
+ },
+ {
+  "case_id": "val-225",
+  "company_number": "15528850",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15528850/",
+    "quote": "Last accounts made up to 30 April 2026 (TOTAL EXEMPTION FULL)"
+   },
+   {
+    "url": "https://search.menna.ai/company/01188550-ASTROSYN-INTERNATIONAL-TECHNOLOGY-LIMITED",
+    "quote": "PSC (Persons with Significant control) Name Date of Birth Appointed Astrosyn Limited 06 Apr 2016"
+   }
+  ],
+  "note": "Likely holding company for the Chatham-based Astrosyn group (Astrosyn Limited / Astrosyn International Technology); own activity non-trading."
+ },
+ {
+  "case_id": "val-231",
+  "company_number": "14933680",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14933680/",
+    "quote": "Last accounts made up to 31 December 2025 (TOTAL EXEMPTION FULL)"
+   },
+   {
+    "url": "https://opencorporates.com/companies/gb/14933680",
+    "quote": "Chi Lam Kung controls GG-960-022 LIMITED"
+   }
+  ],
+  "note": "SIC 68209 letting vehicle with two individual owners, registered at an agent address."
+ },
+ {
+  "case_id": "val-237",
+  "company_number": "14734231",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14734231/",
+    "quote": "Last accounts made up to 31 March 2025 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 56101 licensed restaurant at a Gowthorpe high-street address; a directory snippet suggested The Olive Branch there, unverified."
+ },
+ {
+  "case_id": "val-243",
+  "company_number": "14570225",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/14570225/",
+    "quote": "Last accounts made up to 31 March 2025 (MICRO ENTITY)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Veeno",
+    "quote": "Veeno, is an Italian wine bar restaurant chain in the United Kingdom."
+   }
+  ],
+  "note": "Name suggests a Veeno wine-bar franchise in Epping, but SICs are property; nothing confirms an Epping outlet."
+ },
+ {
+  "case_id": "val-250",
+  "company_number": "07672556",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://opencorporates.com/companies/gb/07672556",
+    "quote": "Status Dissolved"
+   },
+   {
+    "url": "https://opencorporates.com/companies/gb/07672556",
+    "quote": "Mr Bharat Jogia controls DIAMOND PHARMA LIMITED"
+   }
+  ],
+  "note": "SIC 46460 pharmaceutical wholesale from a business-park unit; now dissolved; no licence or website found."
+ },
+ {
+  "case_id": "val-257",
+  "company_number": "15065423",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15065423/",
+    "quote": "Last accounts made up to 31 July 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "SIC 56102 cafe and name; no listing found in Eastbourne."
+ },
+ {
+  "case_id": "val-263",
+  "company_number": "12453562",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/12453562/",
+    "quote": "Last accounts made up to 28 February 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "Phone repair/retail SICs (47410/47421) and name; strike-off pending; no listing found."
+ },
+ {
+  "case_id": "val-270",
+  "company_number": "15785232",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/15785232/",
+    "quote": "Last accounts made up to 30 June 2025 (MICRO ENTITY)"
+   }
+  ],
+  "note": "SICs 46450 cosmetics wholesale and 81222 cleaning at a virtual office; no website found."
+ },
+ {
+  "case_id": "val-277",
+  "company_number": "16538083",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/16538083/",
+    "quote": "Last accounts made up to NO ACCOUNTS FILED"
+   }
+  ],
+  "note": "Builder SICs; formerly Ashland Groundworks & Construction; no accounts; strike-off pending."
+ },
+ {
+  "case_id": "val-283",
+  "company_number": "13699486",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/13699486/",
+    "quote": "Last accounts made up to 31 December 2025 (UNAUDITED ABRIDGED)"
+   }
+  ],
+  "note": "SIC 68100 buying/selling own real estate; formerly Investpek Wildwood Limited; abridged trading accounts."
+ },
+ {
+  "case_id": "val-289",
+  "company_number": "12397144",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/12397144/",
+    "quote": "Last accounts made up to 31 March 2023 (MICRO ENTITY)"
+   },
+   {
+    "url": "https://eastcambs.gov.uk/sites/default/files/2025-07/freetofeedcp-locations-march-2025-v2-4.pdf",
+    "quote": "Amanda's Cambridge Buffet Company - 10 High Street, Fulbourn, Cambridge,"
+   }
+  ],
+  "note": "Food venue 'Amanda's Cambridge Buffet Company' listed by the council at the registered address; SIC 56210 event catering."
+ },
+ {
+  "case_id": "val-295",
+  "company_number": "09339433",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://gbcomp.p-o.co.uk/en/company_details/09339433/",
+    "quote": "Last accounts made up to 31 December 2020 (TOTAL EXEMPTION FULL)"
+   }
+  ],
+  "note": "SIC 68100 own-property dealing; formerly Audio Automation Limited; last accounts 2020; strike-off pending."
+ },
+ {
+  "case_id": "val-006",
+  "company_number": "16558523",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16558523",
+    "quote": "56103 - Take-away food shops and mobile food stands"
+   }
+  ],
+  "note": "New 2025 company with no accounts or web presence found; label rests on name and SIC only."
+ },
+ {
+  "case_id": "val-012",
+  "company_number": "10995997",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10995997/filing-history",
+    "quote": "Total exemption full accounts made up to 31 October 2023"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10995997",
+    "quote": "74909 - Other professional, scientific and technical activities"
+   }
+  ],
+  "note": "One-person consultancy by SIC and accounts; secondary tour-operator SIC 79901 unconfirmed; no website found."
+ },
+ {
+  "case_id": "val-018",
+  "company_number": "15087983",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15087983",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15087983/filing-history",
+    "quote": "Total exemption full accounts made up to 31 August 2025"
+   }
+  ],
+  "note": "Online retail per SIC only; no trading website found; accounts show no employees."
+ },
+ {
+  "case_id": "val-025",
+  "company_number": "16415109",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16415109/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2025"
+   }
+  ],
+  "note": "Dormant company per filed accounts."
+ },
+ {
+  "case_id": "val-032",
+  "company_number": "16178277",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16178277",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16178277/filing-history",
+    "quote": "Micro company accounts made up to 31 December 2025"
+   }
+  ],
+  "note": "Single-employee consultancy of director P J G Aldous by SIC and accounts; no website found."
+ },
+ {
+  "case_id": "val-039",
+  "company_number": "16254197",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16254197",
+    "quote": "80100 - Private security activities"
+   }
+  ],
+  "note": "Security/facilities services per SIC only; no filings beyond incorporation and no web presence."
+ },
+ {
+  "case_id": "val-045",
+  "company_number": "10255892",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10255892",
+    "quote": "56102 - Unlicensed restaurants and cafes"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10255892/filing-history",
+    "quote": "First Gazette notice for compulsory strike-off"
+   }
+  ],
+  "note": "Caf\u00e9/restaurant SIC with 7 staff in 2020 accounts; no current trading evidence; control changed in 2025."
+ },
+ {
+  "case_id": "val-051",
+  "company_number": "15368407",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15368407",
+    "quote": "78200 - Temporary employment agency activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15368407/filing-history",
+    "quote": "Micro company accounts made up to 31 December 2024"
+   }
+  ],
+  "note": "Medical recruitment agency by name and SIC; accounts show no employees; no website found."
+ },
+ {
+  "case_id": "val-058",
+  "company_number": "15871278",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15871278",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15871278/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "Consultancy per SIC only; never filed accounts; compulsorily wound up 2026."
+ },
+ {
+  "case_id": "val-064",
+  "company_number": "16391534",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.192.com/places/ln/ln2-1/ln2-1jn/",
+    "quote": "Matthew Rodgers Ltd - Solicitors Aquis House, Clasketgate, Lincoln"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16391534",
+    "quote": "69102 - Solicitors"
+   }
+  ],
+  "note": "Directory lists it as a solicitors' firm at the registered office; SRA entry not checked."
+ },
+ {
+  "case_id": "val-070",
+  "company_number": "13722884",
+  "industry": "H_PRECIOUS",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13722884",
+    "quote": "32120 - Manufacture of jewellery and related articles"
+   },
+   {
+    "url": "https://de.trustpilot.com/review/clayandjewel.com",
+    "quote": "C L A Y + J E W E L"
+   }
+  ],
+  "note": "Jewellery maker by SIC; a CLAY+JEWEL polymer-clay jewellery brand exists but its link to this Bolton company is unconfirmed."
+ },
+ {
+  "case_id": "val-077",
+  "company_number": "SC577696",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC577696",
+    "quote": "43999 - Other specialised construction activities not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC577696/filing-history",
+    "quote": "Notification of Gpa Klm Ltd as a person with significant control on 2 October 2023"
+   }
+  ],
+  "note": "Building trade by name and SIC; last accounts (2022) show nil employees; no website found."
+ },
+ {
+  "case_id": "val-083",
+  "company_number": "09601532",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09601532",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09601532/filing-history",
+    "quote": "Total exemption full accounts made up to 31 May 2020"
+   }
+  ],
+  "note": "Consultancy per SIC only; 2020 accounts show no employees and a static balance sheet; no website found."
+ },
+ {
+  "case_id": "val-089",
+  "company_number": "14555282",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14555282",
+    "quote": "74909 - Other professional, scientific and technical activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14555282/filing-history",
+    "quote": "Total exemption full accounts made up to 31 December 2025"
+   }
+  ],
+  "note": "Accounts recognise professional-services revenue; may be linked to Milan VC firm 2100 Ventures (unconfirmed); no FCA check possible."
+ },
+ {
+  "case_id": "val-096",
+  "company_number": "08975086",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08975086",
+    "quote": "62020 - Information technology consultancy activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08975086/filing-history",
+    "quote": "Micro company accounts made up to 30 April 2022"
+   }
+  ],
+  "note": "One-person IT consultancy by name and SIC; no website found."
+ },
+ {
+  "case_id": "val-103",
+  "company_number": "09007082",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09007082/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 April 2025"
+   }
+  ],
+  "note": "Dormant company per filed accounts."
+ },
+ {
+  "case_id": "val-110",
+  "company_number": "09426256",
+  "industry": "H_GAMBLING",
+  "regulated_activity": "gambling",
+  "licence": "held",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/42869",
+    "quote": "Gaming Machine General Adult Gaming Centre Non-Remote 042869-N-321840-006 Active 4 Aug 2015 Current"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09426256/filing-history",
+    "quote": "Unaudited abridged accounts made up to 31 March 2025"
+   }
+  ],
+  "note": "Adult gaming centre operator (accounts: turnover is net machine takings) with an active Gambling Commission licence."
+ },
+ {
+  "case_id": "val-117",
+  "company_number": "08693615",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08693615",
+    "quote": "82990 - Other business support service activities not elsewhere classified"
+   },
+   {
+    "url": "https://fr.trustpilot.com/review/athertoncorporate.co.uk?page=2",
+    "quote": "Many directors, like you, don't know that we are a legal alternative to the usual routes."
+   }
+  ],
+  "note": "Business support/corporate-rescue services by SIC and the Atherton Corporate brand; link to this entity unconfirmed; renamed POC Ventures and wound up 2024."
+ },
+ {
+  "case_id": "val-124",
+  "company_number": "16448557",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16448557",
+    "quote": "43390 - Other building completion and finishing"
+   }
+  ],
+  "note": "Building finishing trade per SIC only; no filings beyond incorporation."
+ },
+ {
+  "case_id": "val-130",
+  "company_number": "09069106",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://www.local.gov.uk/sites/default/files/documents/municipal-bonds-agency-re-dcd.pdf",
+    "quote": "The UKMBA borrows money, primarily in the capital markets, to lend to local authorities."
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09069106/filing-history",
+    "quote": "Full accounts made up to 30 November 2025"
+   }
+  ],
+  "note": "Bond-funded lender to local authorities; lending to councils is likely outside FCA authorisation, so treated as exempt pending analyst check."
+ },
+ {
+  "case_id": "val-137",
+  "company_number": "03623870",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/03623870",
+    "quote": "98000 - Residents property management"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/03623870/filing-history",
+    "quote": "Micro company accounts made up to 31 August 2025"
+   }
+  ],
+  "note": "Residents' management company for a converted house, registered at one of the flats, with no employees."
+ },
+ {
+  "case_id": "val-144",
+  "company_number": "16571140",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16571140",
+    "quote": "59111 - Motion picture production activities"
+   }
+  ],
+  "note": "Film/video production per SIC only; no filings beyond incorporation and no web presence."
+ },
+ {
+  "case_id": "val-151",
+  "company_number": "12463785",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12463785",
+    "quote": "62012 - Business and domestic software development"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12463785/filing-history",
+    "quote": "Order of court to wind up"
+   }
+  ],
+  "note": "Software development per SIC only; one-employee accounts to 2021; wound up 2025."
+ },
+ {
+  "case_id": "val-158",
+  "company_number": "14830247",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14830247/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 April 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC577696/filing-history",
+    "quote": "Notification of Gpa Klm Ltd as a person with significant control on 2 October 2023"
+   }
+  ],
+  "note": "Dormant shell that became PSC of other companies; compulsorily wound up 2024."
+ },
+ {
+  "case_id": "val-164",
+  "company_number": "04629154",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04629154",
+    "quote": "53202 - Unlicensed carrier"
+   },
+   {
+    "url": "https://corpsignals.uk/companies/uk/b-mick-ltd-04629154.html",
+    "quote": "B Mick Ltd - Active - Micro - 23 years - 1 employee"
+   }
+  ],
+  "note": "One-person courier business (formerly A1 Logistics (UK) Ltd), turnover about \u00a328k per accounts."
+ },
+ {
+  "case_id": "val-170",
+  "company_number": "15719622",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15719622",
+    "quote": "63990 - Other information service activities not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15719622/filing-history",
+    "quote": "Total exemption full accounts made up to 31 December 2024"
+   }
+  ],
+  "note": "IT/information services by name and SIC; accounts show services revenue; no website found."
+ },
+ {
+  "case_id": "val-176",
+  "company_number": "07585906",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07585906",
+    "quote": "43999 - Other specialised construction activities not elsewhere classified"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07585906/filing-history",
+    "quote": "Total exemption full accounts made up to 31 March 2026"
+   }
+  ],
+  "note": "Asbestos removal contractor by name and SIC, with 3 staff and plant per accounts; no website or HSE licence checked."
+ },
+ {
+  "case_id": "val-182",
+  "company_number": "16461177",
+  "industry": "M_ECOMMERCE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16461177",
+    "quote": "47910 - Retail sale via mail order houses or via Internet"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16461177/filing-history",
+    "quote": "First Gazette notice for compulsory strike-off"
+   }
+  ],
+  "note": "Online retail per SIC only; no accounts filed and no web presence."
+ },
+ {
+  "case_id": "val-188",
+  "company_number": "14692397",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14692397",
+    "quote": "68320 - Management of real estate on a fee or contract basis"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14692397/filing-history",
+    "quote": "Unaudited abridged accounts made up to 28 February 2025"
+   }
+  ],
+  "note": "Fee-based property management per SIC; accounts show services revenue and 2 staff; no website found."
+ },
+ {
+  "case_id": "val-195",
+  "company_number": "14995022",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14995022/filing-history",
+    "quote": "Total exemption full accounts made up to 31 August 2025"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14995022",
+    "quote": "59111 - Motion picture production activities"
+   }
+  ],
+  "note": "Single-film production SPV; accounts state turnover relates to the production of the film entitled 'Hamlet'."
+ },
+ {
+  "case_id": "val-201",
+  "company_number": "15183902",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15183902/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 October 2024"
+   }
+  ],
+  "note": "Dormant despite financial-auxiliary SIC 66190; no regulated activity evidenced; wound up 2026."
+ },
+ {
+  "case_id": "val-207",
+  "company_number": "14887866",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14887866",
+    "quote": "86101 - Hospital activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14887866/filing-history",
+    "quote": "Total exemption full accounts made up to 31 March 2026"
+   }
+  ],
+  "note": "Likely radiologist's service company; accounts show professional-services revenue; no CQC entry checked."
+ },
+ {
+  "case_id": "val-214",
+  "company_number": "13059274",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13059274/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2024"
+   }
+  ],
+  "note": "Dormant company per filed accounts; wound up 2026."
+ },
+ {
+  "case_id": "val-220",
+  "company_number": "14958025",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://camra.org.uk/AVN/707",
+    "quote": "Coyote Ugly opened Feb 2024"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14958025/filing-history",
+    "quote": "Total exemption full accounts made up to 30 June 2025"
+   }
+  ],
+  "note": "Operates the Coyote Ugly Saloon bar in Bristol; accounts show 56 staff and stock."
+ },
+ {
+  "case_id": "val-226",
+  "company_number": "16151376",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16151376/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 December 2025"
+   }
+  ],
+  "note": "Dormant company per filed accounts."
+ },
+ {
+  "case_id": "val-232",
+  "company_number": "14669250",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://shropshirestar.com/news/2024/12/17/really-taken-off-new-bridgnorth-street-food-restaurant-is-quickly-proving-popular-says-owner",
+    "quote": "'Really taken off' - New Bridgnorth street food restaurant is quickly proving popular, says owner"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14669250/filing-history",
+    "quote": "Address of person with significant control Mr Matthew James Wilks"
+   }
+  ],
+  "note": "Registered at Foodsnobs street-food restaurant, 30 Northgate, whose owner Matthew Wilks is the PSC; only dormant accounts (to Feb 2024) filed."
+ },
+ {
+  "case_id": "val-238",
+  "company_number": "11826595",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11826595",
+    "quote": "73110 - Advertising agencies"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11826595/filing-history",
+    "quote": "Micro company accounts made up to 28 February 2020"
+   }
+  ],
+  "note": "Advertising agency per SIC only; last accounts 2020 with no employees."
+ },
+ {
+  "case_id": "val-244",
+  "company_number": "12399015",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12399015",
+    "quote": "49410 - Freight transport by road"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12399015/filing-history",
+    "quote": "Micro company accounts made up to 31 January 2026"
+   }
+  ],
+  "note": "Road haulage per SIC only; no employees; past years dormant."
+ },
+ {
+  "case_id": "val-251",
+  "company_number": "14090848",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14090848",
+    "quote": "68100 - Buying and selling of own real estate"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14090848/filing-history",
+    "quote": "Registration of charge 140908480003, created on 31 March 2025"
+   }
+  ],
+  "note": "Property SPV named after a Newcastle street, with secured charges and full accounts."
+ },
+ {
+  "case_id": "val-258",
+  "company_number": "15078992",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15078992/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 August 2025"
+   }
+  ],
+  "note": "Dormant company (formerly Supreme Suite Ltd) per filed accounts."
+ },
+ {
+  "case_id": "val-264",
+  "company_number": "15719421",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15719421",
+    "quote": "86220 - Specialists medical practice activities"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15719421/filing-history",
+    "quote": "Micro company accounts made up to 31 May 2025"
+   }
+  ],
+  "note": "Specialist medical practice per SIC only; 2 staff; no website or CQC entry found."
+ },
+ {
+  "case_id": "val-271",
+  "company_number": "07947245",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07947245",
+    "quote": "74990 - Non-trading company"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07947245/filing-history",
+    "quote": "Accounts for a dormant company made up to 28 February 2014"
+   }
+  ],
+  "note": "Non-trading dormant company."
+ },
+ {
+  "case_id": "val-278",
+  "company_number": "10047540",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10047540/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 March 2024"
+   }
+  ],
+  "note": "Dormant per latest accounts despite construction SICs; wound up 2025."
+ },
+ {
+  "case_id": "val-284",
+  "company_number": "13334166",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13334166/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 April 2023"
+   }
+  ],
+  "note": "Dormant company despite factoring SIC 64992; no regulated activity evidenced; wound up 2025."
+ },
+ {
+  "case_id": "val-290",
+  "company_number": "15074358",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15074358",
+    "quote": "62012 - Business and domestic software development"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15074358/filing-history",
+    "quote": "Total exemption full accounts made up to 31 August 2025"
+   }
+  ],
+  "note": "Software development per SIC only; no website found."
+ },
+ {
+  "case_id": "val-296",
+  "company_number": "15425997",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15425997",
+    "quote": "73110 - Advertising agencies"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15425997/filing-history",
+    "quote": "Micro company accounts made up to 31 January 2026"
+   }
+  ],
+  "note": "Advertising/photography services per SIC only; no website found."
+ },
+ {
+  "case_id": "val-007",
+  "company_number": "11751434",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11751434",
+    "quote": "78109 - Other activities of employment placement agencies"
+   }
+  ],
+  "note": "Employment agency per SIC only; no website or trading evidence found, strike-off proposal active."
+ },
+ {
+  "case_id": "val-013",
+  "company_number": "17045151",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/17045151",
+    "quote": "68100 - Buying and selling of own real estate"
+   }
+  ],
+  "note": "Newly incorporated property company; only name and SIC available."
+ },
+ {
+  "case_id": "val-019",
+  "company_number": "14828587",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14828587",
+    "quote": "64910 - Financial leasing"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14828587/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 June 2024"
+   }
+  ],
+  "note": "Vehicle financial leasing per SIC; no FCA entry found under its name, may broker under another firm's permission."
+ },
+ {
+  "case_id": "val-026",
+  "company_number": "NI648940",
+  "industry": "M_WHOLESALE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/NI648940",
+    "quote": "45310 - Wholesale trade of motor vehicle parts and accessories"
+   }
+  ],
+  "note": "Motor parts wholesale per SIC only (formerly Orchard Hydraulics); accounts overdue since 2022."
+ },
+ {
+  "case_id": "val-033",
+  "company_number": "SC605766",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC605766",
+    "quote": "64191 - Banks"
+   }
+  ],
+  "note": "One-director company in a residential flat with SIC 'Banks'; likely a contractor vehicle, no FCA/PRA entry found."
+ },
+ {
+  "case_id": "val-040",
+  "company_number": "09801282",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09801282",
+    "quote": "99999 - Dormant Company"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09801282/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 September 2021"
+   }
+  ],
+  "note": "Filed only dormant accounts since 2016; now in compulsory liquidation."
+ },
+ {
+  "case_id": "val-046",
+  "company_number": "15125704",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://deliverize.co.uk",
+    "quote": "we promise exceptional reliability, speed and safety for every load"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15125704",
+    "quote": "52290 - Other transportation support activities"
+   }
+  ],
+  "note": "Same-name website offers courier and same-day delivery services, consistent with SIC; site does not show company number."
+ },
+ {
+  "case_id": "val-052",
+  "company_number": "16110956",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16110956",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   }
+  ],
+  "note": "Management consultancy per SIC only; no website found."
+ },
+ {
+  "case_id": "val-059",
+  "company_number": "17163857",
+  "industry": "M_HOSPITALITY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/17163857",
+    "quote": "55900 - Other accommodation"
+   }
+  ],
+  "note": "SIC other accommodation; registered at a flat in the building it is named after, may instead be a building management company."
+ },
+ {
+  "case_id": "val-065",
+  "company_number": "04604925",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/04604925/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 August 2025"
+   },
+   {
+    "url": "https://realbusiness.co.uk/the-uks-fastest-growing-private-companies-hot-100-2015-33-tandom-metallurgical/",
+    "quote": "AL Resources and Integrali was forged to trade together under one company name"
+   }
+  ],
+  "note": "Latest accounts dormant; trading moved into parent Tandom Metallurgical Group."
+ },
+ {
+  "case_id": "val-071",
+  "company_number": "16470420",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16470420",
+    "quote": "68100 - Buying and selling of own real estate"
+   }
+  ],
+  "note": "Property buying/letting per SIC only (formerly RG Casa Ltd); no accounts yet."
+ },
+ {
+  "case_id": "val-078",
+  "company_number": "SC578091",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC578091",
+    "quote": "47599 - Retail of furniture, lighting, and similar (not musical instruments or scores) in specialised store"
+   }
+  ],
+  "note": "Kitchen and bathroom showroom retail per name and SIC; dissolved October 2024."
+ },
+ {
+  "case_id": "val-084",
+  "company_number": "13677513",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13677513/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 October 2024"
+   }
+  ],
+  "note": "Only dormant accounts filed despite holding/tax consultancy SICs; in compulsory liquidation."
+ },
+ {
+  "case_id": "val-090",
+  "company_number": "16573178",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16573178",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "Letting company per SIC only; no accounts yet."
+ },
+ {
+  "case_id": "val-098",
+  "company_number": "14397189",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14397189",
+    "quote": "47190 - Other retail sale in non-specialised stores"
+   }
+  ],
+  "note": "General retail per SIC only; files micro-entity accounts, no shop or website found."
+ },
+ {
+  "case_id": "val-104",
+  "company_number": "11222705",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11222705",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "Estates and lettings per name and SIC; never filed accounts, strike-off applied 2019."
+ },
+ {
+  "case_id": "val-112",
+  "company_number": "12979043",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12979043",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "Property company per name and SIC; files micro-entity accounts."
+ },
+ {
+  "case_id": "val-118",
+  "company_number": "10480809",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10480809",
+    "quote": "06200 - Extraction of natural gas"
+   }
+  ],
+  "note": "SIC natural gas extraction, name suggests marine; no trading evidence found, director in Italy."
+ },
+ {
+  "case_id": "val-125",
+  "company_number": "16516261",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16516261",
+    "quote": "82990 - Other business support service activities not elsewhere classified"
+   }
+  ],
+  "note": "Business support / performing arts per SIC only; no website found."
+ },
+ {
+  "case_id": "val-131",
+  "company_number": "14690900",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14690900",
+    "quote": "43210 - Electrical installation"
+   }
+  ],
+  "note": "Electrical contractor per name and SIC; no website found."
+ },
+ {
+  "case_id": "val-138",
+  "company_number": "06897872",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06897872",
+    "quote": "68100 - Buying and selling of own real estate"
+   }
+  ],
+  "note": "Property buying/selling per SIC; long-running micro-entity filer."
+ },
+ {
+  "case_id": "val-145",
+  "company_number": "16070445",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16070445/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 November 2025"
+   }
+  ],
+  "note": "Only accounts filed are dormant; strike-off applied October 2026."
+ },
+ {
+  "case_id": "val-152",
+  "company_number": "16418165",
+  "industry": "L_HEALTH",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16418165",
+    "quote": "86900 - Other human health activities"
+   }
+  ],
+  "note": "Other human health activities per SIC only; mindtend.com is a parked domain, no CQC evidence found."
+ },
+ {
+  "case_id": "val-159",
+  "company_number": "14947156",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.offa.co.uk",
+    "quote": "Offa Money Limited is authorised and regulated by the Financial Conduct Authority (FCA), FRN 1000573"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14947156",
+    "quote": "64929 - Other credit granting not elsewhere classified"
+   }
+  ],
+  "note": "Offa group entity (PSC Offa Holdings); group bridge/BTL lending is described as unregulated, this entity has no own FCA entry."
+ },
+ {
+  "case_id": "val-165",
+  "company_number": "11700135",
+  "industry": "M_VEHICLES",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11700135",
+    "quote": "45200 - Maintenance and repair of motor vehicles"
+   }
+  ],
+  "note": "Vehicle repair and parts per SIC only; accounts overdue, strike-off proposal active."
+ },
+ {
+  "case_id": "val-171",
+  "company_number": "15600369",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://medivys.co.uk/",
+    "quote": "Making healthcare more efficient through intelligent, secure systems."
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15600369",
+    "quote": "62012 - Business and domestic software development"
+   }
+  ],
+  "note": "Own website: AI admin software for GP practices; footer names Medivys Ltd."
+ },
+ {
+  "case_id": "val-177",
+  "company_number": "14860447",
+  "industry": "M_VEHICLES",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14860447",
+    "quote": "45200 - Maintenance and repair of motor vehicles"
+   }
+  ],
+  "note": "Vehicle repair per SIC only; no garage listing found."
+ },
+ {
+  "case_id": "val-183",
+  "company_number": "NI028322",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "not_held",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/NI028322",
+    "quote": "64921 - Credit granting by non-deposit taking finance houses and other specialist consumer credit grantors"
+   }
+  ],
+  "note": "Credit grantor per SIC; FCA register lists it (FRN 740335, BT27 6UX) as 'No longer authorised' while it still files accounts."
+ },
+ {
+  "case_id": "val-189",
+  "company_number": "16479812",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16479812",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "Letting per SIC despite 'Investments' name; no accounts yet."
+ },
+ {
+  "case_id": "val-196",
+  "company_number": "16981867",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16981867",
+    "quote": "94920 - Activities of political organisations"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16981867/officers",
+    "quote": "RAYNER, Angela"
+   }
+  ],
+  "note": "Political office vehicle (SIC political organisations, director Angela Rayner)."
+ },
+ {
+  "case_id": "val-202",
+  "company_number": "NI607777",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/NI607777",
+    "quote": "49410 - Freight transport by road"
+   }
+  ],
+  "note": "Road haulage/transport per name and SIC; last accounts 2015."
+ },
+ {
+  "case_id": "val-208",
+  "company_number": "14730975",
+  "industry": "L_PROFESSIONAL",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14730975",
+    "quote": "70229 - Management consultancy activities other than financial management"
+   }
+  ],
+  "note": "Management consultancy per SIC only; never filed accounts, in compulsory liquidation."
+ },
+ {
+  "case_id": "val-215",
+  "company_number": "14661578",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14661578/filing-history",
+    "quote": "Accounts for a dormant company made up to 28 February 2025"
+   }
+  ],
+  "note": "Dormant accounts for 2025 and 2026 despite trade-agent SICs."
+ },
+ {
+  "case_id": "val-221",
+  "company_number": "11481320",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11481320/filing-history",
+    "quote": "Accounts for a dormant company made up to 31 July 2023"
+   }
+  ],
+  "note": "Only dormant accounts filed since incorporation; in compulsory liquidation."
+ },
+ {
+  "case_id": "val-227",
+  "company_number": "16671334",
+  "industry": "M_CONSTRUCTION",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16671334",
+    "quote": "41202 - Construction of domestic buildings"
+   }
+  ],
+  "note": "Housebuilding per SIC only; no accounts yet."
+ },
+ {
+  "case_id": "val-233",
+  "company_number": "14713503",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.aap.com.au/aapreleases/globenewswire1000800415",
+    "quote": "Classic Parade announces its incorporation as an LTD company"
+   },
+   {
+    "url": "https://jp.trustpilot.com/review/www.classicparade.com?page=10",
+    "quote": "1 Knightsbridge Green, SW1X 7QA, London"
+   }
+  ],
+  "note": "Supercar/hypercar hire firm at the registered address; rental is not sales or repair, so L_OTHER."
+ },
+ {
+  "case_id": "val-239",
+  "company_number": "15304255",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15304255",
+    "quote": "98000 - Residents property management"
+   }
+  ],
+  "note": "Property company per name; SIC residents property management."
+ },
+ {
+  "case_id": "val-245",
+  "company_number": "09294070",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09294070/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 November 2025"
+   }
+  ],
+  "note": "Dormant accounts since 2022 period despite SIC 64999."
+ },
+ {
+  "case_id": "val-252",
+  "company_number": "15410485",
+  "industry": "M_PROPERTY",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15410485",
+    "quote": "68209 - Other letting and operating of own or leased real estate"
+   }
+  ],
+  "note": "Letting per SIC despite 'Investments' name; files micro-entity accounts."
+ },
+ {
+  "case_id": "val-259",
+  "company_number": "16070480",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16070480/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 November 2025"
+   }
+  ],
+  "note": "Only accounts filed are dormant."
+ },
+ {
+  "case_id": "val-266",
+  "company_number": "13635882",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "high",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13635882/filing-history",
+    "quote": "Accounts for a dormant company made up to 30 September 2023"
+   }
+  ],
+  "note": "Only dormant accounts filed; strike-off proposal active."
+ },
+ {
+  "case_id": "val-272",
+  "company_number": "12438337",
+  "industry": "M_VEHICLES",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12438337",
+    "quote": "45200 - Maintenance and repair of motor vehicles"
+   }
+  ],
+  "note": "Car servicing per name and SIC; no garage listing found."
+ },
+ {
+  "case_id": "val-279",
+  "company_number": "16527976",
+  "industry": "L_SOFTWARE",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16527976",
+    "quote": "58290 - Other software publishing"
+   }
+  ],
+  "note": "App/software publishing per name and SIC only; no product found."
+ },
+ {
+  "case_id": "val-285",
+  "company_number": "12363559",
+  "industry": "H_LENDING",
+  "regulated_activity": "financial",
+  "licence": "unverified",
+  "confidence": "medium",
+  "evidence": [
+   {
+    "url": "https://www.unbiased.co.uk/profile/financial-adviser/araemo-financial-ltd-703699",
+    "quote": "\u00a350k minimum mortgage value"
+   },
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12363559",
+    "quote": "64999 - Financial intermediation not elsewhere classified"
+   }
+  ],
+  "note": "Mortgage/financial adviser (ex Beaufort Financial (Hereford)); FCA shows FRN 919874 'No longer registered as an Appointed Representative', current principal not confirmed."
+ },
+ {
+  "case_id": "val-291",
+  "company_number": "15415402",
+  "industry": "H_CRYPTO",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15415402",
+    "quote": "64301 - Activities of investment trusts"
+   }
+  ],
+  "note": "Crypto mining implied by name only; never filed accounts, default address, in liquidation; no exchange/custody evidence."
+ },
+ {
+  "case_id": "val-297",
+  "company_number": "06898471",
+  "industry": "L_OTHER",
+  "regulated_activity": "none",
+  "licence": "not_applicable",
+  "confidence": "low",
+  "evidence": [
+   {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06898471",
+    "quote": "47710 - Retail sale of clothing in specialised stores"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ports_International",
+    "quote": "Luxury womenswear brand Ports 1961 was founded by Canadian fashion designer Luke Tanabe in 1961."
+   }
+  ],
+  "note": "Clothing retail per SIC; likely Ports 1961 brand store entity, not confirmed."
+ }
+]

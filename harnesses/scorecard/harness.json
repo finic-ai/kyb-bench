@@ -1,0 +1,9 @@
+{
+  "name": "scorecard",
+  "description": "Rules scorecard baseline (no model), in the standard locked-down container with no network at all",
+  "image": "kybbench-harness-scorecard",
+  "context": ".",
+  "egress": [],
+  "auth_env": [[]],
+  "default_model": "scorecard"
+}

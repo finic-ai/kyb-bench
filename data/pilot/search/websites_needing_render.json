@@ -1,0 +1,82 @@
+[
+ {
+  "case_id": "pilot-007",
+  "url": "https://xwe.atspace.com/",
+  "needs_render": true,
+  "capture": [
+   "20190529015230",
+   "http://xwe.atspace.com/"
+  ],
+  "domain_created": null
+ },
+ {
+  "case_id": "pilot-016",
+  "url": "https://ceproperties.uk/",
+  "needs_render": true,
+  "capture": [
+   "20250416173728",
+   "https://www.ceproperties.uk/"
+  ],
+  "domain_created": "2023-12-01"
+ },
+ {
+  "case_id": "pilot-021",
+  "url": "https://xetiun.com/",
+  "needs_render": true,
+  "capture": [
+   "20250714191756",
+   "http://xetiun.com/"
+  ],
+  "domain_created": "2023-10-05"
+ },
+ {
+  "case_id": "pilot-023",
+  "url": "https://www.commerciallondon.com/",
+  "needs_render": true,
+  "capture": [
+   "20260210110535",
+   "https://commerciallondon.com/"
+  ],
+  "domain_created": "2010-09-02"
+ },
+ {
+  "case_id": "pilot-025",
+  "url": "https://irmaan.ca/",
+  "needs_render": true,
+  "capture": [
+   "20240502193151",
+   "http://www.irmaan.ca/"
+  ],
+  "domain_created": "2024-05-02"
+ },
+ {
+  "case_id": "pilot-027",
+  "url": "https://theholidaytravelagentusa.com/",
+  "needs_render": true,
+  "capture": [
+   "20260208191831",
+   "https://theholidaytravelagentusa.com/"
+  ],
+  "domain_created": "2025-05-30"
+ },
+ {
+  "case_id": "pilot-042",
+  "url": "https://paulreader.com/",
+  "needs_render": true,
+  "capture": [
+   "20181014035715",
+   "https://www.paulreader.com/"
+  ],
+  "domain_created": "2011-07-16"
+ },
+ {
+  "case_id": "pilot-084",
+  "url": "https://streamlineempire.com/",
+  "needs_render": true,
+  "capture": [
+   "20210512224308",
+   "http://streamlineempire.com/"
+  ],
+  "domain_created": "2021-11-25"
+ }
+]
