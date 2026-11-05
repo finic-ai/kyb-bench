@@ -1,0 +1,270 @@
+{
+ "note": "Sites with at least 5 Wayback lookups across pilot, validation and shutdowns and no usable pre-case-date capture naming the company (2026-10-29). Skipped to save lookups.",
+ "sites": {
+  "": {
+   "lookups": 324,
+   "captured": 0,
+   "usable": 0
+  },
+  "apps.apple.com": {
+   "lookups": 5,
+   "captured": 1,
+   "usable": 0
+  },
+  "bloomberg.com": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "bringo.co.uk": {
+   "lookups": 11,
+   "captured": 0,
+   "usable": 0
+  },
+  "caseboard.io": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "ckan.staging.publishing.service.gov.uk": {
+   "lookups": 9,
+   "captured": 0,
+   "usable": 0
+  },
+  "companycheck.co.uk": {
+   "lookups": 33,
+   "captured": 0,
+   "usable": 0
+  },
+  "companywall.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "construction.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "corp-intel.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "cpa.co.uk": {
+   "lookups": 11,
+   "captured": 2,
+   "usable": 0
+  },
+  "cqc.org.uk": {
+   "lookups": 10,
+   "captured": 5,
+   "usable": 0
+  },
+  "credit-connect.co.uk": {
+   "lookups": 8,
+   "captured": 0,
+   "usable": 0
+  },
+  "creditman.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "crowe.com": {
+   "lookups": 5,
+   "captured": 2,
+   "usable": 0
+  },
+  "doogal.co.uk": {
+   "lookups": 19,
+   "captured": 0,
+   "usable": 0
+  },
+  "finance.yahoo.com": {
+   "lookups": 7,
+   "captured": 5,
+   "usable": 0
+  },
+  "financialadvisers.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "gamblingcommission.gov.uk": {
+   "lookups": 8,
+   "captured": 2,
+   "usable": 0
+  },
+  "globaldatabase.com": {
+   "lookups": 6,
+   "captured": 1,
+   "usable": 0
+  },
+  "gov.uk": {
+   "lookups": 16,
+   "captured": 3,
+   "usable": 0
+  },
+  "housemetric.co.uk": {
+   "lookups": 27,
+   "captured": 0,
+   "usable": 0
+  },
+  "ico.org.uk": {
+   "lookups": 9,
+   "captured": 0,
+   "usable": 0
+  },
+  "indeed.com": {
+   "lookups": 13,
+   "captured": 0,
+   "usable": 0
+  },
+  "investors.foresea.com": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "kronaxis.co.uk": {
+   "lookups": 7,
+   "captured": 0,
+   "usable": 0
+  },
+  "lb.kompass.com": {
+   "lookups": 6,
+   "captured": 0,
+   "usable": 0
+  },
+  "mapquest.com": {
+   "lookups": 12,
+   "captured": 0,
+   "usable": 0
+  },
+  "northdata.com": {
+   "lookups": 6,
+   "captured": 0,
+   "usable": 0
+  },
+  "offa.co.uk": {
+   "lookups": 6,
+   "captured": 5,
+   "usable": 0
+  },
+  "open.endole.co.uk": {
+   "lookups": 84,
+   "captured": 0,
+   "usable": 0
+  },
+  "photonics.com": {
+   "lookups": 9,
+   "captured": 3,
+   "usable": 0
+  },
+  "play.google.com": {
+   "lookups": 17,
+   "captured": 0,
+   "usable": 0
+  },
+  "practicallaw.thomsonreuters.com": {
+   "lookups": 6,
+   "captured": 0,
+   "usable": 0
+  },
+  "qapital.ai": {
+   "lookups": 8,
+   "captured": 0,
+   "usable": 0
+  },
+  "register-of-charities.charitycommission.gov.uk": {
+   "lookups": 10,
+   "captured": 1,
+   "usable": 0
+  },
+  "register.fca.org.uk": {
+   "lookups": 12,
+   "captured": 0,
+   "usable": 0
+  },
+  "resonance.ltd.uk": {
+   "lookups": 5,
+   "captured": 4,
+   "usable": 0
+  },
+  "revenuebase.ai": {
+   "lookups": 8,
+   "captured": 0,
+   "usable": 0
+  },
+  "secret-bases.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "sellltd.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "sgpbusiness.com": {
+   "lookups": 7,
+   "captured": 0,
+   "usable": 0
+  },
+  "staging.ledwood.co.uk": {
+   "lookups": 5,
+   "captured": 0,
+   "usable": 0
+  },
+  "suissegold.com": {
+   "lookups": 6,
+   "captured": 1,
+   "usable": 0
+  },
+  "supremecourt.uk": {
+   "lookups": 5,
+   "captured": 5,
+   "usable": 0
+  },
+  "thegazette.co.uk": {
+   "lookups": 15,
+   "captured": 0,
+   "usable": 0
+  },
+  "tinytax.co.uk": {
+   "lookups": 215,
+   "captured": 0,
+   "usable": 0
+  },
+  "tracxn.com": {
+   "lookups": 19,
+   "captured": 0,
+   "usable": 0
+  },
+  "trustmark.org.uk": {
+   "lookups": 6,
+   "captured": 0,
+   "usable": 0
+  },
+  "trustpilot.com": {
+   "lookups": 30,
+   "captured": 0,
+   "usable": 0
+  },
+  "uktradeinfo.com": {
+   "lookups": 21,
+   "captured": 1,
+   "usable": 0
+  },
+  "vat-search.co.uk": {
+   "lookups": 10,
+   "captured": 0,
+   "usable": 0
+  },
+  "yell.com": {
+   "lookups": 33,
+   "captured": 4,
+   "usable": 0
+  }
+ }
+}

@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "kyb": {"command": "/opt/kyb/venv/bin/python", "args": ["/opt/kyb/kyb_mcp.py"]}
+  }
+}

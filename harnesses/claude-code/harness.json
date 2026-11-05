@@ -1,0 +1,8 @@
+{
+  "name": "claude-code",
+  "description": "Claude Code CLI in headless mode, KYB tools over MCP, built-in tools disabled",
+  "image": "kybbench-harness-claude-code",
+  "egress": ["api.anthropic.com"],
+  "auth_env": [["CLAUDE_CODE_OAUTH_TOKEN"], ["ANTHROPIC_API_KEY"]],
+  "default_model": "claude-haiku-5-5"
+}

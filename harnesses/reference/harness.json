@@ -1,0 +1,15 @@
+{
+  "name": "reference",
+  "description": "Minimal provider-neutral tool-calling loop; the fixed harness for model-to-model comparisons. KYB_MODEL is provider:model.",
+  "image": "kybbench-harness-reference",
+  "by_provider": {
+    "anthropic":  {"egress": ["api.anthropic.com"], "auth_env": [["ANTHROPIC_API_KEY"]]},
+    "openai":     {"egress": ["api.openai.com"], "auth_env": [["OPENAI_API_KEY"]]},
+    "gemini":     {"egress": ["generativelanguage.googleapis.com"], "auth_env": [["GEMINI_API_KEY"]]},
+    "openrouter": {"egress": ["openrouter.ai"], "auth_env": [["OPENROUTER_API_KEY"]]},
+    "deepseek":   {"egress": ["api.deepseek.com"], "auth_env": [["DEEPSEEK_API_KEY"]]},
+    "moonshot":   {"egress": ["api.moonshot.ai"], "auth_env": [["MOONSHOT_API_KEY"]]},
+    "zai":        {"egress": ["api.z.ai"], "auth_env": [["ZAI_API_KEY"]]}
+  },
+  "default_model": "anthropic:claude-haiku-5-5"
+}

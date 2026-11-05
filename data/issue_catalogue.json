@@ -1,0 +1,90 @@
+{
+  "version": "v1",
+  "issues": {
+    "OWNER_MISMATCH": {
+      "decision": "bad",
+      "description": "A stated owner is not on the beneficial-ownership register.",
+      "jurisdictions": [
+        "GB"
+      ]
+    },
+    "DIRECTOR_MISMATCH": {
+      "decision": "bad",
+      "description": "A stated director is not a registered officer of the company.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "DISQUALIFIED_DIRECTOR": {
+      "decision": "bad",
+      "description": "A stated director appears on the disqualified directors register.",
+      "jurisdictions": [
+        "GB"
+      ]
+    },
+    "STATUS_MISMATCH": {
+      "decision": "bad",
+      "description": "The company is dissolved, struck off or in liquidation at the snapshot date.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "SANCTIONS_HIT": {
+      "decision": "bad",
+      "description": "A stated director or owner matches a sanctions list entry.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "CLONED_WEBSITE": {
+      "decision": "bad",
+      "description": "The website text is copied from another company's site.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "ADDRESS_MASS_REG": {
+      "decision": "review",
+      "description": "The registered office hosts more than 500 companies.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "NEW_DOMAIN": {
+      "decision": "review",
+      "description": "The website domain was created less than 30 days before the snapshot date.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "ACTIVITY_MISMATCH": {
+      "decision": "review",
+      "description": "The stated industry does not match the registered industry codes or the website.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "VOLUME_IMPLAUSIBLE": {
+      "decision": "review",
+      "description": "The expected monthly volume is implausible for a company of this age and size.",
+      "jurisdictions": [
+        "GB",
+        "US"
+      ]
+    },
+    "ADDRESS_REJECTED": {
+      "decision": "review",
+      "jurisdictions": [
+        "GB"
+      ],
+      "description": "The registered office is the Companies House default address: the registrar rejected the company's own address."
+    }
+  }
+}

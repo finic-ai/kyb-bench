@@ -1,0 +1,26 @@
+{
+  "version": "v2-assumed",
+  "note": "Working assumptions for a UK business-account provider (2026-10-30), to be replaced by a partner's real figures before publication. Stopping a good customer costs revenue: declining loses its lifetime value; reviewing costs analyst time plus the share of good applicants who abandon during review. Manual review is not perfect: analysts miss a share of bad businesses, which are then onboarded.",
+  "currency": "USD",
+  "assumptions": {
+    "good_customer_lifetime_value": 1000,
+    "manual_review_analyst_cost": 120,
+    "good_applicant_abandonment_during_review": 0.10,
+    "review_miss_rate_on_bad": 0.20,
+    "loss_from_onboarding_a_fake_or_front": 8000,
+    "loss_from_approving_a_case_that_needed_review": 800,
+    "loss_from_declining_a_case_that_needed_review": 500,
+    "label_mix_for_reported_cost": {"good": 0.90, "review": 0.07, "bad": 0.03}
+  },
+  "derivation": {
+    "review/good": "analyst cost + abandonment x lifetime value = 120 + 0.10 x 1000",
+    "review/bad": "analyst cost + miss rate x loss from onboarding a bad business = 120 + 0.20 x 8000",
+    "decline/good": "lifetime value",
+    "decline/review": "half the lifetime value: about half of cases needing review turn out to be good"
+  },
+  "cost": {
+    "approve": {"good": 0, "review": 800, "bad": 8000},
+    "review": {"good": 220, "review": 120, "bad": 1720},
+    "decline": {"good": 1000, "review": 500, "bad": 0}
+  }
+}

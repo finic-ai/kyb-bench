@@ -1,0 +1,443 @@
+[
+ {
+  "case_id": "val-178",
+  "title": "An ordinary shop",
+  "as_of": "2024-11-26",
+  "company": "MTRIATHLON LTD",
+  "withheld": false,
+  "comparison": [
+   [
+    "Company name",
+    "MTRIATHLON LTD",
+    "MTRIATHLON LTD",
+    true
+   ],
+   [
+    "Company number",
+    "14018524",
+    "14018524",
+    true
+   ],
+   [
+    "Registered address",
+    "Ebenezer House Ryecroft Newcastle-Under-Lyme Staffordshire ST5 2BE",
+    "Ebenezer House Ryecroft Newcastle-Under-Lyme Staffordshire ST5 2BE",
+    true
+   ],
+   [
+    "Directors",
+    "S. R. C.",
+    "S. R. C.",
+    true
+   ],
+   [
+    "Owners",
+    "S. R. C.",
+    "S. R. C.",
+    true
+   ],
+   [
+    "Industry (SIC)",
+    "47640",
+    "47640",
+    true
+   ],
+   [
+    "Website",
+    "https://mytriathlon.co.uk/",
+    "",
+    true
+   ]
+  ],
+  "registry": {
+   "status": "Active",
+   "incorporated": "2022-04-01",
+   "type": "ltd",
+   "officers": [
+    {
+     "name": "S. R. C.",
+     "role": "Director",
+     "nationality": "British",
+     "residence": "England"
+    }
+   ],
+   "filings": [
+    {
+     "date": "2024-10-30",
+     "type": "CH01",
+     "what": "change person director company with change date"
+    },
+    {
+     "date": "2024-10-30",
+     "type": "PSC04",
+     "what": "change to a person with significant control"
+    },
+    {
+     "date": "2024-05-14",
+     "type": "CS01",
+     "what": "confirmation statement with updates"
+    },
+    {
+     "date": "2024-05-02",
+     "type": "PSC04",
+     "what": "change to a person with significant control"
+    },
+    {
+     "date": "2024-05-02",
+     "type": "CH01",
+     "what": "change person director company with change date"
+    }
+   ],
+   "n_filings": 10
+  },
+  "web": {
+   "url": "https://mytriathlon.co.uk/",
+   "domain_created": "2006-12-19",
+   "text": "MyTriathlon is a specialist triathlon, swim, bike and run store | MyTriathlon is a specialist triathlon, swim, bike and run store free shipping on orders over £29 phone: +442071834116 Toggle menu my account Sign in Register Gift Certificates Search Search wishlist Cart Search Triathlon Wetsuits New Ex-Rental Made to Me"
+  },
+  "search": [
+   {
+    "title": "Overseas Delivery",
+    "snippet": "...Conditions Other Useful Pages Sign up to our newsletter for £5 off when you spend £50 Email Address Mtriathlon Ltd 5 Sycamore Court, Warrington Road, Runcorn, United Kingdom, WA7 1RS Company Number: 14018524 0207 183 4116 [email protected] © 2022 My Triathl",
+    "url": "https://mytriathlon.co.uk/overseas-delivery",
+    "date": "2022-08-18"
+   },
+   {
+    "title": "Other Pages",
+    "snippet": "...ther Useful Pages Sign up to our newsletter for £5 off when you spend £50 Email Address Get Our App Mtriathlon Ltd 5 Sycamore Court, Warrington Road, Runcorn, United Kingdom, WA7 1RS Company Number: 14018524 0207 183 4116 info@mytriathlon.co.uk © 2024 My Tr",
+    "url": "https://mytriathlon.co.uk/other-pages/",
+    "date": "2024-09-19"
+   }
+  ],
+  "screening": {
+   "Sanctions (UK, OFAC)": "No matches",
+   "Politically exposed persons": "1 name match in Wikidata, different birth date: a namesake",
+   "Disqualified directors": "No matches",
+   "FCA register": "No entry"
+  },
+  "answer": {
+   "decision": "approve",
+   "issues": [],
+   "why": "Everything checks out. The application matches the Companies House record, the website names the company and its number, the one politically-exposed-person hit is a namesake with a different birth date, and a sports retailer needs no licence. Approve.",
+   "source": null,
+   "outcome_date": null
+  },
+  "answers": [
+   {
+    "system": "Grayson",
+    "mode": "workflow",
+    "decision": "approve",
+    "score": 0.17,
+    "issues": []
+   },
+   {
+    "system": "Jev",
+    "mode": "workflow",
+    "decision": "approve",
+    "score": 0.47,
+    "issues": []
+   },
+   {
+    "system": "Claude Sonnet 5.5",
+    "mode": "workflow",
+    "decision": "approve",
+    "score": 0.17,
+    "issues": []
+   },
+   {
+    "system": "GPT-6.1 Sol",
+    "mode": "prompt",
+    "decision": "approve",
+    "score": 0.02,
+    "issues": []
+   }
+  ]
+ },
+ {
+  "case_id": "val-192",
+  "title": "A planted owner mismatch",
+  "as_of": "2025-02-04",
+  "company": "[withheld]",
+  "withheld": true,
+  "comparison": [
+   [
+    "Company name",
+    "[withheld]",
+    "[withheld]",
+    true
+   ],
+   [
+    "Company number",
+    "[withheld]",
+    "[withheld]",
+    true
+   ],
+   [
+    "Registered address",
+    "[withheld]",
+    "[withheld]",
+    true
+   ],
+   [
+    "Directors",
+    "S. A. K.",
+    "S. A. K.",
+    true
+   ],
+   [
+    "Owners",
+    "W. D. M.",
+    "S. A. K.",
+    false
+   ],
+   [
+    "Industry (SIC)",
+    "86210",
+    "86210",
+    true
+   ],
+   [
+    "Website",
+    "None given",
+    "",
+    true
+   ]
+  ],
+  "registry": {
+   "status": "Active",
+   "incorporated": "2023-04-05",
+   "type": "ltd",
+   "officers": [
+    {
+     "name": "S. A. K.",
+     "role": "Director",
+     "nationality": "British",
+     "residence": "United Kingdom"
+    }
+   ],
+   "filings": [
+    {
+     "date": "2024-12-02",
+     "type": "AA",
+     "what": "accounts with accounts type micro entity"
+    },
+    {
+     "date": "2024-05-14",
+     "type": "CS01",
+     "what": "confirmation statement with no updates"
+    },
+    {
+     "date": "2023-04-05",
+     "type": "NEWINC",
+     "what": "incorporation company"
+    }
+   ],
+   "n_filings": 3
+  },
+  "web": null,
+  "search": [
+   {
+    "title": "Business directory listing",
+    "url": "[withheld]",
+    "date": "2024-10-13",
+    "snippet": "A directory of doctors in the company's town, listing the company at its registered address."
+   }
+  ],
+  "screening": {
+   "Sanctions (UK, OFAC)": "No matches",
+   "Politically exposed persons": "1 name match in Wikidata, different birth date: a namesake",
+   "Disqualified directors": "No matches",
+   "FCA register": "No entry"
+  },
+  "answer": {
+   "decision": "decline",
+   "issues": [
+    "OWNER_MISMATCH"
+   ],
+   "why": "The application says the business is wholly owned by someone who is not on the register: Companies House lists the director as the only person with significant control. Undeclared or misdeclared ownership is a standard reason to stop an application. This issue was planted into a real, ordinary company's application, so the label is correct by construction. Decline.",
+   "source": null,
+   "outcome_date": null
+  },
+  "answers": [
+   {
+    "system": "Grayson",
+    "mode": "workflow",
+    "decision": "decline",
+    "score": 1.0,
+    "issues": [
+     "OWNER_MISMATCH",
+     "DIRECTOR_MISMATCH"
+    ]
+   },
+   {
+    "system": "Jev",
+    "mode": "workflow",
+    "decision": "decline",
+    "score": 0.99,
+    "issues": [
+     "OWNER_MISMATCH"
+    ]
+   },
+   {
+    "system": "Claude Sonnet 5.5",
+    "mode": "workflow",
+    "decision": "decline",
+    "score": 0.98,
+    "issues": [
+     "OWNER_MISMATCH"
+    ]
+   },
+   {
+    "system": "GPT-6.1 Sol",
+    "mode": "prompt",
+    "decision": "decline",
+    "score": 0.98,
+    "issues": [
+     "OWNER_MISMATCH"
+    ]
+   }
+  ]
+ },
+ {
+  "case_id": "val-291",
+  "title": "A real shutdown",
+  "as_of": "2024-12-26",
+  "company": "BTCMINING LIMITED",
+  "withheld": false,
+  "comparison": [
+   [
+    "Company name",
+    "BTCMINING LIMITED",
+    "BTCMINING LIMITED",
+    true
+   ],
+   [
+    "Company number",
+    "15415402",
+    "15415402",
+    true
+   ],
+   [
+    "Registered address",
+    "15415402 - COMPANIES HOUSE DEFAULT ADDRESS Cardiff CF14 8LH",
+    "15415402 - COMPANIES HOUSE DEFAULT ADDRESS Cardiff CF14 8LH",
+    true
+   ],
+   [
+    "Directors",
+    "S. M. Y. L.",
+    "S. M. Y. L.",
+    true
+   ],
+   [
+    "Owners",
+    "S. M. Y. L.",
+    "S. M. Y. L.",
+    true
+   ],
+   [
+    "Industry (SIC)",
+    "64301",
+    "64301, 64303, 64304, 70221",
+    true
+   ],
+   [
+    "Website",
+    "None given",
+    "",
+    true
+   ]
+  ],
+  "registry": {
+   "status": "Active",
+   "incorporated": "2024-01-16",
+   "type": "ltd",
+   "officers": [
+    {
+     "name": "S. M. Y. L.",
+     "role": "Director",
+     "nationality": "German",
+     "residence": "England"
+    }
+   ],
+   "filings": [
+    {
+     "date": "2024-08-05",
+     "type": "RP10",
+     "what": "default companies house service address applied psc"
+    },
+    {
+     "date": "2024-08-05",
+     "type": "RP09",
+     "what": "default companies house service address applied officer"
+    },
+    {
+     "date": "2024-08-05",
+     "type": "RP05",
+     "what": "default companies house registered office address applied"
+    },
+    {
+     "date": "2024-01-16",
+     "type": "NEWINC",
+     "what": "incorporation company"
+    }
+   ],
+   "n_filings": 4
+  },
+  "web": null,
+  "search": [],
+  "screening": {
+   "Sanctions (UK, OFAC)": "No matches",
+   "Politically exposed persons": "No matches",
+   "Disqualified directors": "No matches",
+   "FCA register": "No entry"
+  },
+  "answer": {
+   "decision": "decline",
+   "issues": [],
+   "why": "An 11-month-old company registered for crypto and investment activity, with no FCA registration, one director who is also the only owner, no website, and no search results. The registrar had moved its registered office, and the director's service address, to the Companies House default address because they were not valid. Three months after the case date the Insolvency Service had it wound up in the public interest. Decline.",
+   "source": "https://www.gov.uk/government/news/uk-based-crypto-business-shut-down-following-worldwide-complaints",
+   "outcome_date": "2025-03-26"
+  },
+  "answers": [
+   {
+    "system": "Grayson",
+    "mode": "workflow",
+    "decision": "decline",
+    "score": 0.9,
+    "issues": [
+     "ADDRESS_REJECTED",
+     "ADDRESS_MASS_REG"
+    ]
+   },
+   {
+    "system": "Jev",
+    "mode": "workflow",
+    "decision": "decline",
+    "score": 0.93,
+    "issues": [
+     "ADDRESS_REJECTED",
+     "ADDRESS_MASS_REG"
+    ]
+   },
+   {
+    "system": "Claude Sonnet 5.5",
+    "mode": "workflow",
+    "decision": "decline",
+    "score": 0.98,
+    "issues": [
+     "ADDRESS_REJECTED"
+    ]
+   },
+   {
+    "system": "GPT-6.1 Sol",
+    "mode": "prompt",
+    "decision": "review",
+    "score": 0.78,
+    "issues": [
+     "ADDRESS_REJECTED"
+    ]
+   }
+  ]
+ }
+]

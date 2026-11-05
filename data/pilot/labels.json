@@ -1,0 +1,2043 @@
+{
+ "pilot-001": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-02",
+  "company_number": "08942699",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant company with active strike-off proposal; no trading found despite manufacturing SIC 27900.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-002": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "pep",
+  "set": "fresh",
+  "pep": {
+   "name": "Mark Harper",
+   "wikidata": "Q478276"
+  },
+  "company_number": "06041544",
+  "pep_confirmed": [
+   {
+    "name": "Mark Harper",
+    "wikidata": "Q478276"
+   }
+  ],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Parent of RVL Group (aviation charter, aerial surveillance) at East Midlands Airport; directors include RVL CEO David Connor; SIC 70100 is head office.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-003": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "14768597",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "pending": "industry label has low confidence",
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Files dormant accounts; no trading or gambling operation found (goldengoals.co.uk prediction game exists but no link to this company).",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-004": {
+  "decision": "review",
+  "issues": [
+   "ACTIVITY_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "15665346",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No trading footprint found; latest accounts dormant; SIC (water transport support/IT) only hint.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-005": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "16428455",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence or accounts found; label from generic SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-006": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "13117092",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No trading footprint found; label from SIC 46190 only; formerly Green Grass Brokers, now in compulsory liquidation.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-007": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "16428041",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Sole director shares name with a London food writer working on a first book; consistent with book publishing SIC but link unconfirmed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-008": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14639741",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_EDUCATION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Ofsted-registered provider running Little Boggers Day Care (childcare/pre-school) in Darfield.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_EDUCATION"
+ },
+ "pilot-009": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-17",
+  "company_number": "08682052",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant company with strike-off proposal; no evidence of IT/repair trading.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-010": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR"
+  ],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2025-03-19",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "14372420",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [
+   "Darren Anderson"
+  ],
+  "industry_label": {
+   "industry": "M_ECOMMERCE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No evidence of actual trading; label from clothing-retail SIC only; former name suggests travel; compulsory liquidation.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-011": {
+  "decision": "bad",
+  "issues": [
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14038840",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_HEALTH",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "CQC-registered domiciliary (home) care provider in Kenilworth rated Good.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_HEALTH"
+ },
+ "pilot-012": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14902839",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; label from SIC (equipment rental) only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-013": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "15704301",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant despite financial SICs (64991/66120/66300); no evidence it carries on investment business.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-014": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR"
+  ],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2026-09-25",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "14200720",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [
+   "Darren Anderson"
+  ],
+  "industry_label": {
+   "industry": "M_CASH_INTENSIVE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Hairdressing per SIC 96020; a 'Hair by Darren' salon exists but no link to this company number confirmed; dissolved Jan 2024 with no filings.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-015": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-08-28",
+  "company_number": "07886784",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No trading evidence found; all officers resigned 2022 and strike-off proposed; air charter SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-016": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "pep",
+  "set": "fresh",
+  "pep": {
+   "name": "Kevin Hollinrake",
+   "wikidata": "Q19958100"
+  },
+  "company_number": "00464224",
+  "pep_confirmed": [
+   {
+    "name": "Kevin Hollinrake",
+    "wikidata": "Q19958100"
+   }
+  ],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Conservative and Unionist Central Office property/head-office vehicle tracking CCHQ addresses; not a trading property business.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-017": {
+  "decision": "bad",
+  "issues": [
+   "ACTIVITY_MISMATCH",
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14277742",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Trading per micro accounts but no web presence found; name suggests painting (vehicle or decorating), unconfirmed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-018": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "11265254",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Name and SIC 46900 suggest produce wholesale; no trading evidence found; formerly Simple Produce Limited; in compulsory liquidation.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-019": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-09",
+  "company_number": "05084417",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_PROPERTY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Right-to-manage company managing a residential building for leaseholders; low-activity property management vehicle.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "M_PROPERTY"
+ },
+ "pilot-020": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "13959540",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No website or listing found; waste collection inferred from name/SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-021": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR",
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "15193735",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant company; no evidence of the software publishing indicated by SIC.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-022": {
+  "decision": "review",
+  "issues": [
+   "ACTIVITY_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "15162204",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Files dormant accounts every year so does not trade; SIC codes (sports goods/software) not borne out; no web presence found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-023": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "15147258",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant subsidiary within the TAB bridging-lender group (director Duncan Kreeger); no own trading found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-024": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "SC795430",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_HOSPITALITY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No trading listing found for Bunea at Sauchiehall St; takeaway inferred from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-025": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-10-27",
+  "company_number": "08914272",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence; last accounts to Feb 2023 and strike-off proposed; label from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-026": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-03",
+  "company_number": "02767772",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CONSTRUCTION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web evidence; label from SIC 41100 (could equally be M_PROPERTY); Helayel family directors; active proposal to strike off.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-027": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR"
+  ],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2026-09-25",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "14028657",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [
+   "Darren Anderson"
+  ],
+  "industry_label": {
+   "industry": "H_TRAVEL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Travel agency per SIC and name only; no website found and company now dissolved.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-028": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2026-07-15",
+  "source": "https://www.gov.uk/government/news/leeds-freight-company-with-unpaid-international-debts-shut-down",
+  "company_number": "10528398",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "In liquidation; no trading evidence found; wholesale inferred from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-029": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-08",
+  "company_number": "07369363",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_PROFESSIONAL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; label from name (business solutions); SICs are art-gallery retail and information services.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-030": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14085784",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant since incorporation; SIC 64305 property unit trust not borne out; no financial activity, so none regulated.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-031": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "13831748",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_HEALTH",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Files micro accounts under a health SIC; no CQC listing or website found for this company.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-032": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "15491569",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_HEALTH",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Likely private-practice vehicle of a Devon consultant hand surgeon; identity match by name/area not confirmed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_HEALTH"
+ },
+ "pilot-033": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "fit",
+  "exposed_on": "2026-09-09",
+  "source": "https://www.gov.uk/government/news/online-retailer-shut-down-had-63-million-unexplained-transactions",
+  "company_number": "15028095",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant UK affiliate of FunnyFuzzy pet-products brand; the UK online store is operated by a Hong Kong entity; now in liquidation.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-034": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "pep",
+  "set": "fresh",
+  "pep": {
+   "name": "Philippa Whitford",
+   "wikidata": "Q19874405"
+  },
+  "company_number": "03038352",
+  "pep_confirmed": [
+   {
+    "name": "Philippa Whitford",
+    "wikidata": "Q19874405"
+   }
+  ],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "UK humanitarian health charity delivering medical aid via partners abroad; not a UK-regulated care provider, so L_OTHER (L_HEALTH arguable).",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-035": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "16127976",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant; consultancy SIC but no trading or web presence found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-036": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15138043",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; window cleaning inferred from name/SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-037": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15954684",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_EDUCATION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Music tuition; website names River Music School London Ltd, a separate sister entity, so link to this UK Ltd is inferred.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_EDUCATION"
+ },
+ "pilot-038": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14105992",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_PROPERTY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Filed accounts show a property investment company (investment property at fair value, bank loans, no employees), consistent with SIC 68100/68209.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "M_PROPERTY"
+ },
+ "pilot-039": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "16560968",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Pet portrait artist business per name and SIC; no website or listing found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-040": {
+  "decision": "bad",
+  "issues": [
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14619536",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_PROFESSIONAL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; engineering consultancy inferred from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-041": {
+  "decision": "bad",
+  "issues": [
+   "SANCTIONS_HIT"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14697325",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_HOSPITALITY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Operates The Bull village pub in Burrough Green; reopening date matches 2023 incorporation.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "M_HOSPITALITY"
+ },
+ "pilot-042": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15477144",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_PROFESSIONAL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Micro accounts filed (2 employees) but no web evidence of what consultancy; label from name/SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-043": {
+  "decision": "bad",
+  "issues": [
+   "OWNER_MISMATCH",
+   "SANCTIONS_HIT"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14998433",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant holding company of the Roemer Barnes further-education consultancy group; holding entity itself does not trade.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-044": {
+  "decision": "bad",
+  "issues": [
+   "OWNER_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14166800",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Northampton group-fitness business matching name, town and SIC 93130; website does not show company number.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-045": {
+  "decision": "bad",
+  "issues": [
+   "SANCTIONS_HIT"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14349662",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant company; no evidence of plastering/finishing trade despite SIC 43330/43390.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-046": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-10-13",
+  "company_number": "08680837",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Oil and gas drilling support per name/SIC; no web evidence; accounts overdue since 2020 and strike-off pending.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-047": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "pep",
+  "set": "fresh",
+  "pep": {
+   "name": "Robert Goodwill",
+   "wikidata": "Q391644"
+  },
+  "company_number": "01627610",
+  "pep_confirmed": [
+   {
+    "name": "Robert Goodwill",
+    "wikidata": "Q391644"
+   }
+  ],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_HEALTH",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Charitable hospice providing CQC-regulated palliative care in Scarborough.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_HEALTH"
+ },
+ "pilot-048": {
+  "decision": "bad",
+  "issues": [
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14096226",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_HOSPITALITY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No trading presence found; cafe/retail inferred from SIC only; proposal to strike off.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-049": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "13925239",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_PROPERTY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; trading per full accounts; name and SIC suggest residential property development.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-050": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "11347284",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No evidence of trading activity; label from SIC 46900 only; formerly Leicon Limited; compulsory winding-up order Oct 2026.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-051": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15828172",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Filed dormant accounts; software/biotech SICs but no product or website found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-052": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15815954",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_PROFESSIONAL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Website for Freehouse London offers creative direction/production design, consistent with SIC; no company number shown.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_PROFESSIONAL"
+ },
+ "pilot-053": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "16086681",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Appears to be a family investment company of the Karali Group (shared Avon House address); no evidence of lending to third parties.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-054": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15247558",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Dog grooming per name and former name; no listing found for this Chislehurst business.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-055": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15923389",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CONSTRUCTION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Renewables/heating installation trade per name and SIC; only a bare directory mention found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-056": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR"
+  ],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2024-03-28",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "14441518",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [
+   "Darren Anderson"
+  ],
+  "industry_label": {
+   "industry": "H_TRAVEL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Online travel agency, wound up by High Court June 2024; ATOL logo used without evidence of licence (not a policy-listed licence).",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "H_TRAVEL"
+ },
+ "pilot-057": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15409464",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_PROPERTY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; label from letting SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-058": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-10-21",
+  "company_number": "11094666",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_HEALTH",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Care services per name/SIC 87900; no CIW/CQC listing or website found; accounts overdue and strike-off pending.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-059": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "borderline",
+  "exposed_on": "2026-08-20",
+  "source": "https://www.gov.uk/government/news/company-which-promised-directors-they-could-walk-away-from-failing-businesses-is-shut-down",
+  "company_number": "11768473",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CONSTRUCTION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Briefly named Atrium Home Improvements suggesting home-improvement trade; now in liquidation; little evidence.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-060": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "16558401",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; clothing retail inferred from SIC only; proposal to strike off.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-061": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14822821",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CASH_INTENSIVE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Dissolved; no web presence; name 'News' on a Grimsby high street suggests a newsagent, unconfirmed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-062": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "pep",
+  "set": "fresh",
+  "pep": {
+   "name": "Wera Hobhouse",
+   "wikidata": "Q30164280"
+  },
+  "company_number": "01308583",
+  "pep_confirmed": [
+   {
+    "name": "Alison Louise Griffiths",
+    "wikidata": "Q126848074"
+   },
+   {
+    "name": "Martin John Vickers",
+    "wikidata": "Q266905"
+   },
+   {
+    "name": "Ruth Margaret Cadbury",
+    "wikidata": "Q19871785"
+   },
+   {
+    "name": "Susan Veronica Kramer",
+    "wikidata": "Q332968"
+   },
+   {
+    "name": "Wera Hobhouse",
+    "wikidata": "Q30164280"
+   }
+  ],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_EDUCATION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Registered charity running fellowship and education programmes between Parliament and business, matching SIC 85590.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_EDUCATION"
+ },
+ "pilot-063": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "SC761064",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "H_LENDING",
+   "regulated_activity": "financial",
+   "licence": "held",
+   "confidence": "high",
+   "note": "Mortgage and protection insurance broker; appointed representative (FRN 981225) of FCA-authorised BrokerSync Ltd.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "H_LENDING"
+ },
+ "pilot-064": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-10-26",
+  "company_number": "07089231",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Formerly a van rental/sales company; latest accounts dormant and strike-off proposed; no current trading evidence.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-065": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15569627",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Holding company of the Choices Homecare group (CQC-registered home care run by subsidiaries); holding itself does not deliver care.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-066": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2026-09-25",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "13878544",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_PROFESSIONAL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Paralegal services per name/SIC 69102/69109; no web evidence; dissolved July 2023 with no filings.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-067": {
+  "decision": "bad",
+  "issues": [
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "16852386",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Courier/road freight per SIC only; recently incorporated, no web presence found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-068": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "fit",
+  "exposed_on": "2026-07-13",
+  "source": "https://www.gov.uk/government/news/warning-as-investors-lose-hundreds-of-thousands-of-pounds-to-ponzi-style-crypto-scheme",
+  "company_number": "11621809",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "P_PYRAMID",
+   "regulated_activity": "crypto",
+   "licence": "not_held",
+   "confidence": "high",
+   "note": "Unauthorised crypto 'investment' firm wound up Aug 2026 as Ponzi-style scheme; could alternatively be coded P_UNLICENSED_FINANCIAL.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "P_PYRAMID"
+ },
+ "pilot-069": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15801977",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Truview GPS brand sells vehicle tracking/telematics, but this company filed dormant accounts; would be L_SOFTWARE if it trades.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-070": {
+  "decision": "bad",
+  "issues": [
+   "SANCTIONS_HIT"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14175304",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CASH_INTENSIVE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Hair, beauty and nail salon in Hayes matches name/SIC 96020; listing address differs from registered office, so link is indirect.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "M_CASH_INTENSIVE"
+ },
+ "pilot-071": {
+  "decision": "bad",
+  "issues": [
+   "DIRECTOR_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14505339",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_SOFTWARE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Develops marketplace apps for monday.com and Todoist.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_SOFTWARE"
+ },
+ "pilot-072": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15259208",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_PROFESSIONAL",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "high",
+   "note": "Own website confirms accountancy and bookkeeping practice.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_PROFESSIONAL"
+ },
+ "pilot-073": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "fit",
+  "exposed_on": "2026-06-29",
+  "source": "https://www.gov.uk/government/news/scam-whisky-investment-firm-shut-down-after-customers-left-thousands-of-pounds-out-of-pocket",
+  "company_number": "15783661",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "P_UNLICENSED_FINANCIAL",
+   "regulated_activity": "financial",
+   "licence": "not_held",
+   "confidence": "high",
+   "note": "Whisky cask investment seller, wound up in public interest 25 Aug 2026; FCA status unverified (cask market unregulated); policy s.2 may map to P_UNLICENSED_FINANCIAL.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "P_UNLICENSED_FINANCIAL"
+ },
+ "pilot-074": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "15483986",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "H_LENDING",
+   "regulated_activity": "financial",
+   "licence": "not_held",
+   "confidence": "medium",
+   "note": "Likely mortgage-adviser vehicle; company itself not found on FCA register, but its director appears certified at authorised firm Suitable Choices Ltd (FRN 911717). Policy exception: no authorisation found, possibly exempt or acting under another firm: review.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "H_LENDING"
+ },
+ "pilot-075": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-10-20",
+  "company_number": "04738240",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CASH_INTENSIVE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Formerly Morden&Hobbs hair salon company (since 2003); renamed to a number in May 2026 with a US corporate director, current trading unclear.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "M_CASH_INTENSIVE"
+ },
+ "pilot-076": {
+  "decision": "bad",
+  "issues": [
+   "DIRECTOR_MISMATCH",
+   "OWNER_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "16000822",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Dormant company; SIC 64929 (credit granting) but no evidence of lending activity.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-077": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15694537",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_HOSPITALITY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Dissolved; no web presence found; label from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-078": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "15146733",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Subsidiary of BSR (British Solar Renewables) group; 'asset management' means managing solar farms, not investment; not on FCA register and not needed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-079": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "11256401",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Formerly Simple Food Limited, trade agency SIC; in liquidation; no web evidence of actual trade.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-080": {
+  "decision": "bad",
+  "issues": [
+   "SANCTIONS_HIT"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "14107413",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CONSTRUCTION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; cladding/glazing trade inferred from name/SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-081": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "16079066",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CONSTRUCTION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; label from name and SIC; a similarly named Braintree firm (07939985) dissolved 2025.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-082": {
+  "decision": "bad",
+  "issues": [
+   "OWNER_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "16014463",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Road transport per name/SIC only; no web evidence; first accounts overdue and strike-off pending.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-083": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-08-12",
+  "company_number": "09364485",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_HEALTH",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Care SIC only; no CQC listing found, sole director resigned 2023 and strike-off proposed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-084": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-04",
+  "company_number": "07521161",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; generic SIC; default address and strike-off proposed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-085": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "11477266",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence; wound up Sept 2026 (Official Receiver); label from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-086": {
+  "decision": "bad",
+  "issues": [
+   "DISQUALIFIED_DIRECTOR"
+  ],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2025-03-13",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "14554270",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [
+   "Darren Anderson"
+  ],
+  "industry_label": {
+   "industry": "M_ECOMMERCE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No trading evidence; pet retail per name/SIC 47760/47990 only; formerly a travel-named company; dissolved after compulsory liquidation.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-087": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "16071485",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "H_LENDING",
+   "regulated_activity": "financial",
+   "licence": "not_held",
+   "confidence": "medium",
+   "note": "Credit-granting subsidiary of Lendlord (bridging lender to landlords); parent's FCA entry is only as payments agent; no FCA authorisation for this entity found (register API not reachable). Policy exception: no authorisation found, possibly exempt or acting under another firm: review.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "H_LENDING"
+ },
+ "pilot-088": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "16060458",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "H_INVESTMENT",
+   "regulated_activity": "financial",
+   "licence": "held",
+   "confidence": "high",
+   "note": "SJP partner practice giving wealth/investment advice as an Appointed Representative (FCA ref reported 1032421; FCA register page not directly readable).",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "H_INVESTMENT"
+ },
+ "pilot-089": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "11476734",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence; in liquidation; label from name and SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-090": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-09-07",
+  "company_number": "05001174",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Dormant company; SIC 70100/73110 not borne out; no web presence found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-091": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "industry",
+  "set": "fresh",
+  "company_number": "14682011",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "pending": "industry label has low confidence",
+  "industry_label": {
+   "industry": "H_INVESTMENT",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Investment/commodity-dealing SICs only; no website or activity found, so regulated activity not established.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-092": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14016945",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "medium",
+   "note": "Appears to be the professional boxing vehicle of New Malden boxer Lerrone 'Sniper The Boss' Richards.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  },
+  "industry": "L_OTHER"
+ },
+ "pilot-093": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14464633",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_CONSTRUCTION",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No web presence found; electrical installation per name and SIC.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-094": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "14639386",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Wellness/physical well-being per SIC 96040; no web presence found for 'Nau Club' in Cheltenham.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-095": {
+  "decision": "good",
+  "issues": [],
+  "slice": "real",
+  "channel": "none",
+  "set": "fresh",
+  "company_number": "15013779",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_ECOMMERCE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Online retail per name and SIC; no shop or website found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-096": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "historical",
+  "verdict": "borderline",
+  "exposed_on": "2026-09-25",
+  "source": "https://www.gov.uk/government/news/fantasist-who-called-himself-doctor-and-lord-jailed-for-fraud",
+  "company_number": "13931785",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_PROPERTY",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Dissolved without filing accounts; no web presence; property agency inferred from SIC only.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-097": {
+  "decision": "bad",
+  "issues": [],
+  "slice": "real",
+  "channel": "scam_wound_up",
+  "set": "fresh",
+  "verdict": "fit",
+  "exposed_on": "2026-08-03",
+  "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+  "company_number": "11255367",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_WHOLESALE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Based at New Spitalfields wholesale produce market; wound up Sept 2026; trade unconfirmed.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-098": {
+  "decision": "bad",
+  "issues": [
+   "OWNER_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "SC819074",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_OTHER",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Small book publisher per name/SIC; micro accounts filed; no web presence found.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-099": {
+  "decision": "review",
+  "issues": [],
+  "slice": "real",
+  "channel": "registrar_action",
+  "set": "fresh",
+  "exposed_on": "2026-08-13",
+  "company_number": "04736682",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "L_SOFTWARE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "Long-standing small IT services company per SIC; no website found; strike-off proposed then suspended.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ },
+ "pilot-100": {
+  "decision": "review",
+  "issues": [
+   "ACTIVITY_MISMATCH"
+  ],
+  "slice": "planted",
+  "channel": "planted",
+  "set": "fresh",
+  "company_number": "16473293",
+  "pep_confirmed": [],
+  "disqualified_confirmed": [],
+  "industry_label": {
+   "industry": "M_ECOMMERCE",
+   "regulated_activity": "none",
+   "licence": "not_applicable",
+   "confidence": "low",
+   "note": "No site linked to this company found (bikergears.com/.co.uk predate it); online motorbike gear retail inferred from name/SIC.",
+   "source": "model-labelled (Claude Opus 5.5 research agents, 2026-10-28), pending human audit"
+  }
+ }
+}

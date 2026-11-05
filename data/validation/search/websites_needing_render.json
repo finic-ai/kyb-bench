@@ -1,0 +1,22 @@
+[
+ {
+  "case_id": "val-118",
+  "url": "https://atmarine.net/",
+  "needs_render": true,
+  "capture": [
+   "20241216111836",
+   "https://www.atmarine.net/"
+  ],
+  "domain_created": "2023-09-28"
+ },
+ {
+  "case_id": "val-138",
+  "url": "https://www.belgrave.ie/",
+  "needs_render": true,
+  "capture": [
+   "20251114095133",
+   "http://belgrave.ie/"
+  ],
+  "domain_created": null
+ }
+]

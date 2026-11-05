@@ -1,0 +1,86 @@
+{
+  "version": "v1",
+  "note": "Reference workflow questions, written from data/policy/v1.md before any results. Types follow the Grayson and Jev decide API: noul (yes/no probability), choice (one option). Frozen; never tuned on test labels.",
+  "questions": {
+    "industry": {
+      "type": "choice",
+      "instructions": "Which policy industry is this business actually in, judged from its registry record, filings, website and search results rather than what it claims?",
+      "criteria": "industries.json"
+    },
+    "regulated_activity": {
+      "type": "choice",
+      "instructions": "Does the business carry on an activity that needs a licence under the policy?",
+      "criteria": {
+        "none": "No regulated activity",
+        "financial": "Investment, lending, insurance, payments or e-money (needs FCA authorisation)",
+        "crypto": "Crypto-asset exchange or custody (needs FCA crypto-asset registration)",
+        "money_transfer": "Money transfer or currency exchange (needs HMRC MSB registration or FCA authorisation)",
+        "gambling": "Gambling (needs a Gambling Commission licence)"
+      }
+    },
+    "licence_held": {
+      "type": "noul",
+      "instructions": "Do the licence register results show a current authorisation for this company that covers its regulated activity?"
+    },
+    "OWNER_MISMATCH": {
+      "type": "noul",
+      "instructions": "Is any owner stated in the application missing from the company's beneficial-ownership (PSC) register?"
+    },
+    "DIRECTOR_MISMATCH": {
+      "type": "noul",
+      "instructions": "Is any director stated in the application missing from the company's registered officers?"
+    },
+    "DISQUALIFIED_DIRECTOR": {
+      "type": "noul",
+      "instructions": "Is any stated director or registered officer the same person as a disqualified director in the screening results (name and date of birth agree)?"
+    },
+    "STATUS_MISMATCH": {
+      "type": "noul",
+      "instructions": "Is the company dissolved, struck off or in liquidation as of the case date?"
+    },
+    "SANCTIONS_HIT": {
+      "type": "noul",
+      "instructions": "Is the company or any stated director or owner the same party as a sanctions list entry in the screening results (not just a similar name)?"
+    },
+    "CLONED_WEBSITE": {
+      "type": "noul",
+      "instructions": "Does the website text look copied from another company's website rather than written for this business?"
+    },
+    "ADDRESS_MASS_REG": {
+      "type": "noul",
+      "instructions": "Is the registered office a mass-registration address shared by more than 500 companies?"
+    },
+    "ADDRESS_REJECTED": {
+      "type": "noul",
+      "instructions": "Is the registered office the Companies House default address, meaning the registrar rejected the company's own address?"
+    },
+    "NEW_DOMAIN": {
+      "type": "noul",
+      "instructions": "Was the website's domain created less than 30 days before the case date?"
+    },
+    "ACTIVITY_MISMATCH": {
+      "type": "noul",
+      "instructions": "Does the stated industry disagree with the registered industry codes or with what the website describes?"
+    },
+    "VOLUME_IMPLAUSIBLE": {
+      "type": "noul",
+      "instructions": "Is the expected monthly volume implausible for a company of this age and size?"
+    },
+    "pep_match": {
+      "type": "noul",
+      "instructions": "Is any director or owner the same person as a politically exposed person in the screening results (name, date of birth and role agree)?"
+    },
+    "adverse_media": {
+      "type": "noul",
+      "instructions": "Do the search results contain credible reports of fraud, scams, money laundering or regulatory action about this company or its directors or owners (not a different entity with a similar name)?"
+    },
+    "adverse_media_own_conduct": {
+      "type": "noul",
+      "instructions": "Do those credible reports concern this business's own conduct?"
+    },
+    "fake_front": {
+      "type": "noul",
+      "instructions": "Does this look like a fake, shell or front company: no real operations, concealed control, or a business that misrepresents what it is?"
+    }
+  }
+}
